@@ -10,9 +10,16 @@ import SwiftUI
 
 @main
 struct map030App: App {
+    private let container: AppContainer
+    
+    init() {
+        container = AppContainer()
+    }
+    
     var body: some Scene {
         WindowGroup {
             MapView()
+                .environment(container.locationManager)
         }
     }
 }
