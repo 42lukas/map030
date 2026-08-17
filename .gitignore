@@ -1,0 +1,20 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager
+.build/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+Secrets.plist
+GoogleService-Info.plist
+
+# Config
+*.xcconfig
