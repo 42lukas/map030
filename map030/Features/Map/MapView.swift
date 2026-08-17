@@ -11,24 +11,11 @@ import MapKit
 struct MapView: View {
     @Environment(LocationManager.self) private var locationManager
     
-    @State private var cameraPosition: MapCameraPosition = .userLocation(
-        followsHeading: false,
-        fallback: .region(
-            MKCoordinateRegion(
-                center: CLLocationCoordinate2D(
-                    latitude: 52.5200,
-                    longitude: 13.4050
-                ),
-                span: MKCoordinateSpan(
-                    latitudeDelta: 0.15,
-                    longitudeDelta: 0.15
-                )
-            )
-        )
-    )
+    @State private var viewModel = MapViewModel()
     
     var body: some View {
-        Map(position: $cameraPosition) {
+        @Bindable var viewModel = viewModel
+        Map(position: $viewModel.cameraPosition) {
             UserAnnotation()
         }.ignoresSafeArea()
             .task {
@@ -39,4 +26,5 @@ struct MapView: View {
 
 #Preview {
     MapView()
+        .environment(LocationManager())
 }
