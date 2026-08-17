@@ -13,6 +13,10 @@ import Observation
 @MainActor
 final class MapViewModel {
     var cameraPosition: MapCameraPosition
+    
+    var isUserFocused: Bool {
+        return !cameraPosition.positionedByUser
+    }
 
     init() {
         cameraPosition = .userLocation(
@@ -20,7 +24,16 @@ final class MapViewModel {
             fallback: .region(Self.berlinRegion)
         )
     }
-
+    
+    func recenter() {
+        cameraPosition = .userLocation(
+            followsHeading: false,
+            fallback: .region(Self.berlinRegion)
+        )
+    }
+    
+    
+    // MARK: - berlin constant
     private static let berlinRegion = MKCoordinateRegion(
         center: CLLocationCoordinate2D(
             latitude: 52.5200,

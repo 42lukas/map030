@@ -18,6 +18,14 @@ struct MapView: View {
         Map(position: $viewModel.cameraPosition) {
             UserAnnotation()
         }.ignoresSafeArea()
+            .overlay(alignment: .bottomTrailing) {
+                RecenterButton(action: {
+                    withAnimation(.easeInOut) {
+                        viewModel.recenter()
+                    }
+                }, systemName: viewModel.isUserFocused ? "location.fill" : "location")
+                .padding()
+            }
             .task {
                 locationManager.requestLocationIfNeeded()
             }
