@@ -44,6 +44,10 @@ final class MapViewModel {
         selectedReport = nil
     }
     
+    func addReport(_ report: Report) {
+        reports.append(report)
+    }
+    
     
     // MARK: - berlin constant
     private static let berlinRegion = MKCoordinateRegion(

@@ -5,7 +5,7 @@
 //  Created by Lukas Karsten on 17.08.26.
 //
 
-enum ReportCategory {
+enum ReportCategory: CaseIterable, Equatable {
     case transit
     case obstruction
     case notice

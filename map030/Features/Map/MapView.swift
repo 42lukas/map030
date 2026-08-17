@@ -12,6 +12,7 @@ struct MapView: View {
     @Environment(LocationManager.self) private var locationManager
     
     @State private var viewModel = MapViewModel()
+    @State private var isCreateReportPresented = false
     
     var body: some View {
         @Bindable var viewModel = viewModel
@@ -41,6 +42,35 @@ struct MapView: View {
                 }, systemName: viewModel.isUserFocused ? "location.fill" : "location")
                 .padding()
             }
+            .overlay(alignment: .bottomTrailing) {
+                VStack(spacing: 12) {
+                    Button {
+                        guard locationManager.location != nil else {
+                            return
+                        }
+                        
+                        isCreateReportPresented = true
+                    } label: {
+                        Image(systemName: "plus")
+                            .font(.title3)
+                            .padding(12)
+                            .background(.ultraThinMaterial)
+                            .clipShape(Circle())
+                    }
+
+                    RecenterButton(
+                        action: {
+                            withAnimation(.easeInOut) {
+                                viewModel.recenter()
+                            }
+                        },
+                        systemName: viewModel.isUserFocused
+                            ? "location.fill"
+                            : "location"
+                    )
+                }
+                .padding()
+            }
             .task {
                 locationManager.requestLocationIfNeeded()
             }
@@ -56,6 +86,16 @@ struct MapView: View {
             ) { report in
                 ReportDetailView(report: report)
                     .presentationDetents([.medium])
+            }
+            .sheet(isPresented: $isCreateReportPresented) {
+                if let coordinate = locationManager.location?.coordinate {
+                    CreateReportView(
+                        coordinate: coordinate
+                    ) { report in
+                        viewModel.addReport(report)
+                    }
+                    .presentationDetents([.medium])
+                }
             }
     }
 }
