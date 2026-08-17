@@ -22,7 +22,7 @@ struct MapView: View {
             ForEach(viewModel.reports) { report in
                 Annotation(
                     report.category.displayName,
-                    coordinate: report.coordinate
+                    coordinate: report.station.coordinate
                 ) {
                     Button {
                         viewModel.selectReport(report)
@@ -35,20 +35,8 @@ struct MapView: View {
             }
         }.ignoresSafeArea()
             .overlay(alignment: .bottomTrailing) {
-                RecenterButton(action: {
-                    withAnimation(.easeInOut) {
-                        viewModel.recenter()
-                    }
-                }, systemName: viewModel.isUserFocused ? "location.fill" : "location")
-                .padding()
-            }
-            .overlay(alignment: .bottomTrailing) {
                 VStack(spacing: 12) {
                     Button {
-                        guard locationManager.location != nil else {
-                            return
-                        }
-                        
                         isCreateReportPresented = true
                     } label: {
                         Image(systemName: "plus")
@@ -88,14 +76,12 @@ struct MapView: View {
                     .presentationDetents([.medium])
             }
             .sheet(isPresented: $isCreateReportPresented) {
-                if let coordinate = locationManager.location?.coordinate {
-                    CreateReportView(
-                        coordinate: coordinate
-                    ) { report in
-                        viewModel.addReport(report)
-                    }
-                    .presentationDetents([.medium])
+                CreateReportView(
+                    stations: MockTransitData.stations
+                ) { report in
+                    viewModel.addReport(report)
                 }
+                .presentationDetents([.medium, .large])
             }
     }
 }

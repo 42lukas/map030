@@ -6,11 +6,11 @@
 //
 
 import Foundation
-import MapKit
 
 struct Report: Identifiable {
     let id: UUID
+    let station: TransitStation
+    let line: TransitLine?
     let category: ReportCategory
-    let coordinate: CLLocationCoordinate2D
     let createdAt: Date
 }

@@ -6,21 +6,36 @@
 //
 
 enum ReportCategory: CaseIterable, Equatable {
-    case transit
-    case obstruction
-    case notice
+    case control
+    case crowding
+    case delay
+    case cancellation
+    case elevatorOutOfService
+    case escalatorOutOfService
+    case accessClosed
+    case disruption
     case other
 
     var displayName: String {
         switch self {
-        case .transit:
-            "Transit"
-        case .obstruction:
-            "Obstruction"
-        case .notice:
-            "Notice"
+        case .control:
+            "Kontrolle"
+        case .crowding:
+            "Überfüllung"
+        case .delay:
+            "Verspätung"
+        case .cancellation:
+            "Ausfall"
+        case .elevatorOutOfService:
+            "Aufzug defekt"
+        case .escalatorOutOfService:
+            "Rolltreppe defekt"
+        case .accessClosed:
+            "Zugang gesperrt"
+        case .disruption:
+            "Störung"
         case .other:
-            "Other"
+            "Sonstiges"
         }
     }
 }
