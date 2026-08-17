@@ -44,4 +44,35 @@ final class MapViewModel {
             longitudeDelta: 0.15
         )
     )
+    
+    // MARK: - temporäre testdaten
+    private(set) var reports: [Report] = [
+        Report(
+            id: UUID(),
+            category: .transit,
+            coordinate: CLLocationCoordinate2D(
+                latitude: 52.5219,
+                longitude: 13.4132
+            ),
+            createdAt: .now
+        ),
+        Report(
+            id: UUID(),
+            category: .obstruction,
+            coordinate: CLLocationCoordinate2D(
+                latitude: 52.5251,
+                longitude: 13.3694
+            ),
+            createdAt: .now
+        ),
+        Report(
+            id: UUID(),
+            category: .notice,
+            coordinate: CLLocationCoordinate2D(
+                latitude: 52.5050,
+                longitude: 13.4485
+            ),
+            createdAt: .now
+        )
+    ]
 }

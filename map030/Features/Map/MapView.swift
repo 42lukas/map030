@@ -17,6 +17,13 @@ struct MapView: View {
         @Bindable var viewModel = viewModel
         Map(position: $viewModel.cameraPosition) {
             UserAnnotation()
+            
+            ForEach(viewModel.reports) { report in
+                Marker(
+                    report.category.displayName,
+                    coordinate: report.coordinate
+                )
+            }
         }.ignoresSafeArea()
             .overlay(alignment: .bottomTrailing) {
                 RecenterButton(action: {
