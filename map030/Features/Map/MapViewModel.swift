@@ -33,6 +33,18 @@ final class MapViewModel {
     }
     
     
+    // MARK: - Report Section
+    private(set) var selectedReport: Report?
+
+    func selectReport(_ report: Report) {
+        selectedReport = report
+    }
+
+    func clearSelection() {
+        selectedReport = nil
+    }
+    
+    
     // MARK: - berlin constant
     private static let berlinRegion = MKCoordinateRegion(
         center: CLLocationCoordinate2D(

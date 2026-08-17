@@ -19,10 +19,18 @@ struct MapView: View {
             UserAnnotation()
             
             ForEach(viewModel.reports) { report in
-                Marker(
+                Annotation(
                     report.category.displayName,
                     coordinate: report.coordinate
-                )
+                ) {
+                    Button {
+                        viewModel.selectReport(report)
+                    } label: {
+                        Image(systemName: "mappin.circle.fill")
+                            .font(.title)
+                    }
+                    .buttonStyle(.plain)
+                }
             }
         }.ignoresSafeArea()
             .overlay(alignment: .bottomTrailing) {
@@ -35,6 +43,19 @@ struct MapView: View {
             }
             .task {
                 locationManager.requestLocationIfNeeded()
+            }
+            .sheet(
+                item: Binding(
+                    get: { viewModel.selectedReport },
+                    set: { newValue in
+                        if newValue == nil {
+                            viewModel.clearSelection()
+                        }
+                    }
+                )
+            ) { report in
+                ReportDetailView(report: report)
+                    .presentationDetents([.medium])
             }
     }
 }
