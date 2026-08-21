@@ -1,0 +1,8161 @@
+[
+  {
+    "id": "de:11000:900185503",
+    "name": "Adlergestell/Vetschauer Allee (Berlin)",
+    "latitude": 52.386409,
+    "longitude": 13.63389,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170006",
+    "name": "Ahrensfelde/Stadtgrenze (Berlin)",
+    "latitude": 52.572835,
+    "longitude": 13.574675,
+    "lineIds": [
+      "17324_900",
+      "17444_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900151501",
+    "name": "Ahrenshooper Str. (Berlin)",
+    "latitude": 52.566214,
+    "longitude": 13.501888,
+    "lineIds": [
+      "17452_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900161517",
+    "name": "Alfred-Kowalke-Str. (Berlin)",
+    "latitude": 52.505717,
+    "longitude": 13.519707,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900171709",
+    "name": "All. d. Kosmonauten/Rhinstr. (Berlin) [Pos 5-6]",
+    "latitude": 52.526013,
+    "longitude": 13.5185535,
+    "lineIds": [
+      "17452_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170019",
+    "name": "Allee der Kosmonauten/Poelchaustr. (Berlin)",
+    "latitude": 52.533928,
+    "longitude": 13.552782,
+    "lineIds": [
+      "17338_900",
+      "17374_900",
+      "17444_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900171008",
+    "name": "Allee der Kosmonauten/Rhinstr. (Berlin)",
+    "latitude": 52.525499,
+    "longitude": 13.519653,
+    "lineIds": [
+      "17338_900",
+      "17352_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17444_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:12064:900320239",
+    "name": "Alt Rüdersdorf, Straßenbahnschleife",
+    "latitude": 52.466393,
+    "longitude": 13.805478,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150020",
+    "name": "Alt-Hohenschönhausen (Berlin)",
+    "latitude": 52.548868,
+    "longitude": 13.50476,
+    "lineIds": [
+      "17338_900",
+      "17374_900",
+      "17404_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170516",
+    "name": "Alt-Marzahn (Berlin)",
+    "latitude": 52.541965,
+    "longitude": 13.563708,
+    "lineIds": [
+      "17338_900",
+      "17374_900",
+      "17444_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900003203",
+    "name": "Alt-Moabit/Rathenower Str. (Berlin)",
+    "latitude": 52.523668,
+    "longitude": 13.356952,
+    "lineIds": [
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900185001",
+    "name": "Alt-Schmöckwitz (Berlin)",
+    "latitude": 52.375237999999996,
+    "longitude": 13.64911,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900185701",
+    "name": "Alt-Schmöckwitz [Endstelle] (Berlin)",
+    "latitude": 52.375203,
+    "longitude": 13.649631,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181513",
+    "name": "Alte Försterei (Berlin)",
+    "latitude": 52.456516,
+    "longitude": 13.563414,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900175512",
+    "name": "Alte Hellersdorfer/Zossener Str. (Berlin)",
+    "latitude": 52.544839,
+    "longitude": 13.592173,
+    "lineIds": [
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150509",
+    "name": "Altenhofer Str. (Berlin)",
+    "latitude": 52.534933,
+    "longitude": 13.480171,
+    "lineIds": [
+      "17324_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182005",
+    "name": "Altes Wasserwerk (Berlin)",
+    "latitude": 52.448079,
+    "longitude": 13.63911,
+    "lineIds": [
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182705",
+    "name": "Altes Wasserwerk (Berlin)",
+    "latitude": 52.448272,
+    "longitude": 13.640454,
+    "lineIds": [
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150514",
+    "name": "Am Faulen See (Berlin)",
+    "latitude": 52.550566,
+    "longitude": 13.494866,
+    "lineIds": [
+      "17374_900",
+      "17404_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131529",
+    "name": "Am Iderfenngraben (Berlin)",
+    "latitude": 52.582601,
+    "longitude": 13.392086,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100038",
+    "name": "Am Kupfergraben (Berlin)",
+    "latitude": 52.51931175,
+    "longitude": 13.394482499999999,
+    "lineIds": [
+      "17301_900",
+      "17438_900",
+      "17440_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900141506",
+    "name": "Am Steinberg (Berlin)",
+    "latitude": 52.558383,
+    "longitude": 13.433301,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900141504",
+    "name": "Am Wasserturm (Berlin)",
+    "latitude": 52.565118,
+    "longitude": 13.435969,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900132501",
+    "name": "Angerweg (Berlin)",
+    "latitude": 52.591756,
+    "longitude": 13.383936,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150500",
+    "name": "Anna-Ebermann-Str. (Berlin)",
+    "latitude": 52.554975,
+    "longitude": 13.51212,
+    "lineIds": [
+      "17444_900",
+      "17452_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160510",
+    "name": "Anton-Saefkow-Platz (Berlin)",
+    "latitude": 52.5281375,
+    "longitude": 13.4690355,
+    "lineIds": [
+      "17301_900",
+      "17338_900",
+      "24641_900",
+      "17440_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140011",
+    "name": "Antonplatz (Berlin)",
+    "latitude": 52.548283,
+    "longitude": 13.450855,
+    "lineIds": [
+      "17301_900",
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160515",
+    "name": "Arendsweg (Berlin)",
+    "latitude": 52.534882,
+    "longitude": 13.505564,
+    "lineIds": [
+      "17324_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900152509",
+    "name": "Arnimstr. (Berlin)",
+    "latitude": 52.558617,
+    "longitude": 13.514811,
+    "lineIds": [
+      "17444_900",
+      "17452_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900134513",
+    "name": "Arnouxstr. (Berlin)",
+    "latitude": 52.607333,
+    "longitude": 13.42464,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180008",
+    "name": "Bahnhofstr./Lindenstr. (Berlin)",
+    "latitude": 52.450914,
+    "longitude": 13.572409,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180009",
+    "name": "Bahnhofstr./Seelenbinderstr. (Berlin)",
+    "latitude": 52.455401499999994,
+    "longitude": 13.57687,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900186500",
+    "name": "Bammelecke (Berlin)",
+    "latitude": 52.405592,
+    "longitude": 13.62148,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170011",
+    "name": "Barnimplatz (Berlin)",
+    "latitude": 52.567806,
+    "longitude": 13.573698,
+    "lineIds": [
+      "17324_900",
+      "17444_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140506",
+    "name": "Behaimstr. (Berlin)",
+    "latitude": 52.549667,
+    "longitude": 13.447223000000001,
+    "lineIds": [
+      "17301_900",
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900171515",
+    "name": "Beilsteiner Str. (Berlin)",
+    "latitude": 52.525499,
+    "longitude": 13.530115,
+    "lineIds": [
+      "17338_900",
+      "17374_900",
+      "17444_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180013",
+    "name": "Bellevuestr. (Berlin)",
+    "latitude": 52.453042,
+    "longitude": 13.594022,
+    "lineIds": [
+      "17417_900",
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194514",
+    "name": "Benno-König-Str. (Berlin)",
+    "latitude": 52.443716,
+    "longitude": 13.518748,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182503",
+    "name": "Berlin, Ahornallee",
+    "latitude": 52.455636,
+    "longitude": 13.619099,
+    "lineIds": [
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140005",
+    "name": "Berlin, Albertinenstr.",
+    "latitude": 52.549788,
+    "longitude": 13.457775,
+    "lineIds": [
+      "17301_900",
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900161004",
+    "name": "Berlin, Alt-Friedrichsfelde/Rhinstr.",
+    "latitude": 52.510346,
+    "longitude": 13.518968,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176524",
+    "name": "Berlin, Alt-Mahlsdorf",
+    "latitude": 52.505116,
+    "longitude": 13.613271,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110019",
+    "name": "Berlin, Am Friedrichshain",
+    "latitude": 52.528015,
+    "longitude": 13.425135,
+    "lineIds": [
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110025",
+    "name": "Berlin, Arnswalder Platz",
+    "latitude": 52.534094,
+    "longitude": 13.437388,
+    "lineIds": [
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180514",
+    "name": "Berlin, Betriebshof Köpenick",
+    "latitude": 52.439766,
+    "longitude": 13.581812,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170010",
+    "name": "Berlin, Betriebshof Marzahn",
+    "latitude": 52.549006,
+    "longitude": 13.583714,
+    "lineIds": [
+      "17324_900",
+      "17338_900",
+      "17374_900",
+      "17419_900",
+      "17444_900",
+      "17459_900",
+      "17460_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900134500",
+    "name": "Berlin, Blankenfelder Str.",
+    "latitude": 52.601732,
+    "longitude": 13.431514,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180512",
+    "name": "Berlin, Brandenburgplatz",
+    "latitude": 52.455330000000004,
+    "longitude": 13.5906725,
+    "lineIds": [
+      "17417_900",
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100041",
+    "name": "Berlin, Brunnenstr./Invalidenstr.",
+    "latitude": 52.532391,
+    "longitude": 13.398751666666668,
+    "lineIds": [
+      "17301_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131004",
+    "name": "Berlin, Bürgerpark Pankow",
+    "latitude": 52.571197,
+    "longitude": 13.398141,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160526",
+    "name": "Berlin, Fanningerstr.",
+    "latitude": 52.514177,
+    "longitude": 13.49811,
+    "lineIds": [
+      "17352_900",
+      "17404_900",
+      "17424_900"
+    ]
+  },
+  {
+    "id": "de:11000:900134512",
+    "name": "Berlin, Franz. Buchholz Friedhof",
+    "latitude": 52.608242,
+    "longitude": 13.429225,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150513",
+    "name": "Berlin, Freienwalder Str.",
+    "latitude": 52.544439499999996,
+    "longitude": 13.493157,
+    "lineIds": [
+      "17338_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110020",
+    "name": "Berlin, Greifswalder Str./Danziger Str.",
+    "latitude": 52.536,
+    "longitude": 13.433466,
+    "lineIds": [
+      "17440_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110016",
+    "name": "Berlin, Greifswalder Str./Ostseestr.",
+    "latitude": 52.545474,
+    "longitude": 13.444615,
+    "lineIds": [
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900132010",
+    "name": "Berlin, Hauptstr./Friedrich-Engels-Str.",
+    "latitude": 52.597184,
+    "longitude": 13.375487,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160518",
+    "name": "Berlin, Herzbergstr./Dong-Xuan",
+    "latitude": 52.526577,
+    "longitude": 13.490228,
+    "lineIds": [
+      "17301_900",
+      "17338_900",
+      "24641_900",
+      "17352_900",
+      "17440_900",
+      "17442_900",
+      "17452_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160712",
+    "name": "Berlin, Herzbergstr./Siegfriedstr. [Siegfriedstr]",
+    "latitude": 52.526401500000006,
+    "longitude": 13.4983845,
+    "lineIds": [
+      "17301_900",
+      "17338_900",
+      "24641_900",
+      "17352_900",
+      "17440_900",
+      "17442_900",
+      "17452_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160012",
+    "name": "Berlin, Herzbergstr./Siegfriedstr. [Siegfriedstr]",
+    "latitude": 52.5255085,
+    "longitude": 13.499725000000002,
+    "lineIds": [
+      "17301_900",
+      "24641_900",
+      "17352_900",
+      "17374_900",
+      "17404_900",
+      "17440_900",
+      "17442_900",
+      "17452_900",
+      "17459_900",
+      "17424_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182003",
+    "name": "Berlin, Hirschgartendreieck",
+    "latitude": 52.451854,
+    "longitude": 13.600695,
+    "lineIds": [
+      "17417_900",
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900134509",
+    "name": "Berlin, Hugenottenplatz",
+    "latitude": 52.606228,
+    "longitude": 13.420072,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100503",
+    "name": "Berlin, Invalidenpark",
+    "latitude": 52.528765,
+    "longitude": 13.376929,
+    "lineIds": [
+      "17440_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180017",
+    "name": "Berlin, Mahlsdorf-Süd",
+    "latitude": 52.47412,
+    "longitude": 13.598537,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182004",
+    "name": "Berlin, Müggelseedamm/Bölschestr.",
+    "latitude": 52.447582499999996,
+    "longitude": 13.624332500000001,
+    "lineIds": [
+      "17417_900",
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131006",
+    "name": "Berlin, Nordend",
+    "latitude": 52.5902155,
+    "longitude": 13.402739,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900009204",
+    "name": "Berlin, Osloer Str./Prinzenallee",
+    "latitude": 52.555936,
+    "longitude": 13.383663,
+    "lineIds": [
+      "17416_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140002",
+    "name": "Berlin, Pasedagplatz",
+    "latitude": 52.559714,
+    "longitude": 13.46064,
+    "lineIds": [
+      "17301_900",
+      "17374_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131005",
+    "name": "Berlin, Pastor-Niemöller-Platz",
+    "latitude": 52.579628,
+    "longitude": 13.397303,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900151006",
+    "name": "Berlin, Prerower Platz",
+    "latitude": 52.563217,
+    "longitude": 13.505059,
+    "lineIds": [
+      "17444_900",
+      "17452_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900183003",
+    "name": "Berlin, Rahnsdorf/Waldschänke",
+    "latitude": 52.443618,
+    "longitude": 13.684735,
+    "lineIds": [
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176525",
+    "name": "Berlin, Rahnsdorfer Str.",
+    "latitude": 52.498419,
+    "longitude": 13.613145,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900130501",
+    "name": "Berlin, Rathaus Pankow",
+    "latitude": 52.569381,
+    "longitude": 13.403453,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120021",
+    "name": "Berlin, Revaler Str.",
+    "latitude": 52.509221,
+    "longitude": 13.451099,
+    "lineIds": [
+      "17440_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900132014",
+    "name": "Berlin, Rosenthal Nord",
+    "latitude": 52.5986185,
+    "longitude": 13.372776,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170515",
+    "name": "Berlin, Schragenfeldstr.",
+    "latitude": 52.537893,
+    "longitude": 13.56032,
+    "lineIds": [
+      "17338_900",
+      "17374_900",
+      "17444_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110007",
+    "name": "Berlin, Schönhauser Allee/Bornholmer Str.",
+    "latitude": 52.553762,
+    "longitude": 13.414614,
+    "lineIds": [
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900162003",
+    "name": "Berlin, Treskowallee/Ehrlichstr.",
+    "latitude": 52.4789665,
+    "longitude": 13.523470499999998,
+    "lineIds": [
+      "17352_900",
+      "28260_900"
+    ]
+  },
+  {
+    "id": "de:11000:900010251",
+    "name": "Berlin, Virchow-Klinikum",
+    "latitude": 52.543524,
+    "longitude": 13.338811,
+    "lineIds": [
+      "17416_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900186002",
+    "name": "Berlin, Wassersportallee",
+    "latitude": 52.416348,
+    "longitude": 13.579976,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900152003",
+    "name": "Berlin, Welsestr.",
+    "latitude": 52.569174,
+    "longitude": 13.525544,
+    "lineIds": [
+      "17444_900",
+      "17452_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182501",
+    "name": "Berlin, Westendsiedlung",
+    "latitude": 52.453361,
+    "longitude": 13.60898,
+    "lineIds": [
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900007105",
+    "name": "Berlin, Wolliner Str.",
+    "latitude": 52.5398515,
+    "longitude": 13.4016585,
+    "lineIds": [
+      "17301_900",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900185501",
+    "name": "Berlin, Zum Seeblick",
+    "latitude": 52.379177,
+    "longitude": 13.644231,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140713",
+    "name": "Berliner Allee/Rennbahnstr. (Berlin)",
+    "latitude": 52.557232,
+    "longitude": 13.46671475,
+    "lineIds": [
+      "17301_900",
+      "17374_900",
+      "17404_900",
+      "17416_900",
+      "17438_900",
+      "17446_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160509",
+    "name": "Bernhard-Bästlein-Str. (Berlin)",
+    "latitude": 52.5267525,
+    "longitude": 13.482327,
+    "lineIds": [
+      "17301_900",
+      "17338_900",
+      "24641_900",
+      "17352_900",
+      "17440_900",
+      "17442_900",
+      "17452_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120516",
+    "name": "Bersarinplatz (Berlin)",
+    "latitude": 52.519341,
+    "longitude": 13.452567,
+    "lineIds": [
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120816",
+    "name": "Bersarinplatz (Berlin) [Weidenweg]",
+    "latitude": 52.518975499999996,
+    "longitude": 13.454353999999999,
+    "lineIds": [
+      "17352_900",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180521",
+    "name": "Betonwerk (Berlin)",
+    "latitude": 52.4307235,
+    "longitude": 13.5717205,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150518",
+    "name": "Betriebshof Indira-Gandhi-Str. (Berlin)",
+    "latitude": 52.544352,
+    "longitude": 13.468636,
+    "lineIds": [
+      "17301_900",
+      "17442_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160522",
+    "name": "Betriebshof Lichtenberg (Berlin)",
+    "latitude": 52.5202035,
+    "longitude": 13.499403000000001,
+    "lineIds": [
+      "17301_900",
+      "24641_900",
+      "17352_900",
+      "17374_900",
+      "17404_900",
+      "17440_900",
+      "17442_900",
+      "17452_900",
+      "17459_900",
+      "17424_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110010",
+    "name": "Björnsonstr. (Berlin)",
+    "latitude": 52.554448,
+    "longitude": 13.403138,
+    "lineIds": [
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110710",
+    "name": "Björnsonstr. (Berlin)",
+    "latitude": 52.555276,
+    "longitude": 13.402633,
+    "lineIds": [
+      "17416_900",
+      "17438_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900162504",
+    "name": "Blockdammweg (Berlin)",
+    "latitude": 52.484094,
+    "longitude": 13.509834,
+    "lineIds": [
+      "17352_900",
+      "28260_900"
+    ]
+  },
+  {
+    "id": "de:11000:900171517",
+    "name": "Boschpoler Str. (Berlin)",
+    "latitude": 52.527502,
+    "longitude": 13.548811,
+    "lineIds": [
+      "17338_900",
+      "17374_900",
+      "17444_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170524",
+    "name": "Brodowiner Ring (Berlin)",
+    "latitude": 52.547639,
+    "longitude": 13.578357,
+    "lineIds": [
+      "17324_900",
+      "17338_900",
+      "17374_900",
+      "17419_900",
+      "17444_900",
+      "17459_900",
+      "17460_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176536",
+    "name": "Bruchsaler Str. (Berlin)",
+    "latitude": 52.48874,
+    "longitude": 13.606031,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182507",
+    "name": "Bruno-Wille-Str. (Berlin)",
+    "latitude": 52.4469675,
+    "longitude": 13.6323335,
+    "lineIds": [
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182514",
+    "name": "Brösener Str. (Berlin)",
+    "latitude": 52.459126,
+    "longitude": 13.635005,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:11000:900192506",
+    "name": "Brückenstr. (Berlin)",
+    "latitude": 52.458133,
+    "longitude": 13.511607999999999,
+    "lineIds": [
+      "17352_900",
+      "17427_900",
+      "17404_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140519",
+    "name": "Buschallee (Berlin)",
+    "latitude": 52.553672,
+    "longitude": 13.469346,
+    "lineIds": [
+      "17301_900",
+      "17374_900",
+      "17404_900",
+      "17442_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170529",
+    "name": "Bürgerpark Marzahn (Berlin)",
+    "latitude": 52.54985,
+    "longitude": 13.560745,
+    "lineIds": [
+      "17324_900",
+      "17444_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120511",
+    "name": "Büschingstr. (Berlin)",
+    "latitude": 52.523127,
+    "longitude": 13.427217,
+    "lineIds": [
+      "17301_900",
+      "17459_900",
+      "17460_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176535",
+    "name": "Bütower Str. (Berlin)",
+    "latitude": 52.485821,
+    "longitude": 13.603938,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900003255",
+    "name": "Clara-Jaschke-Str. (Berlin)",
+    "latitude": 52.525146,
+    "longitude": 13.366224,
+    "lineIds": [
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900161508",
+    "name": "Criegernweg (Berlin)",
+    "latitude": 52.50073,
+    "longitude": 13.521759,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150010",
+    "name": "Degnerstr./Suermondtstr. (Berlin)",
+    "latitude": 52.549756,
+    "longitude": 13.498524,
+    "lineIds": [
+      "17374_900",
+      "17404_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170520",
+    "name": "Dingelstädter Str. (Berlin)",
+    "latitude": 52.536739,
+    "longitude": 13.524788,
+    "lineIds": [
+      "17324_900",
+      "17374_900",
+      "17419_900",
+      "17444_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182504",
+    "name": "Drachholzstr. (Berlin)",
+    "latitude": 52.453942,
+    "longitude": 13.625105000000001,
+    "lineIds": [
+      "17417_900",
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180518",
+    "name": "Dregerhoffstr. (Berlin)",
+    "latitude": 52.427496000000005,
+    "longitude": 13.585244,
+    "lineIds": [
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900009206",
+    "name": "Drontheimer Str. (Berlin)",
+    "latitude": 52.556529,
+    "longitude": 13.377547,
+    "lineIds": [
+      "17416_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176537",
+    "name": "Eichenhofweg (Berlin)",
+    "latitude": 52.490992,
+    "longitude": 13.607645,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176534",
+    "name": "Erich-Baron-Weg (Berlin)",
+    "latitude": 52.483481,
+    "longitude": 13.602204,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110509",
+    "name": "Erich-Weinert-Str. (Berlin)",
+    "latitude": 52.5478,
+    "longitude": 13.42866,
+    "lineIds": [
+      "17301_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160520",
+    "name": "Ev. Krankenhaus KEH (Berlin)",
+    "latitude": 52.525478,
+    "longitude": 13.508646,
+    "lineIds": [
+      "17338_900",
+      "17352_900",
+      "17374_900",
+      "17404_900",
+      "17452_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900152007",
+    "name": "Falkenberg (Berlin)",
+    "latitude": 52.570023000000006,
+    "longitude": 13.5269305,
+    "lineIds": [
+      "17444_900",
+      "17452_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140012",
+    "name": "Falkenberger Str./Berliner Allee (Berlin)",
+    "latitude": 52.554707,
+    "longitude": 13.467743,
+    "lineIds": [
+      "17301_900",
+      "17374_900",
+      "17404_900",
+      "17416_900",
+      "17438_900",
+      "17446_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150501",
+    "name": "Feldtmannstr. (Berlin)",
+    "latitude": 52.559826,
+    "longitude": 13.495328,
+    "lineIds": [
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181502",
+    "name": "Firlstr. (Berlin)",
+    "latitude": 52.460854,
+    "longitude": 13.520782,
+    "lineIds": [
+      "28260_900",
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:12061:900260009",
+    "name": "Flughafen BER",
+    "latitude": 52.364606,
+    "longitude": 13.509874,
+    "lineIds": [
+      "22240_109",
+      "28412_109",
+      "10170_109",
+      "10271_109"
+    ]
+  },
+  {
+    "id": "de:11000:900120542",
+    "name": "Forckenbeckplatz (Berlin)",
+    "latitude": 52.520334000000005,
+    "longitude": 13.459,
+    "lineIds": [
+      "17352_900",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900134011",
+    "name": "Französisch Buchholz Kirche (Berlin)",
+    "latitude": 52.606776,
+    "longitude": 13.433538,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160016",
+    "name": "Freiaplatz (Berlin)",
+    "latitude": 52.515477,
+    "longitude": 13.498659,
+    "lineIds": [
+      "17352_900",
+      "17404_900",
+      "17424_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180006",
+    "name": "Freiheit (Berlin)",
+    "latitude": 52.446601,
+    "longitude": 13.576113,
+    "lineIds": [
+      "17374_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181003",
+    "name": "Freizeit- und Erholungszentrum (Berlin)",
+    "latitude": 52.457518,
+    "longitude": 13.543896,
+    "lineIds": [
+      "28260_900",
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170519",
+    "name": "Freizeitforum Marzahn (Berlin)",
+    "latitude": 52.546681,
+    "longitude": 13.557462,
+    "lineIds": [
+      "17324_900",
+      "17374_900",
+      "17419_900",
+      "17444_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131508",
+    "name": "Friedrich-Engels-Str./Eichenstr. (Berlin)",
+    "latitude": 52.58497,
+    "longitude": 13.3903265,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110018",
+    "name": "Friedrich-Ludwig-Jahn-Sportpark (Berlin)",
+    "latitude": 52.540873,
+    "longitude": 13.4058,
+    "lineIds": [
+      "17301_900",
+      "17440_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900186506",
+    "name": "Friedrich-Wolf-Str. (Berlin)",
+    "latitude": 52.424495,
+    "longitude": 13.575151,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140505",
+    "name": "Friesickestr. (Berlin)",
+    "latitude": 52.551812,
+    "longitude": 13.440471500000001,
+    "lineIds": [
+      "17301_900",
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110510",
+    "name": "Fröbelstr. (Berlin)",
+    "latitude": 52.542043,
+    "longitude": 13.425914,
+    "lineIds": [
+      "17301_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182512",
+    "name": "Fürstenwalder Damm (Berlin)",
+    "latitude": 52.452153,
+    "longitude": 13.653539,
+    "lineIds": [
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182513",
+    "name": "Fürstenwalder Damm/Müggelseedamm (Berlin)",
+    "latitude": 52.44941,
+    "longitude": 13.663248,
+    "lineIds": [
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900130016",
+    "name": "Galenusstr. (Berlin)",
+    "latitude": 52.582049,
+    "longitude": 13.428585,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900007150",
+    "name": "Gedenkstätte Berliner Mauer (Berlin)",
+    "latitude": 52.535810999999995,
+    "longitude": 13.390671000000001,
+    "lineIds": [
+      "17301_900",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150504",
+    "name": "Gehrenseestr. (Berlin)",
+    "latitude": 52.550015,
+    "longitude": 13.508559,
+    "lineIds": [
+      "17338_900",
+      "17444_900",
+      "17452_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180511",
+    "name": "Gelnitzstr. (Berlin)",
+    "latitude": 52.455413,
+    "longitude": 13.584907000000001,
+    "lineIds": [
+      "17417_900",
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160514",
+    "name": "Genslerstr. (Berlin)",
+    "latitude": 52.53442,
+    "longitude": 13.495938,
+    "lineIds": [
+      "17324_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100541",
+    "name": "Georgenstr./Am Kupfergraben (Berlin)",
+    "latitude": 52.520318,
+    "longitude": 13.393685,
+    "lineIds": [
+      "17301_900",
+      "17438_900",
+      "17440_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194010",
+    "name": "Gerhard-Sedlmayr-Str. (Berlin)",
+    "latitude": 52.440696,
+    "longitude": 13.522953,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170521",
+    "name": "Gewerbepark Georg Knorr (Berlin)",
+    "latitude": 52.539047,
+    "longitude": 13.533977,
+    "lineIds": [
+      "17324_900",
+      "17374_900",
+      "17419_900",
+      "17444_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140014",
+    "name": "Giersstr. (Berlin)",
+    "latitude": 52.554578,
+    "longitude": 13.482425,
+    "lineIds": [
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180524",
+    "name": "Glienicker Str. (Berlin)",
+    "latitude": 52.4412945,
+    "longitude": 13.570127500000002,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160523",
+    "name": "Gotlindestr. (Berlin)",
+    "latitude": 52.5179095,
+    "longitude": 13.499194,
+    "lineIds": [
+      "17352_900",
+      "17404_900",
+      "17424_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150522",
+    "name": "Gounodstr. (Berlin)",
+    "latitude": 52.548369,
+    "longitude": 13.467178,
+    "lineIds": [
+      "17301_900",
+      "17442_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131528",
+    "name": "Grabbeallee/Pastor-Niemöller-Platz (Berlin)",
+    "latitude": 52.5788095,
+    "longitude": 13.398321500000002,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120014",
+    "name": "Grünberger Str./Warschauer Str. (Berlin)",
+    "latitude": 52.512405,
+    "longitude": 13.452397,
+    "lineIds": [
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900007160",
+    "name": "Grüntaler Str. (Berlin)",
+    "latitude": 52.555358,
+    "longitude": 13.390796,
+    "lineIds": [
+      "17416_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160525",
+    "name": "Guntherstr. (Berlin)",
+    "latitude": 52.513542,
+    "longitude": 13.502011,
+    "lineIds": [
+      "17352_900",
+      "17404_900",
+      "17424_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140017",
+    "name": "Gustav-Adolf-Str./Langhansstr. (Berlin)",
+    "latitude": 52.553587,
+    "longitude": 13.4347955,
+    "lineIds": [
+      "17301_900",
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160502",
+    "name": "Gustav-Holzmann-Str. (Berlin)",
+    "latitude": 52.493127,
+    "longitude": 13.490649,
+    "lineIds": [
+      "17352_900",
+      "28260_900"
+    ]
+  },
+  {
+    "id": "de:11000:900134511",
+    "name": "Guyotstr. (Berlin)",
+    "latitude": 52.605464,
+    "longitude": 13.41708,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194712",
+    "name": "Haeckelstr. (Berlin)",
+    "latitude": 52.4410135,
+    "longitude": 13.505744499999999,
+    "lineIds": [
+      "17427_900",
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194012",
+    "name": "Haeckelstr. (Berlin)",
+    "latitude": 52.440841,
+    "longitude": 13.505855,
+    "lineIds": [
+      "17427_900",
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100506",
+    "name": "Hannoversche Str. (Berlin)",
+    "latitude": 52.527295,
+    "longitude": 13.387389,
+    "lineIds": [
+      "17301_900",
+      "17440_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140007",
+    "name": "Hansastr./Buschallee (Berlin)",
+    "latitude": 52.553171,
+    "longitude": 13.480697,
+    "lineIds": [
+      "17374_900",
+      "17404_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150002",
+    "name": "Hansastr./Malchower Weg (Berlin)",
+    "latitude": 52.561052,
+    "longitude": 13.500679,
+    "lineIds": [
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182510",
+    "name": "Hartlebenstr. (Berlin)",
+    "latitude": 52.4567,
+    "longitude": 13.632907,
+    "lineIds": [
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900162002",
+    "name": "Hegemeisterweg (Berlin)",
+    "latitude": 52.474012,
+    "longitude": 13.520218,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900141001",
+    "name": "Heinersdorf (Berlin)",
+    "latitude": 52.572564,
+    "longitude": 13.437068,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900141002",
+    "name": "Heinersdorf Kirche (Berlin)",
+    "latitude": 52.5685385,
+    "longitude": 13.4390405,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131526",
+    "name": "Heinrich-Böll-Str. (Berlin)",
+    "latitude": 52.587653,
+    "longitude": 13.401751,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160006",
+    "name": "Heizkraftwerk Klingenberg (Berlin)",
+    "latitude": 52.487926,
+    "longitude": 13.496126,
+    "lineIds": [
+      "17352_900",
+      "28260_900"
+    ]
+  },
+  {
+    "id": "de:11000:900171516",
+    "name": "Helene-Weigel-Platz (Berlin)",
+    "latitude": 52.525962,
+    "longitude": 13.542878,
+    "lineIds": [
+      "17338_900",
+      "17374_900",
+      "17444_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131527",
+    "name": "Hermann-Hesse-Str./Waldstr. (Berlin)",
+    "latitude": 52.580559,
+    "longitude": 13.401688499999999,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194520",
+    "name": "Herweghstr. (Berlin)",
+    "latitude": 52.443986,
+    "longitude": 13.505682,
+    "lineIds": [
+      "17427_900",
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180016",
+    "name": "Hirtestr. (Berlin)",
+    "latitude": 52.460437,
+    "longitude": 13.58443,
+    "lineIds": [
+      "17417_900",
+      "17419_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180716",
+    "name": "Hirtestr. (Berlin)",
+    "latitude": 52.459052,
+    "longitude": 13.583946,
+    "lineIds": [
+      "17417_900",
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150011",
+    "name": "Hohenschönhauser Str. (Berlin)",
+    "latitude": 52.535851,
+    "longitude": 13.472862,
+    "lineIds": [
+      "17301_900",
+      "17324_900",
+      "17338_900",
+      "17442_900",
+      "17452_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120013",
+    "name": "Holteistr. (Berlin)",
+    "latitude": 52.508669,
+    "longitude": 13.466181666666666,
+    "lineIds": [
+      "17352_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110521",
+    "name": "Hufelandstr. (Berlin)",
+    "latitude": 52.532518,
+    "longitude": 13.428789,
+    "lineIds": [
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176512",
+    "name": "Hultschiner Damm/Seestr. (Berlin)",
+    "latitude": 52.477094,
+    "longitude": 13.600603,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110500",
+    "name": "Humannplatz (Berlin)",
+    "latitude": 52.549571,
+    "longitude": 13.421529,
+    "lineIds": [
+      "17301_900",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110511",
+    "name": "Husemannstr. (Berlin)",
+    "latitude": 52.540036,
+    "longitude": 13.418715,
+    "lineIds": [
+      "17301_900",
+      "17440_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120539",
+    "name": "James-Hobrecht-Str. (Berlin)",
+    "latitude": 52.520227500000004,
+    "longitude": 13.4676155,
+    "lineIds": [
+      "17352_900",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170517",
+    "name": "Jan-Petersen-Str. (Berlin)",
+    "latitude": 52.547318,
+    "longitude": 13.561408,
+    "lineIds": [
+      "17324_900",
+      "17374_900",
+      "17419_900",
+      "17444_900",
+      "17459_900",
+      "17460_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180513",
+    "name": "Janitzkystr. (Berlin)",
+    "latitude": 52.461635,
+    "longitude": 13.584088,
+    "lineIds": [
+      "17417_900",
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900175520",
+    "name": "Jenaer Str. (Berlin)",
+    "latitude": 52.531938,
+    "longitude": 13.614908,
+    "lineIds": [
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120029",
+    "name": "Jessnerstr. (Berlin)",
+    "latitude": 52.512009,
+    "longitude": 13.473969,
+    "lineIds": [
+      "17324_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194506",
+    "name": "Johannisthal Kirche (Berlin)",
+    "latitude": 52.444384,
+    "longitude": 13.503897,
+    "lineIds": [
+      "17427_900",
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182506",
+    "name": "Josef-Nawrocki-Str. (Berlin)",
+    "latitude": 52.4467015,
+    "longitude": 13.628221,
+    "lineIds": [
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160508",
+    "name": "Judith-Auer-Str. (Berlin)",
+    "latitude": 52.534116,
+    "longitude": 13.467839999999999,
+    "lineIds": [
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110029",
+    "name": "Karl-Lade-Str. (Berlin)",
+    "latitude": 52.5291955,
+    "longitude": 13.462779,
+    "lineIds": [
+      "17301_900",
+      "17338_900",
+      "24641_900",
+      "17440_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194016",
+    "name": "Karl-Ziegler-Str. (Berlin)",
+    "latitude": 52.4326035,
+    "longitude": 13.526318,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900171540",
+    "name": "Kleingartenanlage Bielefeldt (Berlin)",
+    "latitude": 52.519014,
+    "longitude": 13.519341,
+    "lineIds": [
+      "17352_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120513",
+    "name": "Klinikum im Friedrichshain (Berlin)",
+    "latitude": 52.524147,
+    "longitude": 13.440202,
+    "lineIds": [
+      "17301_900",
+      "17459_900",
+      "17460_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110507",
+    "name": "Knaackstr. (Berlin)",
+    "latitude": 52.533226,
+    "longitude": 13.420721,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110021",
+    "name": "Kniprodestr./Danziger Str. (Berlin)",
+    "latitude": 52.532112,
+    "longitude": 13.441523,
+    "lineIds": [
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120526",
+    "name": "Kopernikusstr./Warschauer Str. (Berlin)",
+    "latitude": 52.510609,
+    "longitude": 13.452634,
+    "lineIds": [
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160536",
+    "name": "Kosanke-Siedlung (Berlin)",
+    "latitude": 52.496711,
+    "longitude": 13.485793,
+    "lineIds": [
+      "17352_900",
+      "28260_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180022",
+    "name": "Krankenhaus Köpenick/Südseite (Berlin)",
+    "latitude": 52.438692,
+    "longitude": 13.593136,
+    "lineIds": [
+      "17374_900",
+      "17417_900",
+      "17418_900",
+      "17420_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900002206",
+    "name": "Kriminalgericht Moabit (Berlin)",
+    "latitude": 52.526684,
+    "longitude": 13.354805,
+    "lineIds": [
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131510",
+    "name": "Kuckhoffstr. (Berlin)",
+    "latitude": 52.583816999999996,
+    "longitude": 13.403063,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180012",
+    "name": "Köllnischer Platz (Berlin)",
+    "latitude": 52.444575,
+    "longitude": 13.569256,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900186505",
+    "name": "Königsseestr. (Berlin)",
+    "latitude": 52.420448,
+    "longitude": 13.577946,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160007",
+    "name": "Köpenicker Chaussee/Blockdammweg (Berlin)",
+    "latitude": 52.483443,
+    "longitude": 13.502363,
+    "lineIds": [
+      "17352_900",
+      "28260_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194517",
+    "name": "Landfliegerstr. (Berlin)",
+    "latitude": 52.446365,
+    "longitude": 13.51475,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170013",
+    "name": "Landsberger Allee/Blumberger Damm (Berlin)",
+    "latitude": 52.546124,
+    "longitude": 13.572037,
+    "lineIds": [
+      "17324_900",
+      "17338_900",
+      "17374_900",
+      "17419_900",
+      "17444_900",
+      "17459_900",
+      "17460_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120016",
+    "name": "Landsberger Allee/Petersburger Str. (Berlin)",
+    "latitude": 52.526044,
+    "longitude": 13.446777,
+    "lineIds": [
+      "17301_900",
+      "17338_900",
+      "24641_900",
+      "17440_900",
+      "17459_900",
+      "17460_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900171011",
+    "name": "Landsberger Allee/Rhinstr. (Berlin)",
+    "latitude": 52.535656,
+    "longitude": 13.517484,
+    "lineIds": [
+      "17324_900",
+      "17338_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17444_900",
+      "17452_900",
+      "17459_900",
+      "17460_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160018",
+    "name": "Landsberger Allee/Weißenseer Weg (Berlin)",
+    "latitude": 52.532055,
+    "longitude": 13.476714,
+    "lineIds": [
+      "17301_900",
+      "17324_900",
+      "17338_900",
+      "17442_900",
+      "17452_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900175510",
+    "name": "Landsberger Chaussee/Zossener Str. (Berlin)",
+    "latitude": 52.549218,
+    "longitude": 13.587997,
+    "lineIds": [
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194537",
+    "name": "Landschaftspark Johannisthal (Berlin)",
+    "latitude": 52.437389,
+    "longitude": 13.527766,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176526",
+    "name": "Ledebourstr. (Berlin)",
+    "latitude": 52.493715,
+    "longitude": 13.609673,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900003257",
+    "name": "Lesser-Ury-Weg (Berlin)",
+    "latitude": 52.524278499999994,
+    "longitude": 13.362322500000001,
+    "lineIds": [
+      "17440_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120527",
+    "name": "Libauer Str. (Berlin)",
+    "latitude": 52.510177,
+    "longitude": 13.454611,
+    "lineIds": [
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900183513",
+    "name": "Licht- und Luftbad Müggelsee (Berlin)",
+    "latitude": 52.447285,
+    "longitude": 13.67117,
+    "lineIds": [
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180520",
+    "name": "Lienhardweg (Berlin)",
+    "latitude": 52.421798499999994,
+    "longitude": 13.5879,
+    "lineIds": [
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160017",
+    "name": "Loeperplatz (Berlin)",
+    "latitude": 52.520208999999994,
+    "longitude": 13.47936575,
+    "lineIds": [
+      "17324_900",
+      "17352_900",
+      "17440_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900011201",
+    "name": "Louise-Schroeder-Platz (Berlin)",
+    "latitude": 52.556982,
+    "longitude": 13.365603,
+    "lineIds": [
+      "17416_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900185504",
+    "name": "Lübbenauer Weg (Berlin)",
+    "latitude": 52.391317,
+    "longitude": 13.634945,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900002205",
+    "name": "Lübecker Str. (Berlin)",
+    "latitude": 52.526251,
+    "longitude": 13.345508,
+    "lineIds": [
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900003259",
+    "name": "Lüneburger Str. (Berlin)",
+    "latitude": 52.523128,
+    "longitude": 13.361639,
+    "lineIds": [
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194501",
+    "name": "Magnusstr. (Berlin)",
+    "latitude": 52.429763,
+    "longitude": 13.530237,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110508",
+    "name": "Marienburger Str. (Berlin)",
+    "latitude": 52.535538,
+    "longitude": 13.422093,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900134502",
+    "name": "Marienstr./Pasewalker Str. (Berlin)",
+    "latitude": 52.592547,
+    "longitude": 13.431495,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900162007",
+    "name": "Marksburgstr. (Berlin)",
+    "latitude": 52.486562,
+    "longitude": 13.526908,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900193505",
+    "name": "Marktplatz Adlershof (Berlin)",
+    "latitude": 52.437707,
+    "longitude": 13.547550000000001,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182505",
+    "name": "Marktplatz Friedrichshagen (Berlin)",
+    "latitude": 52.450587,
+    "longitude": 13.6246775,
+    "lineIds": [
+      "17417_900",
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160535",
+    "name": "Marktstr. (Berlin)",
+    "latitude": 52.502799,
+    "longitude": 13.474776,
+    "lineIds": [
+      "17352_900",
+      "28260_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170020",
+    "name": "Marzahner Promenade (Berlin)",
+    "latitude": 52.543408,
+    "longitude": 13.549696,
+    "lineIds": [
+      "17324_900",
+      "17374_900",
+      "17419_900",
+      "17444_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900130512",
+    "name": "Masurenstr. (Berlin)",
+    "latitude": 52.563568,
+    "longitude": 13.413163,
+    "lineIds": [
+      "17416_900",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170530",
+    "name": "Max-Herrmann-Str. (Berlin)",
+    "latitude": 52.553901,
+    "longitude": 13.565668,
+    "lineIds": [
+      "17324_900",
+      "17444_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180515",
+    "name": "Mayschweg (Berlin)",
+    "latitude": 52.4371015,
+    "longitude": 13.582328,
+    "lineIds": [
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900171514",
+    "name": "Meeraner Str. (Berlin)",
+    "latitude": 52.52927,
+    "longitude": 13.519268,
+    "lineIds": [
+      "17338_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17444_900",
+      "17452_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900130520",
+    "name": "Mendelstr. (Berlin)",
+    "latitude": 52.575053499999996,
+    "longitude": 13.419395999999999,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900175511",
+    "name": "Michendorfer Str. (Berlin)",
+    "latitude": 52.545536,
+    "longitude": 13.587068,
+    "lineIds": [
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110503",
+    "name": "Milastr. (Berlin)",
+    "latitude": 52.545285,
+    "longitude": 13.4127685,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180010",
+    "name": "Mittelheide (Berlin)",
+    "latitude": 52.463202,
+    "longitude": 13.583706,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100040",
+    "name": "Mollstr./Otto-Braun-Str. (Berlin)",
+    "latitude": 52.525183,
+    "longitude": 13.419945,
+    "lineIds": [
+      "17301_900",
+      "17452_900",
+      "17459_900",
+      "17460_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110022",
+    "name": "Mollstr./Prenzlauer Allee (Berlin)",
+    "latitude": 52.526867,
+    "longitude": 13.415962,
+    "lineIds": [
+      "17301_900",
+      "17446_900",
+      "17452_900",
+      "17459_900",
+      "17460_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100512",
+    "name": "Monbijouplatz (Berlin)",
+    "latitude": 52.523784000000006,
+    "longitude": 13.3978745,
+    "lineIds": [
+      "17301_900",
+      "17438_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160014",
+    "name": "Möllendorffstr./Storkower Str. (Berlin)",
+    "latitude": 52.523171,
+    "longitude": 13.479275,
+    "lineIds": [
+      "17324_900",
+      "17352_900",
+      "17440_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180014",
+    "name": "Müggelbergallee (Berlin)",
+    "latitude": 52.4186585,
+    "longitude": 13.588926,
+    "lineIds": [
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180005",
+    "name": "Müggelheimer Str./Wendenschloßstr. (Berlin)",
+    "latitude": 52.44298,
+    "longitude": 13.581672,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194521",
+    "name": "Mühlbergstr. (Berlin)",
+    "latitude": 52.441657,
+    "longitude": 13.503356,
+    "lineIds": [
+      "17427_900",
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182502",
+    "name": "Mühlweg (Berlin)",
+    "latitude": 52.454352,
+    "longitude": 13.613386,
+    "lineIds": [
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194011",
+    "name": "Nieberstr. (Berlin)",
+    "latitude": 52.448772,
+    "longitude": 13.512023,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120517",
+    "name": "Niederbarnimstr. (Berlin)",
+    "latitude": 52.512804,
+    "longitude": 13.4578395,
+    "lineIds": [
+      "17352_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170506",
+    "name": "Niemegker Str. (Berlin)",
+    "latitude": 52.564725,
+    "longitude": 13.571582,
+    "lineIds": [
+      "17324_900",
+      "17444_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181506",
+    "name": "Nixenstr. (Berlin)",
+    "latitude": 52.456331,
+    "longitude": 13.550813,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900132502",
+    "name": "Nordendstr. (Berlin)",
+    "latitude": 52.588591,
+    "longitude": 13.388297,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900175519",
+    "name": "Nossener Str. (Berlin)",
+    "latitude": 52.532938,
+    "longitude": 13.610194,
+    "lineIds": [
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150007",
+    "name": "Oberseestr. (Berlin)",
+    "latitude": 52.546957000000006,
+    "longitude": 13.497969000000001,
+    "lineIds": [
+      "17338_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110030",
+    "name": "Oderbruchstr. (Berlin)",
+    "latitude": 52.530483000000004,
+    "longitude": 13.4614645,
+    "lineIds": [
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150515",
+    "name": "Orankestrand (Berlin)",
+    "latitude": 52.552286,
+    "longitude": 13.486049,
+    "lineIds": [
+      "17374_900",
+      "17404_900"
+    ]
+  },
+  {
+    "id": "de:11000:900011252",
+    "name": "Osram-Höfe (Berlin)",
+    "latitude": 52.553696,
+    "longitude": 13.358291,
+    "lineIds": [
+      "17416_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181504",
+    "name": "Ostendstr. (Berlin)",
+    "latitude": 52.457229,
+    "longitude": 13.533917,
+    "lineIds": [
+      "28260_900",
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180510",
+    "name": "Ottomar-Geschke-Str. (Berlin)",
+    "latitude": 52.441971,
+    "longitude": 13.55953,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180004",
+    "name": "Pablo-Neruda-Str. (Berlin)",
+    "latitude": 52.441038,
+    "longitude": 13.586426,
+    "lineIds": [
+      "17374_900",
+      "17417_900",
+      "17418_900",
+      "17420_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900130013",
+    "name": "Pankow Kirche (Berlin)",
+    "latitude": 52.570767,
+    "longitude": 13.410134,
+    "lineIds": [
+      "17416_900",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900130017",
+    "name": "Pankower Str. (Berlin)",
+    "latitude": 52.585011,
+    "longitude": 13.428947,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100504",
+    "name": "Pappelplatz (Berlin)",
+    "latitude": 52.532269,
+    "longitude": 13.3946255,
+    "lineIds": [
+      "17301_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900134503",
+    "name": "Pasewalker Str./Blankenburger Weg (Berlin)",
+    "latitude": 52.58954,
+    "longitude": 13.430452,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110523",
+    "name": "Paul-Heyse-Str. (Berlin)",
+    "latitude": 52.529198,
+    "longitude": 13.44464,
+    "lineIds": [
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194522",
+    "name": "Pietschkerstr. (Berlin)",
+    "latitude": 52.450654,
+    "longitude": 13.508219,
+    "lineIds": [
+      "17427_900",
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120019",
+    "name": "Platz der Vereinten Nationen (Berlin)",
+    "latitude": 52.523254,
+    "longitude": 13.433056,
+    "lineIds": [
+      "17301_900",
+      "17459_900",
+      "17460_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900152006",
+    "name": "Prendener Str. (Berlin)",
+    "latitude": 52.568634,
+    "longitude": 13.520673,
+    "lineIds": [
+      "17444_900",
+      "17452_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110017",
+    "name": "Prenzlauer Allee/Danziger Str. (Berlin)",
+    "latitude": 52.539179,
+    "longitude": 13.424244,
+    "lineIds": [
+      "17301_900",
+      "17440_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110506",
+    "name": "Prenzlauer Allee/Metzer Str. (Berlin)",
+    "latitude": 52.531032,
+    "longitude": 13.419383,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110013",
+    "name": "Prenzlauer Allee/Ostseestr. (Berlin)",
+    "latitude": 52.551222,
+    "longitude": 13.430178,
+    "lineIds": [
+      "17301_900",
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900141507",
+    "name": "Prenzlauer Promenade/Am Steinberg (Berlin)",
+    "latitude": 52.556662,
+    "longitude": 13.429913,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180517",
+    "name": "Pritstabelstr. (Berlin)",
+    "latitude": 52.430533,
+    "longitude": 13.583917,
+    "lineIds": [
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120538",
+    "name": "Proskauer Str. (Berlin)",
+    "latitude": 52.519878,
+    "longitude": 13.463273000000001,
+    "lineIds": [
+      "17352_900",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180024",
+    "name": "Rathaus Köpenick (Berlin)",
+    "latitude": 52.445326,
+    "longitude": 13.574225,
+    "lineIds": [
+      "17374_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160544",
+    "name": "Rathaus Lichtenberg (Berlin)",
+    "latitude": 52.515911,
+    "longitude": 13.479075,
+    "lineIds": [
+      "17324_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181503",
+    "name": "Rathenaustr./HTW (Berlin)",
+    "latitude": 52.458839499999996,
+    "longitude": 13.5256835,
+    "lineIds": [
+      "28260_900",
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110502",
+    "name": "Raumerstr. (Berlin)",
+    "latitude": 52.543988,
+    "longitude": 13.4155135,
+    "lineIds": [
+      "17301_900",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900186503",
+    "name": "Regattastr./Sportpromenade (Berlin)",
+    "latitude": 52.410616,
+    "longitude": 13.597694,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900186504",
+    "name": "Regattatribünen (Berlin)",
+    "latitude": 52.411597,
+    "longitude": 13.587568,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150008",
+    "name": "Rhinstr./Gärtnerstr. (Berlin)",
+    "latitude": 52.546395,
+    "longitude": 13.510528,
+    "lineIds": [
+      "17338_900",
+      "17374_900",
+      "17404_900",
+      "17444_900",
+      "17452_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150005",
+    "name": "Rhinstr./Plauener Str. (Berlin)",
+    "latitude": 52.539553,
+    "longitude": 13.514199,
+    "lineIds": [
+      "17338_900",
+      "17374_900",
+      "17404_900",
+      "17444_900",
+      "17452_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900186501",
+    "name": "Richtershorn (Berlin)",
+    "latitude": 52.401006,
+    "longitude": 13.624883,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900175013",
+    "name": "Riesaer Str. (Berlin)",
+    "latitude": 52.529404,
+    "longitude": 13.624183,
+    "lineIds": [
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900175014",
+    "name": "Riesaer Str./Louis-Lewin-Str. (Berlin)",
+    "latitude": 52.530327,
+    "longitude": 13.622389,
+    "lineIds": [
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160010",
+    "name": "Roederplatz (Berlin)",
+    "latitude": 52.527235,
+    "longitude": 13.479564,
+    "lineIds": [
+      "17301_900",
+      "17324_900",
+      "17338_900",
+      "24641_900",
+      "17440_900",
+      "17442_900",
+      "17452_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176533",
+    "name": "Roseggerstr. (Berlin)",
+    "latitude": 52.480296,
+    "longitude": 13.601057,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900134501",
+    "name": "Rosenthaler Str. (Berlin)",
+    "latitude": 52.595862,
+    "longitude": 13.433093,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180522",
+    "name": "Rosenweg (Berlin)",
+    "latitude": 52.4348405,
+    "longitude": 13.5714495,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900141503",
+    "name": "Rothenbachstr. (Berlin)",
+    "latitude": 52.570115,
+    "longitude": 13.437721499999999,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181002",
+    "name": "Rummelsburger Str./Edisonstr. (Berlin)",
+    "latitude": 52.468136,
+    "longitude": 13.513717,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:12064:900320245",
+    "name": "Rüdersdorf, Berghof",
+    "latitude": 52.473561000000004,
+    "longitude": 13.7611355,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12064:900320244",
+    "name": "Rüdersdorf, Berghof-Weiche",
+    "latitude": 52.4733385,
+    "longitude": 13.7521515,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12064:900320248",
+    "name": "Rüdersdorf, Breitscheidstr.",
+    "latitude": 52.468562,
+    "longitude": 13.792461,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12064:900320249",
+    "name": "Rüdersdorf, Marienstr.",
+    "latitude": 52.468329,
+    "longitude": 13.8014875,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12064:900320246",
+    "name": "Rüdersdorf, Marktplatz",
+    "latitude": 52.47167949999999,
+    "longitude": 13.7815635,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12064:900320247",
+    "name": "Rüdersdorf, Museumspark",
+    "latitude": 52.473098,
+    "longitude": 13.7765325,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12064:900320241",
+    "name": "Rüdersdorf, Rathaus",
+    "latitude": 52.470286,
+    "longitude": 13.7867175,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12064:900320240",
+    "name": "Rüdersdorf, Torellplatz",
+    "latitude": 52.4741595,
+    "longitude": 13.771204000000001,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:11000:900152508",
+    "name": "Rüdickenstr. (Berlin)",
+    "latitude": 52.559849,
+    "longitude": 13.510518,
+    "lineIds": [
+      "17444_900",
+      "17452_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900193002",
+    "name": "S Adlershof (Berlin)",
+    "latitude": 52.435102,
+    "longitude": 13.540553,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10227_109",
+      "10155_109",
+      "11536_109",
+      "10229_109",
+      "10167_109",
+      "28411_109",
+      "22240_109",
+      "28412_109",
+      "10170_109",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170004",
+    "name": "S Ahrensfelde Bhf (Berlin)",
+    "latitude": 52.571339,
+    "longitude": 13.565649,
+    "lineIds": [
+      "10162_109",
+      "10163_109",
+      "16814_109",
+      "16815_109"
+    ]
+  },
+  {
+    "id": "de:11000:900085105",
+    "name": "S Alt-Reinickendorf (Berlin)",
+    "latitude": 52.577939,
+    "longitude": 13.350747,
+    "lineIds": [
+      "10145_109",
+      "21649_109"
+    ]
+  },
+  {
+    "id": "de:11000:900195510",
+    "name": "S Altglienicke (Berlin)",
+    "latitude": 52.407791,
+    "longitude": 13.559602,
+    "lineIds": [
+      "22240_109",
+      "28412_109",
+      "10170_109",
+      "10271_109"
+    ]
+  },
+  {
+    "id": "de:11000:900012101",
+    "name": "S Anhalter Bahnhof (Berlin)",
+    "latitude": 52.504538,
+    "longitude": 13.382077,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109",
+      "10143_109",
+      "10144_109",
+      "10278_109",
+      "10279_109",
+      "10145_109",
+      "21649_109",
+      "18949_109"
+    ]
+  },
+  {
+    "id": "de:11000:900068301",
+    "name": "S Attilastr. (Berlin)",
+    "latitude": 52.447298,
+    "longitude": 13.361177,
+    "lineIds": [
+      "10143_109",
+      "10144_109",
+      "10278_109"
+    ]
+  },
+  {
+    "id": "de:12054:900230000",
+    "name": "S Babelsberg",
+    "latitude": 52.391449,
+    "longitude": 13.094634,
+    "lineIds": [
+      "10162_109",
+      "10163_109"
+    ]
+  },
+  {
+    "id": "de:11000:900191001",
+    "name": "S Baumschulenweg (Berlin)",
+    "latitude": 52.467581,
+    "longitude": 13.489505,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10226_109",
+      "10227_109",
+      "10155_109",
+      "11536_109",
+      "10229_109",
+      "10167_109",
+      "22240_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900003102",
+    "name": "S Bellevue (Berlin)",
+    "latitude": 52.519951,
+    "longitude": 13.347098,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:12065:900200011",
+    "name": "S Bergfelde",
+    "latitude": 52.669695,
+    "longitude": 13.321455,
+    "lineIds": [
+      "10141_109",
+      "10167_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:12060:900350160",
+    "name": "S Bernau Bhf",
+    "latitude": 52.675687,
+    "longitude": 13.592695,
+    "lineIds": [
+      "10143_109"
+    ]
+  },
+  {
+    "id": "de:12060:900350161",
+    "name": "S Bernau-Friedenstal",
+    "latitude": 52.668369,
+    "longitude": 13.564597,
+    "lineIds": [
+      "10143_109"
+    ]
+  },
+  {
+    "id": "de:11000:900160002",
+    "name": "S Betriebsbahnhof Rummelsburg (Berlin)",
+    "latitude": 52.493599,
+    "longitude": 13.498152,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10150_109"
+    ]
+  },
+  {
+    "id": "de:11000:900020202",
+    "name": "S Beusselstr. (Berlin)",
+    "latitude": 52.534314,
+    "longitude": 13.328703,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109"
+    ]
+  },
+  {
+    "id": "de:11000:900171001",
+    "name": "S Biesdorf (Berlin)",
+    "latitude": 52.513059,
+    "longitude": 13.555035,
+    "lineIds": [
+      "10157_109",
+      "10158_109",
+      "10159_109",
+      "10160_109",
+      "24864_109"
+    ]
+  },
+  {
+    "id": "de:12064:900320026",
+    "name": "S Birkenstein",
+    "latitude": 52.515794,
+    "longitude": 13.649774,
+    "lineIds": [
+      "10157_109",
+      "10158_109",
+      "10160_109"
+    ]
+  },
+  {
+    "id": "de:12065:900200008",
+    "name": "S Birkenwerder Bhf",
+    "latitude": 52.688576,
+    "longitude": 13.288846,
+    "lineIds": [
+      "10141_109",
+      "10277_109",
+      "10167_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900142001",
+    "name": "S Blankenburg (Berlin)",
+    "latitude": 52.591069,
+    "longitude": 13.442972,
+    "lineIds": [
+      "10141_109",
+      "10143_109",
+      "10144_109",
+      "18949_109",
+      "10167_109",
+      "22240_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:12072:900245027",
+    "name": "S Blankenfelde (TF) Bhf",
+    "latitude": 52.337628,
+    "longitude": 13.415908,
+    "lineIds": [
+      "10143_109",
+      "10278_109"
+    ]
+  },
+  {
+    "id": "de:12065:900200007",
+    "name": "S Borgsdorf",
+    "latitude": 52.714917,
+    "longitude": 13.276787,
+    "lineIds": [
+      "10141_109",
+      "10167_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900110011",
+    "name": "S Bornholmer Str. (Berlin)",
+    "latitude": 52.554763,
+    "longitude": 13.397841,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "10143_109",
+      "10144_109",
+      "10279_109",
+      "10145_109",
+      "21649_109",
+      "18949_109",
+      "10225_109",
+      "10167_109",
+      "22240_109",
+      "28412_109",
+      "17416_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900066102",
+    "name": "S Botanischer Garten (Berlin)",
+    "latitude": 52.447552,
+    "longitude": 13.306041,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109"
+    ]
+  },
+  {
+    "id": "de:11000:900135001",
+    "name": "S Buch (Berlin)",
+    "latitude": 52.636297,
+    "longitude": 13.492369,
+    "lineIds": [
+      "10143_109",
+      "10144_109"
+    ]
+  },
+  {
+    "id": "de:11000:900072101",
+    "name": "S Buckower Chaussee (Berlin)",
+    "latitude": 52.411035,
+    "longitude": 13.38247,
+    "lineIds": [
+      "10143_109",
+      "10144_109",
+      "10278_109"
+    ]
+  },
+  {
+    "id": "de:11000:900024101",
+    "name": "S Charlottenburg Bhf (Berlin)",
+    "latitude": 52.504732,
+    "longitude": 13.303862,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "18950_109",
+      "10223_109",
+      "10225_109",
+      "10226_109",
+      "21799_109",
+      "11536_109",
+      "10229_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900096405",
+    "name": "S Eichborndamm (Berlin)",
+    "latitude": 52.577545,
+    "longitude": 13.315583,
+    "lineIds": [
+      "10145_109",
+      "21649_109"
+    ]
+  },
+  {
+    "id": "de:12061:900260004",
+    "name": "S Eichwalde",
+    "latitude": 52.3716,
+    "longitude": 13.614914,
+    "lineIds": [
+      "10155_109",
+      "11537_109",
+      "10167_109",
+      "28411_109"
+    ]
+  },
+  {
+    "id": "de:12067:900310004",
+    "name": "S Erkner Bhf",
+    "latitude": 52.426957,
+    "longitude": 13.752661,
+    "lineIds": [
+      "10148_109",
+      "10149_109"
+    ]
+  },
+  {
+    "id": "de:11000:900063101",
+    "name": "S Feuerbachstr. (Berlin)",
+    "latitude": 52.463578,
+    "longitude": 13.332412,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109"
+    ]
+  },
+  {
+    "id": "de:12064:900320006",
+    "name": "S Fredersdorf",
+    "latitude": 52.5263,
+    "longitude": 13.761071,
+    "lineIds": [
+      "10157_109",
+      "10160_109"
+    ]
+  },
+  {
+    "id": "de:11000:900060101",
+    "name": "S Friedenau (Berlin)",
+    "latitude": 52.470002,
+    "longitude": 13.340598,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109"
+    ]
+  },
+  {
+    "id": "de:11000:900171002",
+    "name": "S Friedrichsfelde Ost (Berlin)",
+    "latitude": 52.513531,
+    "longitude": 13.519078,
+    "lineIds": [
+      "10157_109",
+      "10158_109",
+      "10159_109",
+      "10160_109",
+      "24864_109",
+      "10162_109",
+      "10163_109",
+      "16815_109",
+      "10165_109",
+      "10166_109",
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182002",
+    "name": "S Friedrichshagen (Berlin)",
+    "latitude": 52.45719,
+    "longitude": 13.625478,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "17417_900",
+      "17418_900",
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:11000:900092201",
+    "name": "S Frohnau (Berlin)",
+    "latitude": 52.632958,
+    "longitude": 13.289564,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "22240_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900152002",
+    "name": "S Gehrenseestr. (Berlin)",
+    "latitude": 52.555736,
+    "longitude": 13.525653,
+    "lineIds": [
+      "10165_109",
+      "10166_109"
+    ]
+  },
+  {
+    "id": "de:11000:900110003",
+    "name": "S Greifswalder Str. (Berlin)",
+    "latitude": 52.540724,
+    "longitude": 13.438356,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10167_109",
+      "22240_109",
+      "28412_109",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:12054:900230003",
+    "name": "S Griebnitzsee Bhf",
+    "latitude": 52.393945,
+    "longitude": 13.128808,
+    "lineIds": [
+      "10162_109",
+      "10163_109"
+    ]
+  },
+  {
+    "id": "de:11000:900048101",
+    "name": "S Grunewald (Berlin)",
+    "latitude": 52.48868,
+    "longitude": 13.261944,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109"
+    ]
+  },
+  {
+    "id": "de:11000:900186001",
+    "name": "S Grünau (Berlin)",
+    "latitude": 52.412714,
+    "longitude": 13.574018,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10227_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109",
+      "10167_109",
+      "28411_109",
+      "22240_109",
+      "28412_109",
+      "10170_109",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900196001",
+    "name": "S Grünbergallee (Berlin)",
+    "latitude": 52.399539,
+    "longitude": 13.543222,
+    "lineIds": [
+      "22240_109",
+      "28412_109",
+      "10170_109",
+      "10271_109"
+    ]
+  },
+  {
+    "id": "de:11000:900100002",
+    "name": "S Hackescher Markt (Berlin)",
+    "latitude": 52.522607,
+    "longitude": 13.402358,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109",
+      "17301_900",
+      "17438_900",
+      "17452_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900040101",
+    "name": "S Halensee (Berlin)",
+    "latitude": 52.496698,
+    "longitude": 13.290151,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109"
+    ]
+  },
+  {
+    "id": "de:11000:900026105",
+    "name": "S Heerstr. (Berlin)",
+    "latitude": 52.508499,
+    "longitude": 13.258442,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:12064:900320003",
+    "name": "S Hegermühle",
+    "latitude": 52.549039,
+    "longitude": 13.86679,
+    "lineIds": [
+      "10157_109",
+      "10160_109"
+    ]
+  },
+  {
+    "id": "de:11000:900091203",
+    "name": "S Heiligensee (Berlin)",
+    "latitude": 52.625148,
+    "longitude": 13.228667,
+    "lineIds": [
+      "10145_109",
+      "21649_109"
+    ]
+  },
+  {
+    "id": "de:12065:900200000",
+    "name": "S Hennigsdorf Bhf",
+    "latitude": 52.637867,
+    "longitude": 13.205874,
+    "lineIds": [
+      "10145_109",
+      "21649_109"
+    ]
+  },
+  {
+    "id": "de:11000:900093201",
+    "name": "S Hermsdorf (Berlin)",
+    "latitude": 52.618165,
+    "longitude": 13.306804,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "22240_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900182001",
+    "name": "S Hirschgarten (Berlin)",
+    "latitude": 52.457856,
+    "longitude": 13.601462,
+    "lineIds": [
+      "10148_109",
+      "10149_109"
+    ]
+  },
+  {
+    "id": "de:12065:900200009",
+    "name": "S Hohen Neuendorf",
+    "latitude": 52.669496,
+    "longitude": 13.287166,
+    "lineIds": [
+      "10141_109",
+      "10277_109",
+      "10167_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900152001",
+    "name": "S Hohenschönhausen Bhf (Berlin)",
+    "latitude": 52.565637,
+    "longitude": 13.51232,
+    "lineIds": [
+      "10165_109",
+      "10166_109",
+      "17444_900",
+      "17452_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900044101",
+    "name": "S Hohenzollerndamm (Berlin)",
+    "latitude": 52.488337,
+    "longitude": 13.300714,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109"
+    ]
+  },
+  {
+    "id": "de:12064:900320008",
+    "name": "S Hoppegarten",
+    "latitude": 52.517831,
+    "longitude": 13.673748,
+    "lineIds": [
+      "10157_109",
+      "10158_109",
+      "10160_109"
+    ]
+  },
+  {
+    "id": "de:11000:900008101",
+    "name": "S Humboldthain (Berlin)",
+    "latitude": 52.544738,
+    "longitude": 13.37873,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "10143_109",
+      "10144_109",
+      "10279_109",
+      "10145_109",
+      "18949_109"
+    ]
+  },
+  {
+    "id": "de:11000:900193001",
+    "name": "S Johannisthal (Berlin)",
+    "latitude": 52.446695,
+    "longitude": 13.524028,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10227_109",
+      "10155_109",
+      "11536_109",
+      "10229_109",
+      "10167_109",
+      "28411_109",
+      "22240_109",
+      "28412_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900057104",
+    "name": "S Julius-Leber-Brücke (Berlin)",
+    "latitude": 52.486263,
+    "longitude": 13.360775,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109",
+      "10144_109"
+    ]
+  },
+  {
+    "id": "de:11000:900162001",
+    "name": "S Karlshorst (Berlin)",
+    "latitude": 52.481111,
+    "longitude": 13.525857,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10150_109"
+    ]
+  },
+  {
+    "id": "de:11000:900162501",
+    "name": "S Karlshorst (Berlin)",
+    "latitude": 52.4812505,
+    "longitude": 13.525256500000001,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900143001",
+    "name": "S Karow Bhf (Berlin)",
+    "latitude": 52.615755,
+    "longitude": 13.470081,
+    "lineIds": [
+      "10143_109",
+      "10144_109"
+    ]
+  },
+  {
+    "id": "de:11000:900175002",
+    "name": "S Kaulsdorf (Berlin)",
+    "latitude": 52.512122,
+    "longitude": 13.58903,
+    "lineIds": [
+      "10157_109",
+      "10158_109",
+      "10159_109",
+      "10160_109",
+      "24864_109"
+    ]
+  },
+  {
+    "id": "de:11000:900077155",
+    "name": "S Köllnische Heide (Berlin)",
+    "latitude": 52.469168,
+    "longitude": 13.467529,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10226_109",
+      "10227_109",
+      "10155_109",
+      "11536_109",
+      "10229_109"
+    ]
+  },
+  {
+    "id": "de:12061:900260001",
+    "name": "S Königs Wusterhausen Bhf",
+    "latitude": 52.296963,
+    "longitude": 13.631305,
+    "lineIds": [
+      "10155_109",
+      "11537_109"
+    ]
+  },
+  {
+    "id": "de:11000:900180001",
+    "name": "S Köpenick (Berlin)",
+    "latitude": 52.458692,
+    "longitude": 13.579543,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180701",
+    "name": "S Köpenick (Berlin) [Tram Stellingdamm]",
+    "latitude": 52.459005,
+    "longitude": 13.581157,
+    "lineIds": [
+      "17417_900",
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180301",
+    "name": "S Köpenick/Elcknerplatz (Berlin)",
+    "latitude": 52.457979,
+    "longitude": 13.578883,
+    "lineIds": [
+      "17374_900",
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110004",
+    "name": "S Landsberger Allee (Berlin)",
+    "latitude": 52.528772,
+    "longitude": 13.455944,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10167_109",
+      "22240_109",
+      "28412_109",
+      "17301_900",
+      "17338_900",
+      "24641_900",
+      "17440_900",
+      "17459_900",
+      "17460_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900067221",
+    "name": "S Lankwitz (Berlin)",
+    "latitude": 52.439034,
+    "longitude": 13.34276,
+    "lineIds": [
+      "10145_109",
+      "21649_109",
+      "18949_109"
+    ]
+  },
+  {
+    "id": "de:12065:900200006",
+    "name": "S Lehnitz",
+    "latitude": 52.741393,
+    "longitude": 13.26328,
+    "lineIds": [
+      "10141_109",
+      "10167_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900074201",
+    "name": "S Lichtenrade (Berlin)",
+    "latitude": 52.38668,
+    "longitude": 13.396642,
+    "lineIds": [
+      "10143_109",
+      "10144_109",
+      "10278_109"
+    ]
+  },
+  {
+    "id": "de:11000:900064301",
+    "name": "S Lichterfelde Ost Bhf (Berlin)",
+    "latitude": 52.429294,
+    "longitude": 13.327749,
+    "lineIds": [
+      "10145_109",
+      "21649_109",
+      "18949_109"
+    ]
+  },
+  {
+    "id": "de:11000:900064201",
+    "name": "S Lichterfelde Süd (Berlin)",
+    "latitude": 52.409956,
+    "longitude": 13.308662,
+    "lineIds": [
+      "10145_109",
+      "21649_109",
+      "18949_109"
+    ]
+  },
+  {
+    "id": "de:11000:900066101",
+    "name": "S Lichterfelde West (Berlin)",
+    "latitude": 52.443512,
+    "longitude": 13.294141,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109"
+    ]
+  },
+  {
+    "id": "de:12072:900245028",
+    "name": "S Mahlow",
+    "latitude": 52.360164,
+    "longitude": 13.408775,
+    "lineIds": [
+      "10143_109",
+      "10278_109"
+    ]
+  },
+  {
+    "id": "de:11000:900176702",
+    "name": "S Mahlsdorf (Berlin) [Treskowstr.]",
+    "latitude": 52.511188000000004,
+    "longitude": 13.611086,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176001",
+    "name": "S Mahlsdorf Bhf (Berlin)",
+    "latitude": 52.512041,
+    "longitude": 13.610693,
+    "lineIds": [
+      "10157_109",
+      "10158_109",
+      "10159_109",
+      "10160_109",
+      "24864_109"
+    ]
+  },
+  {
+    "id": "de:11000:900073101",
+    "name": "S Marienfelde (Berlin)",
+    "latitude": 52.423816,
+    "longitude": 13.375022,
+    "lineIds": [
+      "10143_109",
+      "10144_109",
+      "10278_109"
+    ]
+  },
+  {
+    "id": "de:11000:900170001",
+    "name": "S Marzahn (Berlin)",
+    "latitude": 52.543272,
+    "longitude": 13.541524,
+    "lineIds": [
+      "10162_109",
+      "10163_109",
+      "16814_109",
+      "16815_109"
+    ]
+  },
+  {
+    "id": "de:11000:900170701",
+    "name": "S Marzahn (Berlin)",
+    "latitude": 52.5423785,
+    "longitude": 13.542265,
+    "lineIds": [
+      "17324_900",
+      "17374_900",
+      "17419_900",
+      "17444_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170003",
+    "name": "S Mehrower Allee (Berlin)",
+    "latitude": 52.557816,
+    "longitude": 13.554392,
+    "lineIds": [
+      "10162_109",
+      "10163_109",
+      "16814_109",
+      "16815_109"
+    ]
+  },
+  {
+    "id": "de:11000:900024106",
+    "name": "S Messe Nord/ZOB (Berlin)",
+    "latitude": 52.506622,
+    "longitude": 13.282884,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "10155_109",
+      "11537_109"
+    ]
+  },
+  {
+    "id": "de:11000:900025423",
+    "name": "S Messe Süd (Berlin)",
+    "latitude": 52.498771,
+    "longitude": 13.27045,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900050301",
+    "name": "S Mexikoplatz (Berlin)",
+    "latitude": 52.437166,
+    "longitude": 13.23206,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109"
+    ]
+  },
+  {
+    "id": "de:12065:900200013",
+    "name": "S Mühlenbeck-Mönchmühle",
+    "latitude": 52.654321,
+    "longitude": 13.388063,
+    "lineIds": [
+      "10141_109",
+      "10167_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:12064:900320007",
+    "name": "S Neuenhagen (b Berlin)",
+    "latitude": 52.520614,
+    "longitude": 13.700053,
+    "lineIds": [
+      "10157_109",
+      "10160_109"
+    ]
+  },
+  {
+    "id": "de:11000:900052201",
+    "name": "S Nikolassee (Berlin)",
+    "latitude": 52.43121,
+    "longitude": 13.193298,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109",
+      "10162_109",
+      "10163_109"
+    ]
+  },
+  {
+    "id": "de:11000:900007104",
+    "name": "S Nordbahnhof (Berlin)",
+    "latitude": 52.531672,
+    "longitude": 13.388798,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "10143_109",
+      "10144_109",
+      "10279_109",
+      "10145_109",
+      "18949_109",
+      "17301_900",
+      "17440_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160003",
+    "name": "S Nöldnerplatz (Berlin)",
+    "latitude": 52.503444,
+    "longitude": 13.484297,
+    "lineIds": [
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10159_109",
+      "10160_109",
+      "24864_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10166_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900192002",
+    "name": "S Oberspree (Berlin)",
+    "latitude": 52.452269,
+    "longitude": 13.538461,
+    "lineIds": [
+      "10229_109"
+    ]
+  },
+  {
+    "id": "de:11000:900025321",
+    "name": "S Olympiastadion (Berlin)",
+    "latitude": 52.511135,
+    "longitude": 13.241111,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "18950_109",
+      "10157_109",
+      "10158_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:12065:900200005",
+    "name": "S Oranienburg Bhf",
+    "latitude": 52.754487,
+    "longitude": 13.248311,
+    "lineIds": [
+      "10141_109",
+      "10167_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900100007",
+    "name": "S Oranienburger Str. (Berlin)",
+    "latitude": 52.525161,
+    "longitude": 13.393068,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "10143_109",
+      "10144_109",
+      "10279_109",
+      "10145_109",
+      "18949_109",
+      "17301_900",
+      "17438_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900064256",
+    "name": "S Osdorfer Str. (Berlin)",
+    "latitude": 52.418373,
+    "longitude": 13.313865,
+    "lineIds": [
+      "10145_109",
+      "21649_109",
+      "18949_109"
+    ]
+  },
+  {
+    "id": "de:11000:900120005",
+    "name": "S Ostbahnhof (Berlin)",
+    "latitude": 52.510331,
+    "longitude": 13.435086,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10150_109",
+      "10157_109",
+      "10158_109",
+      "10159_109",
+      "24864_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10166_109",
+      "22240_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900120003",
+    "name": "S Ostkreuz Bhf (Berlin)",
+    "latitude": 52.503113,
+    "longitude": 13.469221,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10150_109",
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10157_109",
+      "10158_109",
+      "10159_109",
+      "10160_109",
+      "24864_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10166_109",
+      "10167_109",
+      "22240_109",
+      "28412_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900130001",
+    "name": "S Pankow-Heinersdorf (Berlin)",
+    "latitude": 52.577603,
+    "longitude": 13.42909,
+    "lineIds": [
+      "10141_109",
+      "10143_109",
+      "10144_109",
+      "18949_109",
+      "10167_109",
+      "22240_109",
+      "28412_109",
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:12064:900320005",
+    "name": "S Petershagen Nord",
+    "latitude": 52.528989,
+    "longitude": 13.790696,
+    "lineIds": [
+      "10157_109",
+      "10160_109"
+    ]
+  },
+  {
+    "id": "de:11000:900025424",
+    "name": "S Pichelsberg (Berlin)",
+    "latitude": 52.509927,
+    "longitude": 13.228253,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900191002",
+    "name": "S Plänterwald (Berlin)",
+    "latitude": 52.478722,
+    "longitude": 13.474029,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10155_109",
+      "10229_109",
+      "10167_109",
+      "22240_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900170005",
+    "name": "S Poelchaustr. (Berlin)",
+    "latitude": 52.534751,
+    "longitude": 13.536008,
+    "lineIds": [
+      "10162_109",
+      "10163_109",
+      "16815_109"
+    ]
+  },
+  {
+    "id": "de:12054:900230999",
+    "name": "S Potsdam Hauptbahnhof",
+    "latitude": 52.391447,
+    "longitude": 13.067157,
+    "lineIds": [
+      "10162_109",
+      "10163_109"
+    ]
+  },
+  {
+    "id": "de:11000:900110002",
+    "name": "S Prenzlauer Allee (Berlin)",
+    "latitude": 52.544802,
+    "longitude": 13.427419,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10167_109",
+      "22240_109",
+      "28412_109",
+      "17301_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900058102",
+    "name": "S Priesterweg (Berlin)",
+    "latitude": 52.459239,
+    "longitude": 13.356028,
+    "lineIds": [
+      "10143_109",
+      "10144_109",
+      "10278_109",
+      "10279_109",
+      "10145_109",
+      "21649_109",
+      "18949_109"
+    ]
+  },
+  {
+    "id": "de:11000:900183001",
+    "name": "S Rahnsdorf (Berlin)",
+    "latitude": 52.451442,
+    "longitude": 13.691582,
+    "lineIds": [
+      "10148_109",
+      "10149_109"
+    ]
+  },
+  {
+    "id": "de:11000:900183007",
+    "name": "S Rahnsdorf (Berlin)",
+    "latitude": 52.451518,
+    "longitude": 13.692944,
+    "lineIds": [
+      "20439_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170002",
+    "name": "S Raoul-Wallenberg-Str. (Berlin)",
+    "latitude": 52.550749,
+    "longitude": 13.548392,
+    "lineIds": [
+      "10162_109",
+      "10163_109",
+      "16814_109",
+      "16815_109"
+    ]
+  },
+  {
+    "id": "de:11000:900160001",
+    "name": "S Rummelsburg (Berlin)",
+    "latitude": 52.501213,
+    "longitude": 13.478699,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10150_109",
+      "17352_900",
+      "28260_900"
+    ]
+  },
+  {
+    "id": "de:12060:900350162",
+    "name": "S Röntgental",
+    "latitude": 52.649221,
+    "longitude": 13.514525,
+    "lineIds": [
+      "10143_109"
+    ]
+  },
+  {
+    "id": "de:11000:900024203",
+    "name": "S Savignyplatz (Berlin)",
+    "latitude": 52.505223,
+    "longitude": 13.319003,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900074202",
+    "name": "S Schichauweg (Berlin)",
+    "latitude": 52.39856,
+    "longitude": 13.389437,
+    "lineIds": [
+      "10143_109",
+      "10144_109",
+      "10278_109"
+    ]
+  },
+  {
+    "id": "de:11000:900050355",
+    "name": "S Schlachtensee (Berlin)",
+    "latitude": 52.439806,
+    "longitude": 13.213986,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109"
+    ]
+  },
+  {
+    "id": "de:11000:900091205",
+    "name": "S Schulzendorf (Berlin)",
+    "latitude": 52.613513,
+    "longitude": 13.24563,
+    "lineIds": [
+      "10145_109",
+      "21649_109"
+    ]
+  },
+  {
+    "id": "de:11000:900054104",
+    "name": "S Schöneberg (Berlin)",
+    "latitude": 52.479811,
+    "longitude": 13.352848,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109",
+      "10144_109",
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109"
+    ]
+  },
+  {
+    "id": "de:12061:900260005",
+    "name": "S Schönefeld (bei Berlin)",
+    "latitude": 52.390906,
+    "longitude": 13.513046,
+    "lineIds": [
+      "22240_109",
+      "28412_109",
+      "10170_109",
+      "10271_109"
+    ]
+  },
+  {
+    "id": "de:11000:900192001",
+    "name": "S Schöneweide Bhf (Berlin)",
+    "latitude": 52.454611,
+    "longitude": 13.510149,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10226_109",
+      "10227_109",
+      "10155_109",
+      "11536_109",
+      "10229_109",
+      "10167_109",
+      "28411_109",
+      "22240_109",
+      "28412_109",
+      "10170_109",
+      "17352_900",
+      "17427_900",
+      "17404_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194006",
+    "name": "S Schöneweide/Sterndamm (Berlin)",
+    "latitude": 52.452621,
+    "longitude": 13.508668,
+    "lineIds": [
+      "17352_900",
+      "17427_900",
+      "17404_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:12065:900200012",
+    "name": "S Schönfließ",
+    "latitude": 52.664592,
+    "longitude": 13.340511,
+    "lineIds": [
+      "10141_109",
+      "10167_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900085201",
+    "name": "S Schönholz (Berlin)",
+    "latitude": 52.571901,
+    "longitude": 13.380242,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "10145_109",
+      "21649_109",
+      "18949_109",
+      "22240_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900077106",
+    "name": "S Sonnenallee (Berlin)",
+    "latitude": 52.473843,
+    "longitude": 13.455986,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10167_109"
+    ]
+  },
+  {
+    "id": "de:11000:900029101",
+    "name": "S Spandau Bhf (Berlin)",
+    "latitude": 52.534798,
+    "longitude": 13.197477,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900180003",
+    "name": "S Spindlersfeld (Berlin)",
+    "latitude": 52.445938,
+    "longitude": 13.562701,
+    "lineIds": [
+      "10229_109",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900171003",
+    "name": "S Springpfuhl (Berlin)",
+    "latitude": 52.526147,
+    "longitude": 13.53687,
+    "lineIds": [
+      "10162_109",
+      "10163_109",
+      "16815_109",
+      "10165_109",
+      "10166_109",
+      "17338_900",
+      "17374_900",
+      "17444_900",
+      "17459_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110012",
+    "name": "S Storkower Str. (Berlin)",
+    "latitude": 52.523868,
+    "longitude": 13.464704,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10167_109",
+      "22240_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:12064:900320004",
+    "name": "S Strausberg Bhf",
+    "latitude": 52.532364,
+    "longitude": 13.834793,
+    "lineIds": [
+      "10157_109",
+      "10160_109"
+    ]
+  },
+  {
+    "id": "de:12064:900320001",
+    "name": "S Strausberg Nord",
+    "latitude": 52.5907,
+    "longitude": 13.908894,
+    "lineIds": [
+      "10157_109",
+      "10160_109"
+    ]
+  },
+  {
+    "id": "de:12064:900320002",
+    "name": "S Strausberg Stadt",
+    "latitude": 52.577594,
+    "longitude": 13.888281,
+    "lineIds": [
+      "10157_109",
+      "10160_109"
+    ]
+  },
+  {
+    "id": "de:11000:900030202",
+    "name": "S Stresow (Berlin)",
+    "latitude": 52.53197,
+    "longitude": 13.209099,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900049202",
+    "name": "S Sundgauer Str. (Berlin)",
+    "latitude": 52.436187,
+    "longitude": 13.273501,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109"
+    ]
+  },
+  {
+    "id": "de:11000:900063452",
+    "name": "S Südende (Berlin)",
+    "latitude": 52.448899,
+    "longitude": 13.354077,
+    "lineIds": [
+      "10145_109",
+      "21649_109",
+      "18949_109"
+    ]
+  },
+  {
+    "id": "de:11000:900058101",
+    "name": "S Südkreuz Bhf (Berlin)",
+    "latitude": 52.475502,
+    "longitude": 13.365552,
+    "lineIds": [
+      "10143_109",
+      "10144_109",
+      "10278_109",
+      "10279_109",
+      "10145_109",
+      "21649_109",
+      "18949_109",
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109"
+    ]
+  },
+  {
+    "id": "de:11000:900089303",
+    "name": "S Tegel (Berlin)",
+    "latitude": 52.588805,
+    "longitude": 13.288695,
+    "lineIds": [
+      "10145_109",
+      "21649_109"
+    ]
+  },
+  {
+    "id": "de:12069:900220114",
+    "name": "S Teltow Stadt",
+    "latitude": 52.39718,
+    "longitude": 13.276028,
+    "lineIds": [
+      "10145_109",
+      "21649_109",
+      "18949_109"
+    ]
+  },
+  {
+    "id": "de:11000:900003103",
+    "name": "S Tiergarten (Berlin)",
+    "latitude": 52.513959,
+    "longitude": 13.336241,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900190001",
+    "name": "S Treptower Park (Berlin)",
+    "latitude": 52.493832,
+    "longitude": 13.461825,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "10229_109",
+      "10167_109",
+      "22240_109",
+      "28412_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:11000:900094101",
+    "name": "S Waidmannslust (Berlin)",
+    "latitude": 52.606814,
+    "longitude": 13.320549,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "18949_109",
+      "22240_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900053301",
+    "name": "S Wannsee Bhf (Berlin)",
+    "latitude": 52.421725,
+    "longitude": 13.178932,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109",
+      "10162_109",
+      "10163_109"
+    ]
+  },
+  {
+    "id": "de:11000:900120011",
+    "name": "S Warschauer Str. (Berlin)",
+    "latitude": 52.507983,
+    "longitude": 13.450546,
+    "lineIds": [
+      "17440_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900151001",
+    "name": "S Wartenberg (Berlin)",
+    "latitude": 52.573266,
+    "longitude": 13.504238,
+    "lineIds": [
+      "10165_109",
+      "10166_109"
+    ]
+  },
+  {
+    "id": "de:12061:900260080",
+    "name": "S Waßmannsdorf",
+    "latitude": 52.368283,
+    "longitude": 13.463432,
+    "lineIds": [
+      "22240_109",
+      "28412_109",
+      "10170_109",
+      "10271_109"
+    ]
+  },
+  {
+    "id": "de:11000:900026207",
+    "name": "S Westend (Berlin)",
+    "latitude": 52.51861,
+    "longitude": 13.284237,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "10155_109",
+      "11537_109"
+    ]
+  },
+  {
+    "id": "de:11000:900024102",
+    "name": "S Westkreuz (Berlin)",
+    "latitude": 52.501152,
+    "longitude": 13.283036,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "18950_109",
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "10155_109",
+      "11537_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109"
+    ]
+  },
+  {
+    "id": "de:12061:900260002",
+    "name": "S Wildau",
+    "latitude": 52.319205,
+    "longitude": 13.633587,
+    "lineIds": [
+      "10155_109",
+      "11537_109",
+      "10167_109",
+      "28411_109"
+    ]
+  },
+  {
+    "id": "de:11000:900183002",
+    "name": "S Wilhelmshagen (Berlin)",
+    "latitude": 52.439119,
+    "longitude": 13.721421,
+    "lineIds": [
+      "10148_109",
+      "10149_109"
+    ]
+  },
+  {
+    "id": "de:11000:900084101",
+    "name": "S Wilhelmsruh (Berlin)",
+    "latitude": 52.581389,
+    "longitude": 13.362938,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "18949_109",
+      "22240_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900130003",
+    "name": "S Wollankstr. (Berlin)",
+    "latitude": 52.564974,
+    "longitude": 13.39315,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "10145_109",
+      "21649_109",
+      "22240_109",
+      "28412_109"
+    ]
+  },
+  {
+    "id": "de:11000:900180002",
+    "name": "S Wuhlheide (Berlin)",
+    "latitude": 52.469058,
+    "longitude": 13.553527,
+    "lineIds": [
+      "10148_109",
+      "10149_109"
+    ]
+  },
+  {
+    "id": "de:11000:900049201",
+    "name": "S Zehlendorf (Berlin)",
+    "latitude": 52.431209,
+    "longitude": 13.259227,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109"
+    ]
+  },
+  {
+    "id": "de:12060:900350163",
+    "name": "S Zepernick",
+    "latitude": 52.659159,
+    "longitude": 13.533054,
+    "lineIds": [
+      "10143_109"
+    ]
+  },
+  {
+    "id": "de:12061:900260003",
+    "name": "S Zeuthen",
+    "latitude": 52.349351,
+    "longitude": 13.627012,
+    "lineIds": [
+      "10155_109",
+      "11537_109",
+      "10167_109",
+      "28411_109"
+    ]
+  },
+  {
+    "id": "de:11000:900100003",
+    "name": "S+U Alexanderplatz Bhf (Berlin)",
+    "latitude": 52.521512,
+    "longitude": 13.411267,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109",
+      "17514_400",
+      "17518_400",
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100024",
+    "name": "S+U Alexanderplatz Bhf/Dircksenstr. (Berlin)",
+    "latitude": 52.5214455,
+    "longitude": 13.411975,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100026",
+    "name": "S+U Alexanderplatz Bhf/Gontardstr. (Berlin)",
+    "latitude": 52.521035499999996,
+    "longitude": 13.411305500000001,
+    "lineIds": [
+      "17452_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100031",
+    "name": "S+U Alexanderplatz Bhf/Memhardstr. (Berlin)",
+    "latitude": 52.523098,
+    "longitude": 13.410964,
+    "lineIds": [
+      "17301_900",
+      "17446_900",
+      "17452_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900003201",
+    "name": "S+U Berlin Hauptbahnhof",
+    "latitude": 52.525605,
+    "longitude": 13.369075,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109",
+      "17518_400",
+      "17440_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100025",
+    "name": "S+U Brandenburger Tor (Berlin)",
+    "latitude": 52.516511,
+    "longitude": 13.381937,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "10143_109",
+      "10144_109",
+      "10279_109",
+      "10145_109",
+      "18949_109",
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900044202",
+    "name": "S+U Bundesplatz (Berlin)",
+    "latitude": 52.477667,
+    "longitude": 13.328626,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109",
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900120001",
+    "name": "S+U Frankfurter Allee (Berlin)",
+    "latitude": 52.51358,
+    "longitude": 13.475848,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10167_109",
+      "22240_109",
+      "28412_109",
+      "17518_400",
+      "17324_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100001",
+    "name": "S+U Friedrichstr. Bhf (Berlin)",
+    "latitude": 52.520304,
+    "longitude": 13.387253,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "10143_109",
+      "10144_109",
+      "10279_109",
+      "10145_109",
+      "18949_109",
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109",
+      "17521_400",
+      "17301_900",
+      "17438_900",
+      "17440_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900007102",
+    "name": "S+U Gesundbrunnen Bhf (Berlin)",
+    "latitude": 52.548637,
+    "longitude": 13.388372,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "10143_109",
+      "10144_109",
+      "10279_109",
+      "10145_109",
+      "18949_109",
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900045102",
+    "name": "S+U Heidelberger Platz (Berlin)",
+    "latitude": 52.480124,
+    "longitude": 13.31229,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109",
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900079221",
+    "name": "S+U Hermannstr. (Berlin)",
+    "latitude": 52.467181,
+    "longitude": 13.431704,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109",
+      "10167_109",
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900054105",
+    "name": "S+U Innsbrucker Platz (Berlin)",
+    "latitude": 52.4781,
+    "longitude": 13.342875,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109",
+      "17516_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100004",
+    "name": "S+U Jannowitzbrücke (Berlin)",
+    "latitude": 52.5155,
+    "longitude": 13.418027,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109",
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900020201",
+    "name": "S+U Jungfernheide Bhf (Berlin)",
+    "latitude": 52.530452,
+    "longitude": 13.300124,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900096458",
+    "name": "S+U Karl-Bonhoeffer-Nervenklinik (Berlin)",
+    "latitude": 52.578169,
+    "longitude": 13.332921,
+    "lineIds": [
+      "10145_109",
+      "21649_109",
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900160004",
+    "name": "S+U Lichtenberg Bhf (Berlin)",
+    "latitude": 52.510672,
+    "longitude": 13.498359,
+    "lineIds": [
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10159_109",
+      "10160_109",
+      "24864_109",
+      "10162_109",
+      "10163_109",
+      "16815_109",
+      "10165_109",
+      "10166_109",
+      "10170_109",
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900160021",
+    "name": "S+U Lichtenberg Bhf/Gudrunstr. (Berlin)",
+    "latitude": 52.512637,
+    "longitude": 13.500609,
+    "lineIds": [
+      "17352_900",
+      "17404_900",
+      "17424_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160020",
+    "name": "S+U Lichtenberg Bhf/Siegfriedstr. (Berlin)",
+    "latitude": 52.512427,
+    "longitude": 13.497838,
+    "lineIds": [
+      "17352_900",
+      "17404_900",
+      "17424_900"
+    ]
+  },
+  {
+    "id": "de:11000:900078201",
+    "name": "S+U Neukölln (Berlin)",
+    "latitude": 52.469282,
+    "longitude": 13.443692,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109",
+      "10167_109",
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900130002",
+    "name": "S+U Pankow (Berlin)",
+    "latitude": 52.567281,
+    "longitude": 13.412279,
+    "lineIds": [
+      "10141_109",
+      "10143_109",
+      "10144_109",
+      "18949_109",
+      "10167_109",
+      "22240_109",
+      "28412_109",
+      "17514_400",
+      "17416_900",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100020",
+    "name": "S+U Potsdamer Platz Bhf (Berlin)",
+    "latitude": 52.509358,
+    "longitude": 13.376547,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109",
+      "10143_109",
+      "10144_109",
+      "10278_109",
+      "10279_109",
+      "10145_109",
+      "18949_109",
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900029302",
+    "name": "S+U Rathaus Spandau (Berlin)",
+    "latitude": 52.535641,
+    "longitude": 13.199837,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900062202",
+    "name": "S+U Rathaus Steglitz (Berlin)",
+    "latitude": 52.455066,
+    "longitude": 13.322152,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109",
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900110001",
+    "name": "S+U Schönhauser Allee (Berlin)",
+    "latitude": 52.549336,
+    "longitude": 13.415138,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10167_109",
+      "22240_109",
+      "28412_109",
+      "17514_400",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900068201",
+    "name": "S+U Tempelhof (Berlin)",
+    "latitude": 52.470574,
+    "longitude": 13.3859,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "16929_109",
+      "10226_109",
+      "10227_109",
+      "10228_109",
+      "21799_109",
+      "10155_109",
+      "11536_109",
+      "11537_109",
+      "10229_109",
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900120004",
+    "name": "S+U Warschauer Str. (Berlin)",
+    "latitude": 52.505765,
+    "longitude": 13.449159,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10150_109",
+      "10157_109",
+      "10158_109",
+      "10159_109",
+      "10160_109",
+      "24864_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10166_109",
+      "22240_109",
+      "10170_109",
+      "17512_400",
+      "17513_400",
+      "17515_400",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900009104",
+    "name": "S+U Wedding (Berlin)",
+    "latitude": 52.542732,
+    "longitude": 13.36606,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900001201",
+    "name": "S+U Westhafen (Berlin)",
+    "latitude": 52.536183,
+    "longitude": 13.343837,
+    "lineIds": [
+      "10223_109",
+      "10224_109",
+      "10225_109",
+      "10226_109",
+      "10227_109",
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900096101",
+    "name": "S+U Wittenau (Berlin)",
+    "latitude": 52.596392,
+    "longitude": 13.335481,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10277_109",
+      "18949_109",
+      "22240_109",
+      "28412_109",
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900175001",
+    "name": "S+U Wuhletal (Berlin)",
+    "latitude": 52.512724,
+    "longitude": 13.574536,
+    "lineIds": [
+      "10157_109",
+      "10158_109",
+      "10159_109",
+      "10160_109",
+      "24864_109",
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900058103",
+    "name": "S+U Yorckstr. (Berlin)",
+    "latitude": 52.492358,
+    "longitude": 13.372212,
+    "lineIds": [
+      "10143_109",
+      "10144_109",
+      "10278_109",
+      "10279_109",
+      "10145_109",
+      "21649_109",
+      "18949_109",
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900057102",
+    "name": "S+U Yorckstr. (Großgörschenstr.) (Berlin)",
+    "latitude": 52.492345,
+    "longitude": 13.367986,
+    "lineIds": [
+      "10141_109",
+      "10142_109",
+      "10276_109",
+      "10277_109",
+      "10144_109"
+    ]
+  },
+  {
+    "id": "de:11000:900023201",
+    "name": "S+U Zoologischer Garten Bhf (Berlin)",
+    "latitude": 52.506921,
+    "longitude": 13.332707,
+    "lineIds": [
+      "10148_109",
+      "10149_109",
+      "10157_109",
+      "10158_109",
+      "10162_109",
+      "10163_109",
+      "10165_109",
+      "10170_109",
+      "17513_400",
+      "17514_400",
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900150510",
+    "name": "Sandinostr. (Berlin)",
+    "latitude": 52.5381815,
+    "longitude": 13.479821000000001,
+    "lineIds": [
+      "17338_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160516",
+    "name": "Schalkauer Str. (Berlin)",
+    "latitude": 52.535144,
+    "longitude": 13.50967,
+    "lineIds": [
+      "17324_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900185505",
+    "name": "Schappachstr. (Berlin)",
+    "latitude": 52.394618,
+    "longitude": 13.631876,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160538",
+    "name": "Scheffelstr. (Berlin)",
+    "latitude": 52.5205215,
+    "longitude": 13.4740355,
+    "lineIds": [
+      "17352_900",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131001",
+    "name": "Schillerstr. (Berlin)",
+    "latitude": 52.5922305,
+    "longitude": 13.4109125,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180007",
+    "name": "Schloßplatz Köpenick (Berlin)",
+    "latitude": 52.444313,
+    "longitude": 13.575187,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110505",
+    "name": "Schwedter Str. (Berlin)",
+    "latitude": 52.536871000000005,
+    "longitude": 13.407929,
+    "lineIds": [
+      "17301_900",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310021",
+    "name": "Schöneiche (bei Berlin), Dorfaue",
+    "latitude": 52.478754,
+    "longitude": 13.700374,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310513",
+    "name": "Schöneiche (bei Berlin), Dorfstr.",
+    "latitude": 52.478526,
+    "longitude": 13.69508,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310511",
+    "name": "Schöneiche (bei Berlin), Goethepark",
+    "latitude": 52.470818,
+    "longitude": 13.688343,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310515",
+    "name": "Schöneiche (bei Berlin), Grätzwalde",
+    "latitude": 52.474389,
+    "longitude": 13.712835,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310516",
+    "name": "Schöneiche (bei Berlin), Jägerstr.",
+    "latitude": 52.472655,
+    "longitude": 13.73051,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310517",
+    "name": "Schöneiche (bei Berlin), Kalkberger Str.",
+    "latitude": 52.472312,
+    "longitude": 13.737758,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310512",
+    "name": "Schöneiche (bei Berlin), Rahnsdorfer Str.",
+    "latitude": 52.474677,
+    "longitude": 13.692226,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310525",
+    "name": "Schöneiche (bei Berlin), Schillerstr.",
+    "latitude": 52.477494,
+    "longitude": 13.708805,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310510",
+    "name": "Schöneiche (bei Berlin), Waldstr.",
+    "latitude": 52.467641,
+    "longitude": 13.681758,
+    "lineIds": [
+      "12532_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110008",
+    "name": "Schönfließer Str. (Berlin)",
+    "latitude": 52.55404,
+    "longitude": 13.408728,
+    "lineIds": [
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900009105",
+    "name": "Seestr./Amrumer Str. (Berlin)",
+    "latitude": 52.546219,
+    "longitude": 13.344055,
+    "lineIds": [
+      "17416_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180516",
+    "name": "Segewaldweg (Berlin)",
+    "latitude": 52.4345115,
+    "longitude": 13.582817,
+    "lineIds": [
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160521",
+    "name": "Siegfriedstr./Josef-Orlopp-Str. (Berlin)",
+    "latitude": 52.5234265,
+    "longitude": 13.499593,
+    "lineIds": [
+      "17301_900",
+      "24641_900",
+      "17352_900",
+      "17374_900",
+      "17404_900",
+      "17440_900",
+      "17442_900",
+      "17452_900",
+      "17459_900",
+      "17424_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181007",
+    "name": "Siemensstr./Nalepastr. (Berlin)",
+    "latitude": 52.463589,
+    "longitude": 13.50915,
+    "lineIds": [
+      "28260_900",
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900",
+      "17425_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150511",
+    "name": "Simon-Bolivar-Str. (Berlin)",
+    "latitude": 52.539726,
+    "longitude": 13.484003000000001,
+    "lineIds": [
+      "17338_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120528",
+    "name": "Simplonstr. (Berlin)",
+    "latitude": 52.509914,
+    "longitude": 13.456418,
+    "lineIds": [
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100515",
+    "name": "Spandauer Str./Marienkirche (Berlin)",
+    "latitude": 52.520025,
+    "longitude": 13.404825,
+    "lineIds": [
+      "17301_900",
+      "17452_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181507",
+    "name": "Spindlersfelder Str. (Berlin)",
+    "latitude": 52.45593,
+    "longitude": 13.558744,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150519",
+    "name": "Sportforum (Berlin)",
+    "latitude": 52.538412,
+    "longitude": 13.471445,
+    "lineIds": [
+      "17301_900",
+      "17442_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182509",
+    "name": "Spreestr. (Berlin)",
+    "latitude": 52.44696,
+    "longitude": 13.615704,
+    "lineIds": [
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140517",
+    "name": "Stadion Buschallee/Hansastr. (Berlin)",
+    "latitude": 52.556906,
+    "longitude": 13.485984,
+    "lineIds": [
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110015",
+    "name": "Stahlheimer Str./Wisbyer Str. (Berlin)",
+    "latitude": 52.552668,
+    "longitude": 13.424239,
+    "lineIds": [
+      "17301_900",
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110501",
+    "name": "Stargarder Str. (Berlin)",
+    "latitude": 52.546490500000004,
+    "longitude": 13.41822,
+    "lineIds": [
+      "17301_900",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900162503",
+    "name": "Stechlinstr. (Berlin)",
+    "latitude": 52.482024,
+    "longitude": 13.516529,
+    "lineIds": [
+      "17352_900",
+      "28260_900"
+    ]
+  },
+  {
+    "id": "de:11000:900175011",
+    "name": "Stendaler Str./Quedlinburger Str. (Berlin)",
+    "latitude": 52.538956,
+    "longitude": 13.604518,
+    "lineIds": [
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900175514",
+    "name": "Stendaler Str./Zossener Str. (Berlin)",
+    "latitude": 52.543705,
+    "longitude": 13.603557,
+    "lineIds": [
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194007",
+    "name": "Sterndamm/Königsheideweg (Berlin)",
+    "latitude": 52.447138,
+    "longitude": 13.506791,
+    "lineIds": [
+      "17427_900",
+      "17417_900"
+    ]
+  },
+  {
+    "id": "de:11000:900130502",
+    "name": "Stiftsweg (Berlin)",
+    "latitude": 52.572406,
+    "longitude": 13.415114,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900186502",
+    "name": "Strandbad Grünau (Berlin)",
+    "latitude": 52.408701,
+    "longitude": 13.604356,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900183514",
+    "name": "Strandbad Müggelsee (Berlin)",
+    "latitude": 52.445791,
+    "longitude": 13.677674,
+    "lineIds": [
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120515",
+    "name": "Straßmannstr. (Berlin)",
+    "latitude": 52.522741,
+    "longitude": 13.450145,
+    "lineIds": [
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900162502",
+    "name": "Stühlinger Str. (Berlin)",
+    "latitude": 52.4802315,
+    "longitude": 13.520609,
+    "lineIds": [
+      "17352_900",
+      "28260_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140518",
+    "name": "Sulzfelder Str. (Berlin)",
+    "latitude": 52.553311,
+    "longitude": 13.475769,
+    "lineIds": [
+      "17301_900",
+      "17374_900",
+      "17404_900",
+      "17442_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110515",
+    "name": "Thomas-Mann-Str. (Berlin)",
+    "latitude": 52.543374,
+    "longitude": 13.441436,
+    "lineIds": [
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900141502",
+    "name": "Tino-Schwierzina-Str. (Berlin)",
+    "latitude": 52.562265,
+    "longitude": 13.434844,
+    "lineIds": [
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900162008",
+    "name": "Traberweg (Berlin)",
+    "latitude": 52.477311,
+    "longitude": 13.523756,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120540",
+    "name": "Traveplatz (Berlin)",
+    "latitude": 52.512041499999995,
+    "longitude": 13.4697285,
+    "lineIds": [
+      "17324_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900162004",
+    "name": "Treskowallee/HTW (Berlin)",
+    "latitude": 52.492821,
+    "longitude": 13.526595,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131505",
+    "name": "Tschaikowskistr. (Berlin)",
+    "latitude": 52.5759835,
+    "longitude": 13.3986725,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900023302",
+    "name": "U Adenauerplatz (Berlin)",
+    "latitude": 52.500086,
+    "longitude": 13.307348,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900011102",
+    "name": "U Afrikanische Str. (Berlin)",
+    "latitude": 52.560862,
+    "longitude": 13.333502,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100005",
+    "name": "U Alexanderplatz (Berlin) [Tram]",
+    "latitude": 52.522131,
+    "longitude": 13.414652,
+    "lineIds": [
+      "17452_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900070301",
+    "name": "U Alt-Mariendorf (Berlin)",
+    "latitude": 52.438609,
+    "longitude": 13.38792,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900068202",
+    "name": "U Alt-Tempelhof (Berlin)",
+    "latitude": 52.46593,
+    "longitude": 13.385796,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900029301",
+    "name": "U Altstadt Spandau (Berlin)",
+    "latitude": 52.539161,
+    "longitude": 13.206763,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900009101",
+    "name": "U Amrumer Str. (Berlin)",
+    "latitude": 52.542202,
+    "longitude": 13.349534,
+    "lineIds": [
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100010",
+    "name": "U Anton-Wilhelm-Amo-Str. (Berlin)",
+    "latitude": 52.511519,
+    "longitude": 13.383798,
+    "lineIds": [
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900023202",
+    "name": "U Augsburger Str. (Berlin)",
+    "latitude": 52.500442,
+    "longitude": 13.336461,
+    "lineIds": [
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900055102",
+    "name": "U Bayerischer Platz (Berlin)",
+    "latitude": 52.488654,
+    "longitude": 13.340237,
+    "lineIds": [
+      "17516_400",
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900044201",
+    "name": "U Berliner Str. (Berlin)",
+    "latitude": 52.487047,
+    "longitude": 13.331355,
+    "lineIds": [
+      "17523_400",
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900007110",
+    "name": "U Bernauer Str. (Berlin)",
+    "latitude": 52.537994,
+    "longitude": 13.396231,
+    "lineIds": [
+      "17525_400",
+      "17301_900",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900171005",
+    "name": "U Biesdorf-Süd (Berlin)",
+    "latitude": 52.499517,
+    "longitude": 13.547326,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900002201",
+    "name": "U Birkenstr. (Berlin)",
+    "latitude": 52.532269,
+    "longitude": 13.341418,
+    "lineIds": [
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900024201",
+    "name": "U Bismarckstr. (Berlin)",
+    "latitude": 52.511543,
+    "longitude": 13.305335,
+    "lineIds": [
+      "17513_400",
+      "17514_400",
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900080201",
+    "name": "U Blaschkoallee (Berlin)",
+    "latitude": 52.452743,
+    "longitude": 13.448976,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900041102",
+    "name": "U Blissestr. (Berlin)",
+    "latitude": 52.486478,
+    "longitude": 13.320545,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900079202",
+    "name": "U Boddinstr. (Berlin)",
+    "latitude": 52.479745,
+    "longitude": 13.425782,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900051202",
+    "name": "U Breitenbachplatz (Berlin)",
+    "latitude": 52.467342,
+    "longitude": 13.309276,
+    "lineIds": [
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900080402",
+    "name": "U Britz-Süd (Berlin)",
+    "latitude": 52.437076,
+    "longitude": 13.447668,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900003254",
+    "name": "U Bundestag (Berlin)",
+    "latitude": 52.52011,
+    "longitude": 13.372952,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900056104",
+    "name": "U Bülowstr. (Berlin)",
+    "latitude": 52.497627,
+    "longitude": 13.362456,
+    "lineIds": [
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900175006",
+    "name": "U Cottbusser Platz (Berlin)",
+    "latitude": 52.533963,
+    "longitude": 13.596894,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900051303",
+    "name": "U Dahlem-Dorf (Berlin)",
+    "latitude": 52.457695,
+    "longitude": 13.290011,
+    "lineIds": [
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900022201",
+    "name": "U Deutsche Oper (Berlin)",
+    "latitude": 52.511827,
+    "longitude": 13.30942,
+    "lineIds": [
+      "17513_400",
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900110006",
+    "name": "U Eberswalder Str. (Berlin)",
+    "latitude": 52.541085,
+    "longitude": 13.41216,
+    "lineIds": [
+      "17514_400",
+      "17301_900",
+      "17438_900",
+      "17440_900",
+      "17446_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110009",
+    "name": "U Eberswalder Str./Pappelallee (Berlin)",
+    "latitude": 52.5415315,
+    "longitude": 13.41283,
+    "lineIds": [
+      "17301_900",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900054103",
+    "name": "U Eisenacher Str. (Berlin)",
+    "latitude": 52.489477,
+    "longitude": 13.350284,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900171006",
+    "name": "U Elsterwerdaer Platz (Berlin)",
+    "latitude": 52.505133,
+    "longitude": 13.560646,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900023101",
+    "name": "U Ernst-Reuter-Platz (Berlin)",
+    "latitude": 52.511582,
+    "longitude": 13.322581,
+    "lineIds": [
+      "17513_400",
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900041101",
+    "name": "U Fehrbelliner Platz (Berlin)",
+    "latitude": 52.490365,
+    "longitude": 13.314405,
+    "lineIds": [
+      "17515_400",
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900120008",
+    "name": "U Frankfurter Tor (Berlin)",
+    "latitude": 52.515772,
+    "longitude": 13.454085,
+    "lineIds": [
+      "17518_400",
+      "17352_900",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900085202",
+    "name": "U Franz-Neumann-Platz (Berlin)",
+    "latitude": 52.563854,
+    "longitude": 13.364283,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900051201",
+    "name": "U Freie Universität (Thielplatz) (Berlin)",
+    "latitude": 52.451,
+    "longitude": 13.281651,
+    "lineIds": [
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900061102",
+    "name": "U Friedrich-Wilhelm-Platz (Berlin)",
+    "latitude": 52.471439,
+    "longitude": 13.328676,
+    "lineIds": [
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900161512",
+    "name": "U Friedrichsfelde (Berlin)",
+    "latitude": 52.505464,
+    "longitude": 13.513544,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900017103",
+    "name": "U Gleisdreieck (Berlin)",
+    "latitude": 52.499587,
+    "longitude": 13.374293,
+    "lineIds": [
+      "17512_400",
+      "17513_400",
+      "17514_400",
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900016101",
+    "name": "U Gneisenaustr. (Berlin)",
+    "latitude": 52.491252,
+    "longitude": 13.395382,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900080202",
+    "name": "U Grenzallee (Berlin)",
+    "latitude": 52.463516,
+    "longitude": 13.444828,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900014101",
+    "name": "U Görlitzer Bahnhof (Berlin)",
+    "latitude": 52.499145,
+    "longitude": 13.427145,
+    "lineIds": [
+      "17512_400",
+      "17513_400",
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900043201",
+    "name": "U Güntzelstr. (Berlin)",
+    "latitude": 52.491992,
+    "longitude": 13.33121,
+    "lineIds": [
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900018102",
+    "name": "U Halemweg (Berlin)",
+    "latitude": 52.536703,
+    "longitude": 13.286578,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900012103",
+    "name": "U Hallesches Tor (Berlin)",
+    "latitude": 52.497774,
+    "longitude": 13.39176,
+    "lineIds": [
+      "17512_400",
+      "17513_400",
+      "17515_400",
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900003101",
+    "name": "U Hansaplatz (Berlin)",
+    "latitude": 52.518111,
+    "longitude": 13.342165,
+    "lineIds": [
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900034102",
+    "name": "U Haselhorst (Berlin)",
+    "latitude": 52.538687,
+    "longitude": 13.231946,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100012",
+    "name": "U Hausvogteiplatz (Berlin)",
+    "latitude": 52.513361,
+    "longitude": 13.395346,
+    "lineIds": [
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100008",
+    "name": "U Heinrich-Heine-Str. (Berlin)",
+    "latitude": 52.510558,
+    "longitude": 13.416124,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900175007",
+    "name": "U Hellersdorf (Berlin)",
+    "latitude": 52.536328,
+    "longitude": 13.605323,
+    "lineIds": [
+      "17518_400",
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900078101",
+    "name": "U Hermannplatz (Berlin)",
+    "latitude": 52.486957,
+    "longitude": 13.42472,
+    "lineIds": [
+      "17523_400",
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900043101",
+    "name": "U Hohenzollernplatz (Berlin)",
+    "latitude": 52.493833,
+    "longitude": 13.324051,
+    "lineIds": [
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900175010",
+    "name": "U Hönow (Berlin)",
+    "latitude": 52.538105,
+    "longitude": 13.634541,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900018101",
+    "name": "U Jakob-Kaiser-Platz (Berlin)",
+    "latitude": 52.536985,
+    "longitude": 13.293661,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900082202",
+    "name": "U Johannisthaler Chaussee (Berlin)",
+    "latitude": 52.429253,
+    "longitude": 13.453851,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900026202",
+    "name": "U Kaiserdamm (Berlin)",
+    "latitude": 52.509985,
+    "longitude": 13.281695,
+    "lineIds": [
+      "17513_400",
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900068302",
+    "name": "U Kaiserin-Augusta-Str. (Berlin)",
+    "latitude": 52.460512,
+    "longitude": 13.384905,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900078103",
+    "name": "U Karl-Marx-Str. (Berlin)",
+    "latitude": 52.476429,
+    "longitude": 13.439805,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900175004",
+    "name": "U Kaulsdorf-Nord (Berlin)",
+    "latitude": 52.521436,
+    "longitude": 13.588763,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900175005",
+    "name": "U Kienberg (Gärten der Welt) (Berlin)",
+    "latitude": 52.52849,
+    "longitude": 13.59055,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900054102",
+    "name": "U Kleistpark (Berlin)",
+    "latitude": 52.490686,
+    "longitude": 13.360543,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100015",
+    "name": "U Klosterstr. (Berlin)",
+    "latitude": 52.517229,
+    "longitude": 13.412455,
+    "lineIds": [
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900012102",
+    "name": "U Kochstr. (Checkpoint Charlie) (Berlin)",
+    "latitude": 52.506673,
+    "longitude": 13.390863,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900041201",
+    "name": "U Konstanzer Str. (Berlin)",
+    "latitude": 52.493567,
+    "longitude": 13.310084,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900013102",
+    "name": "U Kottbusser Tor (Berlin)",
+    "latitude": 52.499047,
+    "longitude": 13.417748,
+    "lineIds": [
+      "17512_400",
+      "17513_400",
+      "17515_400",
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900050201",
+    "name": "U Krumme Lanke (Berlin)",
+    "latitude": 52.442615,
+    "longitude": 13.24036,
+    "lineIds": [
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900023203",
+    "name": "U Kurfürstendamm (Berlin)",
+    "latitude": 52.503763,
+    "longitude": 13.331419,
+    "lineIds": [
+      "17512_400",
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900005201",
+    "name": "U Kurfürstenstr. (Berlin)",
+    "latitude": 52.499778,
+    "longitude": 13.362857,
+    "lineIds": [
+      "17512_400",
+      "17513_400",
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900086102",
+    "name": "U Kurt-Schumacher-Platz (Berlin)",
+    "latitude": 52.563483,
+    "longitude": 13.327328,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900079201",
+    "name": "U Leinestr. (Berlin)",
+    "latitude": 52.472874,
+    "longitude": 13.4284,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900009102",
+    "name": "U Leopoldplatz (Berlin)",
+    "latitude": 52.546493,
+    "longitude": 13.359395,
+    "lineIds": [
+      "17521_400",
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900086160",
+    "name": "U Lindauer Allee (Berlin)",
+    "latitude": 52.575386,
+    "longitude": 13.339036,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900082201",
+    "name": "U Lipschitzallee (Berlin)",
+    "latitude": 52.424645,
+    "longitude": 13.463109,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900175015",
+    "name": "U Louis-Lewin-Str. (Berlin)",
+    "latitude": 52.539135,
+    "longitude": 13.619707,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900160005",
+    "name": "U Magdalenenstr. (Berlin)",
+    "latitude": 52.512457,
+    "longitude": 13.487492,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900017101",
+    "name": "U Mehringdamm (Berlin)",
+    "latitude": 52.493567,
+    "longitude": 13.38814,
+    "lineIds": [
+      "17521_400",
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900005252",
+    "name": "U Mendelssohn-Bartholdy-Park (Berlin)",
+    "latitude": 52.503185,
+    "longitude": 13.374679,
+    "lineIds": [
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900019204",
+    "name": "U Mierendorffplatz (Berlin)",
+    "latitude": 52.525978,
+    "longitude": 13.305715,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900013101",
+    "name": "U Moritzplatz (Berlin)",
+    "latitude": 52.503739,
+    "longitude": 13.410947,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100537",
+    "name": "U Museumsinsel (Berlin)",
+    "latitude": 52.518086,
+    "longitude": 13.400394,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100014",
+    "name": "U Märkisches Museum (Berlin)",
+    "latitude": 52.512007,
+    "longitude": 13.408767,
+    "lineIds": [
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900017104",
+    "name": "U Möckernbrücke (Berlin)",
+    "latitude": 52.498944,
+    "longitude": 13.383256,
+    "lineIds": [
+      "17512_400",
+      "17513_400",
+      "17515_400",
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100009",
+    "name": "U Naturkundemuseum (Berlin)",
+    "latitude": 52.531254,
+    "longitude": 13.382415,
+    "lineIds": [
+      "17521_400",
+      "17440_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100710",
+    "name": "U Naturkundemuseum (Berlin)",
+    "latitude": 52.530201,
+    "longitude": 13.3835105,
+    "lineIds": [
+      "17301_900",
+      "17440_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900009201",
+    "name": "U Nauener Platz (Berlin)",
+    "latitude": 52.551524,
+    "longitude": 13.367365,
+    "lineIds": [
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900026101",
+    "name": "U Neu-Westend (Berlin)",
+    "latitude": 52.516409,
+    "longitude": 13.25991,
+    "lineIds": [
+      "17513_400",
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900056102",
+    "name": "U Nollendorfplatz (Berlin)",
+    "latitude": 52.499644,
+    "longitude": 13.353825,
+    "lineIds": [
+      "17512_400",
+      "17513_400",
+      "17514_400",
+      "17515_400",
+      "17516_400"
+    ]
+  },
+  {
+    "id": "de:11000:900025203",
+    "name": "U Olympia-Stadion (Berlin)",
+    "latitude": 52.517048,
+    "longitude": 13.2505,
+    "lineIds": [
+      "17513_400",
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900050282",
+    "name": "U Onkel Toms Hütte (Berlin)",
+    "latitude": 52.450146,
+    "longitude": 13.254016,
+    "lineIds": [
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100019",
+    "name": "U Oranienburger Tor (Berlin)",
+    "latitude": 52.525163,
+    "longitude": 13.387587,
+    "lineIds": [
+      "17521_400",
+      "17301_900",
+      "17438_900",
+      "17440_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900051301",
+    "name": "U Oskar-Helene-Heim (Berlin)",
+    "latitude": 52.450419,
+    "longitude": 13.26891,
+    "lineIds": [
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900009202",
+    "name": "U Osloer Str. (Berlin)",
+    "latitude": 52.557107,
+    "longitude": 13.373279,
+    "lineIds": [
+      "17525_400",
+      "17526_400",
+      "17416_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900009203",
+    "name": "U Pankstr. (Berlin)",
+    "latitude": 52.55228,
+    "longitude": 13.381437,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900085104",
+    "name": "U Paracelsus-Bad (Berlin)",
+    "latitude": 52.574432,
+    "longitude": 13.347301,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900068101",
+    "name": "U Paradestr. (Berlin)",
+    "latitude": 52.478142,
+    "longitude": 13.386725,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900080401",
+    "name": "U Parchimer Allee (Berlin)",
+    "latitude": 52.445299,
+    "longitude": 13.449967,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900034101",
+    "name": "U Paulsternstr. (Berlin)",
+    "latitude": 52.538127,
+    "longitude": 13.248065,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900017102",
+    "name": "U Platz der Luftbrücke (Berlin)",
+    "latitude": 52.48487,
+    "longitude": 13.385927,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900051302",
+    "name": "U Podbielskiallee (Berlin)",
+    "latitude": 52.464172,
+    "longitude": 13.295203,
+    "lineIds": [
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900013103",
+    "name": "U Prinzenstr. (Berlin)",
+    "latitude": 52.498327,
+    "longitude": 13.406551,
+    "lineIds": [
+      "17512_400",
+      "17513_400",
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900078102",
+    "name": "U Rathaus Neukölln (Berlin)",
+    "latitude": 52.481146,
+    "longitude": 13.434807,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900096410",
+    "name": "U Rathaus Reinickendorf (Berlin)",
+    "latitude": 52.588218,
+    "longitude": 13.325568,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900054101",
+    "name": "U Rathaus Schöneberg (Berlin)",
+    "latitude": 52.483332,
+    "longitude": 13.341989,
+    "lineIds": [
+      "17516_400"
+    ]
+  },
+  {
+    "id": "de:11000:900011101",
+    "name": "U Rehberge (Berlin)",
+    "latitude": 52.55667,
+    "longitude": 13.341013,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900008102",
+    "name": "U Reinickendorfer Str. (Berlin)",
+    "latitude": 52.539887,
+    "longitude": 13.370382,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900085203",
+    "name": "U Residenzstr. (Berlin)",
+    "latitude": 52.570843,
+    "longitude": 13.360635,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900022202",
+    "name": "U Richard-Wagner-Platz (Berlin)",
+    "latitude": 52.517154,
+    "longitude": 13.307221,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900036101",
+    "name": "U Rohrdamm (Berlin)",
+    "latitude": 52.536904,
+    "longitude": 13.26287,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100016",
+    "name": "U Rosa-Luxemburg-Platz (Berlin)",
+    "latitude": 52.528191,
+    "longitude": 13.410405,
+    "lineIds": [
+      "17514_400",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100023",
+    "name": "U Rosenthaler Platz (Berlin)",
+    "latitude": 52.529781,
+    "longitude": 13.401393,
+    "lineIds": [
+      "17525_400",
+      "17438_900",
+      "17459_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100045",
+    "name": "U Rotes Rathaus (Berlin)",
+    "latitude": 52.518462,
+    "longitude": 13.407061,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900083201",
+    "name": "U Rudow (Berlin)",
+    "latitude": 52.415714,
+    "longitude": 13.496527,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900025202",
+    "name": "U Ruhleben (Berlin)",
+    "latitude": 52.525587,
+    "longitude": 13.241902,
+    "lineIds": [
+      "17513_400",
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900045101",
+    "name": "U Rüdesheimer Platz (Berlin)",
+    "latitude": 52.472462,
+    "longitude": 13.314387,
+    "lineIds": [
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900120009",
+    "name": "U Samariterstr. (Berlin)",
+    "latitude": 52.514662,
+    "longitude": 13.465347,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100017",
+    "name": "U Schillingstr. (Berlin)",
+    "latitude": 52.520316,
+    "longitude": 13.421895,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900014102",
+    "name": "U Schlesisches Tor (Berlin)",
+    "latitude": 52.501147,
+    "longitude": 13.441791,
+    "lineIds": [
+      "17512_400",
+      "17513_400",
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900062203",
+    "name": "U Schloßstr. (Berlin)",
+    "latitude": 52.461183,
+    "longitude": 13.324836,
+    "lineIds": [
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100501",
+    "name": "U Schwartzkopffstr. (Berlin)",
+    "latitude": 52.535397,
+    "longitude": 13.377033,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900016201",
+    "name": "U Schönleinstr. (Berlin)",
+    "latitude": 52.493341,
+    "longitude": 13.421912,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900009103",
+    "name": "U Seestr. (Berlin)",
+    "latitude": 52.55047,
+    "longitude": 13.351969,
+    "lineIds": [
+      "17521_400",
+      "17416_900",
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110005",
+    "name": "U Senefelderplatz (Berlin)",
+    "latitude": 52.532622,
+    "longitude": 13.412625,
+    "lineIds": [
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900035101",
+    "name": "U Siemensdamm (Berlin)",
+    "latitude": 52.537026,
+    "longitude": 13.273323,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900022101",
+    "name": "U Sophie-Charlotte-Platz (Berlin)",
+    "latitude": 52.51097,
+    "longitude": 13.297463,
+    "lineIds": [
+      "17513_400",
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900042101",
+    "name": "U Spichernstr. (Berlin)",
+    "latitude": 52.496582,
+    "longitude": 13.330613,
+    "lineIds": [
+      "17515_400",
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100013",
+    "name": "U Spittelmarkt (Berlin)",
+    "latitude": 52.511411,
+    "longitude": 13.402031,
+    "lineIds": [
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100011",
+    "name": "U Stadtmitte (Berlin)",
+    "latitude": 52.511495,
+    "longitude": 13.389719,
+    "lineIds": [
+      "17514_400",
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900120006",
+    "name": "U Strausberger Platz (Berlin)",
+    "latitude": 52.518025,
+    "longitude": 13.432208,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900016202",
+    "name": "U Südstern (Berlin)",
+    "latitude": 52.489219,
+    "longitude": 13.407685,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900026201",
+    "name": "U Theodor-Heuss-Platz (Berlin)",
+    "latitude": 52.509798,
+    "longitude": 13.272977,
+    "lineIds": [
+      "17513_400",
+      "17514_400"
+    ]
+  },
+  {
+    "id": "de:11000:900161002",
+    "name": "U Tierpark (Berlin)",
+    "latitude": 52.497236,
+    "longitude": 13.523626,
+    "lineIds": [
+      "17518_400",
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900003104",
+    "name": "U Turmstr. (Berlin)",
+    "latitude": 52.525938,
+    "longitude": 13.341417,
+    "lineIds": [
+      "17526_400",
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900023301",
+    "name": "U Uhlandstr. (Berlin)",
+    "latitude": 52.502742,
+    "longitude": 13.326233,
+    "lineIds": [
+      "17512_400"
+    ]
+  },
+  {
+    "id": "de:11000:900069271",
+    "name": "U Ullsteinstr. (Berlin)",
+    "latitude": 52.45345,
+    "longitude": 13.384771,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100513",
+    "name": "U Unter den Linden (Berlin)",
+    "latitude": 52.516996,
+    "longitude": 13.388876,
+    "lineIds": [
+      "17518_400",
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900055101",
+    "name": "U Viktoria-Luise-Platz (Berlin)",
+    "latitude": 52.496169,
+    "longitude": 13.343264,
+    "lineIds": [
+      "17516_400"
+    ]
+  },
+  {
+    "id": "de:11000:900130011",
+    "name": "U Vinetastr. (Berlin)",
+    "latitude": 52.559517,
+    "longitude": 13.41377,
+    "lineIds": [
+      "17514_400",
+      "17416_900",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900007103",
+    "name": "U Voltastr. (Berlin)",
+    "latitude": 52.54193,
+    "longitude": 13.393157,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900061101",
+    "name": "U Walther-Schreiber-Platz (Berlin)",
+    "latitude": 52.464998,
+    "longitude": 13.328409,
+    "lineIds": [
+      "17526_400"
+    ]
+  },
+  {
+    "id": "de:11000:900120025",
+    "name": "U Weberwiese (Berlin)",
+    "latitude": 52.516848,
+    "longitude": 13.443278,
+    "lineIds": [
+      "17518_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100051",
+    "name": "U Weinmeisterstr. (Berlin)",
+    "latitude": 52.525376,
+    "longitude": 13.405305,
+    "lineIds": [
+      "17525_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100080",
+    "name": "U Weinmeisterstr./Gipsstr. (Berlin)",
+    "latitude": 52.525309,
+    "longitude": 13.403544,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900070101",
+    "name": "U Westphalweg (Berlin)",
+    "latitude": 52.445646,
+    "longitude": 13.385744,
+    "lineIds": [
+      "17521_400"
+    ]
+  },
+  {
+    "id": "de:11000:900024202",
+    "name": "U Wilmersdorfer Str. (Berlin)",
+    "latitude": 52.506415,
+    "longitude": 13.306774,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900056101",
+    "name": "U Wittenbergplatz (Berlin)",
+    "latitude": 52.502109,
+    "longitude": 13.342561,
+    "lineIds": [
+      "17512_400",
+      "17513_400",
+      "17514_400",
+      "17515_400"
+    ]
+  },
+  {
+    "id": "de:11000:900083102",
+    "name": "U Wutzkyallee (Berlin)",
+    "latitude": 52.423152,
+    "longitude": 13.47482,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900033101",
+    "name": "U Zitadelle (Berlin)",
+    "latitude": 52.537522,
+    "longitude": 13.217625,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900083101",
+    "name": "U Zwickauer Damm (Berlin)",
+    "latitude": 52.423032,
+    "longitude": 13.484371,
+    "lineIds": [
+      "17523_400"
+    ]
+  },
+  {
+    "id": "de:11000:900100540",
+    "name": "Universitätsstr. (Berlin)",
+    "latitude": 52.519069,
+    "longitude": 13.391509,
+    "lineIds": [
+      "17301_900",
+      "17438_900",
+      "17440_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180525",
+    "name": "Unter den Birken (Berlin)",
+    "latitude": 52.469864,
+    "longitude": 13.588876,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120017",
+    "name": "Virchowstr. (Berlin)",
+    "latitude": 52.525175,
+    "longitude": 13.442166,
+    "lineIds": [
+      "17338_900",
+      "24641_900",
+      "17440_900",
+      "17459_900",
+      "17460_900",
+      "17424_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181501",
+    "name": "Volkspark Wuhlheide (Berlin)",
+    "latitude": 52.471058,
+    "longitude": 13.517144,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17404_900",
+      "17419_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180523",
+    "name": "Vollkropfgraben (Berlin)",
+    "latitude": 52.438764500000005,
+    "longitude": 13.5714695,
+    "lineIds": [
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900131519",
+    "name": "Waldemarstr. (Berlin)",
+    "latitude": 52.590831,
+    "longitude": 13.4062305,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900194504",
+    "name": "Walther-Nernst-Str. (Berlin)",
+    "latitude": 52.432269,
+    "longitude": 13.53522,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900193506",
+    "name": "Wassermannstr. (Berlin)",
+    "latitude": 52.4394005,
+    "longitude": 13.552192999999999,
+    "lineIds": [
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17420_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182508",
+    "name": "Wassersportzentrum (Berlin)",
+    "latitude": 52.448605,
+    "longitude": 13.610381,
+    "lineIds": [
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900182511",
+    "name": "Wasserwerk Friedrichshagen (Berlin)",
+    "latitude": 52.455994,
+    "longitude": 13.643017,
+    "lineIds": [
+      "17418_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181505",
+    "name": "Weiskopffstr. (Berlin)",
+    "latitude": 52.457614,
+    "longitude": 13.539762,
+    "lineIds": [
+      "28260_900",
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900"
+    ]
+  },
+  {
+    "id": "de:11000:900140006",
+    "name": "Weißer See (Berlin)",
+    "latitude": 52.551886,
+    "longitude": 13.465482,
+    "lineIds": [
+      "17301_900",
+      "17416_900",
+      "17438_900",
+      "17442_900",
+      "17446_900",
+      "17452_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180015",
+    "name": "Wendenschloß (Berlin)",
+    "latitude": 52.417308,
+    "longitude": 13.589351,
+    "lineIds": [
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  },
+  {
+    "id": "de:11000:900150512",
+    "name": "Werneuchener Str. (Berlin)",
+    "latitude": 52.5425545,
+    "longitude": 13.4895385,
+    "lineIds": [
+      "17338_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900132500",
+    "name": "Wiesenwinkel (Berlin)",
+    "latitude": 52.594432,
+    "longitude": 13.38098,
+    "lineIds": [
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181001",
+    "name": "Wilhelminenhofstr./Edisonstr. (Berlin)",
+    "latitude": 52.46262933333333,
+    "longitude": 13.514065666666667,
+    "lineIds": [
+      "17352_900",
+      "28260_900",
+      "17374_900",
+      "17427_900",
+      "17404_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900181701",
+    "name": "Wilhelminenhofstr./Edisonstr. (Berlin)",
+    "latitude": 52.461789499999995,
+    "longitude": 13.5138385,
+    "lineIds": [
+      "17352_900",
+      "17427_900",
+      "17404_900",
+      "17417_900",
+      "17418_900",
+      "17419_900",
+      "17421_900",
+      "17425_900",
+      "17444_900"
+    ]
+  },
+  {
+    "id": "de:11000:900176008",
+    "name": "Wilhelmsmühlenweg (Berlin)",
+    "latitude": 52.508207,
+    "longitude": 13.612966,
+    "lineIds": [
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900110512",
+    "name": "Winsstr. (Berlin)",
+    "latitude": 52.537614,
+    "longitude": 13.428807,
+    "lineIds": [
+      "17440_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120518",
+    "name": "Wismarplatz (Berlin)",
+    "latitude": 52.5110625,
+    "longitude": 13.463394000000001,
+    "lineIds": [
+      "17352_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310543",
+    "name": "Woltersdorf (LOS), Berliner Platz",
+    "latitude": 52.454287,
+    "longitude": 13.738656,
+    "lineIds": [
+      "20439_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310508",
+    "name": "Woltersdorf (LOS), Blumenstr.",
+    "latitude": 52.449435,
+    "longitude": 13.759474,
+    "lineIds": [
+      "20439_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310505",
+    "name": "Woltersdorf (LOS), Eichendamm",
+    "latitude": 52.455724,
+    "longitude": 13.730966,
+    "lineIds": [
+      "20439_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310507",
+    "name": "Woltersdorf (LOS), Fasanenstr.",
+    "latitude": 52.453067,
+    "longitude": 13.744284,
+    "lineIds": [
+      "20439_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310504",
+    "name": "Woltersdorf (LOS), Goethestr.",
+    "latitude": 52.455597,
+    "longitude": 13.7264,
+    "lineIds": [
+      "20439_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310509",
+    "name": "Woltersdorf (LOS), Krankenhaus",
+    "latitude": 52.447383,
+    "longitude": 13.761572,
+    "lineIds": [
+      "20439_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310506",
+    "name": "Woltersdorf (LOS), Lerchenstr.",
+    "latitude": 52.455173,
+    "longitude": 13.734585,
+    "lineIds": [
+      "20439_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310017",
+    "name": "Woltersdorf (LOS), Schleuse",
+    "latitude": 52.443336,
+    "longitude": 13.764027,
+    "lineIds": [
+      "20439_900"
+    ]
+  },
+  {
+    "id": "de:12067:900310016",
+    "name": "Woltersdorf (LOS), Thälmannplatz",
+    "latitude": 52.450648,
+    "longitude": 13.752462,
+    "lineIds": [
+      "20439_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180526",
+    "name": "Wongrowitzer Steig (Berlin)",
+    "latitude": 52.46707,
+    "longitude": 13.585493,
+    "lineIds": [
+      "17374_900",
+      "17427_900",
+      "17417_900",
+      "17419_900",
+      "17420_900"
+    ]
+  },
+  {
+    "id": "de:11000:900170531",
+    "name": "Wuhletalstr. (Berlin)",
+    "latitude": 52.557714,
+    "longitude": 13.568235,
+    "lineIds": [
+      "17324_900",
+      "17444_900",
+      "17463_900"
+    ]
+  },
+  {
+    "id": "de:11000:900120529",
+    "name": "Wühlischstr./Gärtnerstr. (Berlin)",
+    "latitude": 52.5089895,
+    "longitude": 13.4599795,
+    "lineIds": [
+      "17442_900"
+    ]
+  },
+  {
+    "id": "de:11000:900130522",
+    "name": "Würtzstr. (Berlin)",
+    "latitude": 52.5761255,
+    "longitude": 13.4245245,
+    "lineIds": [
+      "17416_900"
+    ]
+  },
+  {
+    "id": "de:11000:900160513",
+    "name": "Zechliner Str. (Berlin)",
+    "latitude": 52.533947,
+    "longitude": 13.487153,
+    "lineIds": [
+      "17324_900",
+      "17459_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900151003",
+    "name": "Zingster Str. (Berlin)",
+    "latitude": 52.572629,
+    "longitude": 13.495049666666667,
+    "lineIds": [
+      "17452_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900151004",
+    "name": "Zingster Str./Ribnitzer Str. (Berlin)",
+    "latitude": 52.570279,
+    "longitude": 13.49738,
+    "lineIds": [
+      "17452_900",
+      "17459_900"
+    ]
+  },
+  {
+    "id": "de:11000:900100042",
+    "name": "Zionskirchplatz (Berlin)",
+    "latitude": 52.5344945,
+    "longitude": 13.405585,
+    "lineIds": [
+      "17301_900",
+      "17438_900"
+    ]
+  },
+  {
+    "id": "de:11000:900175513",
+    "name": "Zossener Str./Kastanienallee (Berlin)",
+    "latitude": 52.543791,
+    "longitude": 13.599196,
+    "lineIds": [
+      "17338_900",
+      "17460_900"
+    ]
+  },
+  {
+    "id": "de:11000:900180519",
+    "name": "Zur Nachtheide (Berlin)",
+    "latitude": 52.4249095,
+    "longitude": 13.58647,
+    "lineIds": [
+      "17419_900",
+      "17420_900",
+      "17422_900"
+    ]
+  }
+]
