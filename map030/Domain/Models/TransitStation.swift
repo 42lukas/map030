@@ -14,3 +14,20 @@ struct TransitStation: Identifiable {
     let coordinate: CLLocationCoordinate2D
     let lines: [TransitLine]
 }
+
+extension TransitStation {
+    var uniqueLines: [TransitLine] {
+        var seen = Set<String>()
+
+        return lines.filter { line in
+            let key = "\(line.routeType)-\(line.name)"
+
+            if seen.contains(key) {
+                return false
+            }
+
+            seen.insert(key)
+            return true
+        }
+    }
+}
