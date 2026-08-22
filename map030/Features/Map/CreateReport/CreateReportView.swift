@@ -6,17 +6,20 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct CreateReportView: View {
 
     @State private var viewModel: CreateReportViewModel
 
     let onCreate: (Report) -> Void
+    let userLocation: CLLocation?
 
     @Environment(\.dismiss) private var dismiss
 
     init(
         transitRepository: any TransitRepository,
+        userLocation: CLLocation?,
         onCreate: @escaping (Report) -> Void
     ) {
         _viewModel = State(
@@ -25,6 +28,7 @@ struct CreateReportView: View {
             )
         )
 
+        self.userLocation = userLocation
         self.onCreate = onCreate
     }
 
@@ -56,6 +60,11 @@ struct CreateReportView: View {
             }
             .task {
                 await viewModel.loadStations()
+                if let userLocation {
+                    viewModel.updateNearbyStations(
+                        userLocation: userLocation
+                    )
+                }
             }
         }
     }
@@ -68,6 +77,13 @@ struct CreateReportView: View {
                 alignment: .leading,
                 spacing: 24
             ) {
+                if !viewModel.nearbyStations.isEmpty {
+                    NearbyStationsSection(
+                        stations: viewModel.nearbyStations,
+                        onSelect: viewModel.selectStation
+                    )
+                }
+                
                 StationSearchSection(
                     searchText: searchText,
                     selectedStation: viewModel.selectedStation,

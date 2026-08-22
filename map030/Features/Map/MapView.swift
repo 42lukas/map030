@@ -78,7 +78,8 @@ struct MapView: View {
             }
             .sheet(isPresented: $isCreateReportPresented) {
                 CreateReportView(
-                    transitRepository: transitRepository
+                    transitRepository: transitRepository,
+                    userLocation: locationManager.location
                 ) { report in
                     viewModel.addReport(report)
                 }

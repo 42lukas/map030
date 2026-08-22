@@ -7,6 +7,7 @@
 
 import Foundation
 import Observation
+import CoreLocation
 
 @Observable
 @MainActor
@@ -14,6 +15,7 @@ final class CreateReportViewModel {
 
     private let transitRepository: any TransitRepository
 
+    private(set) var nearbyStations: [NearbyStation] = []
     private(set) var stations: [TransitStation] = []
     private(set) var isLoading = false
     private(set) var errorMessage: String?
@@ -38,13 +40,40 @@ final class CreateReportViewModel {
     var searchText = ""
 
     var filteredStations: [TransitStation] {
-        guard !searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
-            return stations
+        let query = searchText
+            .trimmingCharacters(
+                in: .whitespacesAndNewlines
+            )
+
+        guard !query.isEmpty else {
+            return []
         }
 
-        return stations.filter {
-            $0.name.localizedCaseInsensitiveContains(searchText)
-        }
+        return stations
+            .filter {
+                $0.name.localizedStandardContains(query)
+            }
+            .sorted { lhs, rhs in
+                let lhsPriority = searchPriority(
+                    for: lhs,
+                    query: query
+                )
+
+                let rhsPriority = searchPriority(
+                    for: rhs,
+                    query: query
+                )
+
+                if lhsPriority != rhsPriority {
+                    return lhsPriority < rhsPriority
+                }
+
+                return lhs.name.localizedStandardCompare(
+                    rhs.name
+                ) == .orderedAscending
+            }
+            .prefix(20)
+            .map { $0 }
     }
 
     func loadStations() async {
@@ -93,4 +122,55 @@ final class CreateReportViewModel {
             createdAt: .now
         )
     }
+    
+    func updateNearbyStations(
+        userLocation: CLLocation,
+        limit: Int = 5
+    ) {
+        nearbyStations = stations
+            .map { station in
+                let stationLocation = CLLocation(
+                    latitude: station.coordinate.latitude,
+                    longitude: station.coordinate.longitude
+                )
+
+                return NearbyStation(
+                    station: station,
+                    distance: stationLocation.distance(
+                        from: userLocation
+                    )
+                )
+            }
+            .filter {
+                $0.distance <= Constants.nearbyRadius
+            }
+            .sorted {
+                $0.distance < $1.distance
+            }
+            .prefix(Constants.maxNearbyStations)
+            .map { $0 }
+    }
+    
+    private func searchPriority(
+        for station: TransitStation,
+        query: String
+    ) -> Int {
+        let name = station.name.lowercased()
+        let query = query.lowercased()
+
+        if name == query {
+            return 0
+        }
+
+        if name.hasPrefix(query) {
+            return 1
+        }
+
+        return 2
+    }
+}
+
+private enum Constants {
+    static let nearbyRadius: CLLocationDistance = 500
+    static let maxNearbyStations = 5
 }
