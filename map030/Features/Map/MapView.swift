@@ -14,6 +14,7 @@ struct MapView: View {
     @State private var viewModel = MapViewModel()
     @State private var isCreateReportPresented = false
     
+    let transitRepository: any TransitRepository
     var body: some View {
         @Bindable var viewModel = viewModel
         Map(position: $viewModel.cameraPosition) {
@@ -77,7 +78,7 @@ struct MapView: View {
             }
             .sheet(isPresented: $isCreateReportPresented) {
                 CreateReportView(
-                    stations: MockTransitData.stations
+                    transitRepository: transitRepository
                 ) { report in
                     viewModel.addReport(report)
                 }
@@ -87,6 +88,6 @@ struct MapView: View {
 }
 
 #Preview {
-    MapView()
+    MapView(transitRepository: LocalTransitRepository())
         .environment(LocationManager())
 }

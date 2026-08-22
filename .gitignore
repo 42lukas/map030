@@ -1,3 +1,4 @@
+# --- Main Project ---
 # Xcode
 DerivedData/
 build/
@@ -18,3 +19,7 @@ GoogleService-Info.plist
 
 # Config
 *.xcconfig
+
+
+# --- Tools ---
+Tools/

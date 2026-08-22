@@ -6,122 +6,133 @@
 //
 
 import SwiftUI
-import MapKit
 
 struct CreateReportView: View {
+
     @State private var viewModel: CreateReportViewModel
-    
+
     let onCreate: (Report) -> Void
-    
+
     @Environment(\.dismiss) private var dismiss
-    
-    init(stations: [TransitStation], onCreate: @escaping (Report) -> Void) {
+
+    init(
+        transitRepository: any TransitRepository,
+        onCreate: @escaping (Report) -> Void
+    ) {
         _viewModel = State(
             initialValue: CreateReportViewModel(
-                stations: stations
+                transitRepository: transitRepository
             )
         )
+
         self.onCreate = onCreate
     }
-    
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            Text("Neue Meldung")
-                .font(.title2)
-                .fontWeight(.semibold)
+        @Bindable var viewModel = viewModel
 
-            stationSelection
-
-            if viewModel.selectedStation != nil {
-                lineSelection
+        NavigationStack {
+            Group {
+                if viewModel.isLoading {
+                    loadingView
+                } else if let errorMessage = viewModel.errorMessage {
+                    errorView(errorMessage)
+                } else {
+                    content(
+                        searchText: $viewModel.searchText
+                    )
+                }
             }
-
-            categorySelection
-
-            Button("Meldung erstellen") {
-                createReport()
+            .navigationTitle("Neue Meldung")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(
+                    placement: .topBarTrailing
+                ) {
+                    Button("Schließen") {
+                        dismiss()
+                    }
+                }
             }
-            .buttonStyle(.borderedProminent)
-            .disabled(!viewModel.canCreateReport)
+            .task {
+                await viewModel.loadStations()
+            }
         }
-        .padding()
     }
-    
-    // MARK: - Category Selection
-    private var categorySelection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text("Kategorie")
-                .font(.headline)
 
-            ForEach(ReportCategory.allCases, id: \.self) { category in
-                Button {
+    private func content(
+        searchText: Binding<String>
+    ) -> some View {
+        ScrollView {
+            VStack(
+                alignment: .leading,
+                spacing: 24
+            ) {
+                StationSearchSection(
+                    searchText: searchText,
+                    selectedStation: viewModel.selectedStation,
+                    stations: viewModel.filteredStations,
+                    onSelect: viewModel.selectStation
+                )
+
+                if viewModel.selectedStation != nil {
+                    LineSelectionSection(
+                        lines: viewModel.availableLines,
+                        selectedLine: viewModel.selectedLine,
+                        onSelect: viewModel.selectLine
+                    )
+                }
+
+                CategorySelectionSection(
+                    selectedCategory: viewModel.selectedCategory
+                ) { category in
                     viewModel.selectedCategory = category
-                } label: {
-                    HStack {
-                        Text(category.displayName)
-                        Spacer()
-                        if viewModel.selectedCategory == category {
-                            Image(systemName: "checkmark")
-                        }
-                    }
                 }
-                .buttonStyle(.plain)
-            }
-        }
-    }
-    
-    // MARK: - Station Selection
-    private var stationSelection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            Text("Station")
-                .font(.headline)
 
-            ForEach(viewModel.stations) { station in
-                Button {
-                    viewModel.selectStation(station)
-                } label: {
-                    HStack {
-                        Text(station.name)
-                        Spacer()
-                        if viewModel.selectedStation?.id == station.id {
-                            Image(systemName: "checkmark")
-                        }
-                    }
-                }
-                .buttonStyle(.plain)
+                createButton
             }
+            .padding()
         }
+        .scrollDismissesKeyboard(.interactively)
     }
-    
-    // MARK: - Line Selection
-    private var lineSelection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack {
-                Text("Linie")
-                    .font(.headline)
 
-                Text("(optional)")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-            }
-
-            ForEach(viewModel.availableLines) { line in
-                Button {
-                    viewModel.selectedLine = line
-                } label: {
-                    HStack {
-                        Text(line.name)
-                        Spacer()
-                        if viewModel.selectedLine?.id == line.id {
-                            Image(systemName: "checkmark")
-                        }
-                    }
-                }
-                .buttonStyle(.plain)
-            }
+    private var createButton: some View {
+        Button {
+            createReport()
+        } label: {
+            Text("Meldung erstellen")
+                .fontWeight(.semibold)
+                .frame(maxWidth: .infinity)
+                .frame(height: 50)
         }
+        .buttonStyle(.borderedProminent)
+        .disabled(!viewModel.canCreateReport)
     }
-    
+
+    private var loadingView: some View {
+        VStack(spacing: 12) {
+            ProgressView()
+
+            Text("Stationen werden geladen …")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+        }
+        .frame(
+            maxWidth: .infinity,
+            maxHeight: .infinity
+        )
+    }
+
+    private func errorView(
+        _ message: String
+    ) -> some View {
+        ContentUnavailableView(
+            "Stationen nicht verfügbar",
+            systemImage: "exclamationmark.triangle",
+            description: Text(message)
+        )
+    }
+
     private func createReport() {
         guard let report = viewModel.createReport() else {
             return

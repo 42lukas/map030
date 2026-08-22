@@ -11,8 +11,10 @@ import Observation
 final class AppContainer {
 
     let locationManager: LocationManager
+    let transitRepository: any TransitRepository
 
     init() {
         locationManager = LocationManager()
+        transitRepository = LocalTransitRepository()
     }
 }

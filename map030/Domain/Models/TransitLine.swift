@@ -10,4 +10,8 @@ import Foundation
 struct TransitLine: Identifiable, Hashable {
     let id: String
     let name: String
+    let routeType: Int
+    let colorHex: String?
+    let textColorHex: String?
+    let shapeIDs: [String]
 }
