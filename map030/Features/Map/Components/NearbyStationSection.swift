@@ -35,7 +35,7 @@ struct NearbyStationsSection: View {
                                     .foregroundStyle(.primary)
 
                                 Text(
-                                    item.station.lines
+                                    item.station.uniqueLines
                                         .map(\.name)
                                         .joined(separator: " · ")
                                 )

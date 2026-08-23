@@ -13,11 +13,11 @@ struct CategorySelectionSection: View {
     let onSelect: (ReportCategory) -> Void
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
+        VStack(alignment: .leading, spacing: AppSpacing.md) {
             Text("Kategorie")
-                .font(.headline)
+                .font(AppTypography.sectionTitle)
 
-            VStack(spacing: 0) {
+            VStack(spacing: AppSpacing.xs) {
                 ForEach(
                     ReportCategory.allCases,
                     id: \.self
@@ -25,15 +25,22 @@ struct CategorySelectionSection: View {
                     Button {
                         onSelect(category)
                     } label: {
-                        HStack(spacing: 12) {
-                            Image(
-                                systemName: systemImage(
-                                    for: category
-                                )
+                        HStack(spacing: AppSpacing.md) {
+                            ReportCategoryIcon(
+                                category: category
                             )
-                            .frame(width: 24)
 
-                            Text(category.displayName)
+                            VStack(
+                                alignment: .leading,
+                                spacing: AppSpacing.xs
+                            ) {
+                                Text(category.displayName)
+                                    .font(AppTypography.body.weight(.medium))
+
+                                Text(category.detailDescription)
+                                    .font(AppTypography.caption)
+                                    .foregroundStyle(.secondary)
+                            }
 
                             Spacer()
 
@@ -41,60 +48,33 @@ struct CategorySelectionSection: View {
                                 Image(
                                     systemName: "checkmark.circle.fill"
                                 )
+                                .foregroundStyle(category.tintColor)
                             }
                         }
                         .foregroundStyle(.primary)
-                        .padding(.horizontal, 14)
-                        .padding(.vertical, 12)
+                        .padding(AppSpacing.md)
+                        .background {
+                            if selectedCategory == category {
+                                RoundedRectangle(
+                                    cornerRadius: AppRadius.md,
+                                    style: .continuous
+                                )
+                                .fill(category.tintColor.opacity(0.12))
+                            }
+                        }
                     }
                     .buttonStyle(.plain)
-
-                    if category != ReportCategory.allCases.last {
-                        Divider()
-                            .padding(.leading, 50)
-                    }
                 }
             }
-            .background(.thinMaterial)
+            .padding(AppSpacing.xs)
+            .background(AppColors.surface)
             .clipShape(
                 RoundedRectangle(
-                    cornerRadius: 14,
+                    cornerRadius: AppRadius.lg,
                     style: .continuous
                 )
             )
         }
     }
 
-    private func systemImage(
-        for category: ReportCategory
-    ) -> String {
-        switch category {
-        case .control:
-            "person.badge.shield.checkmark"
-
-        case .crowding:
-            "person.3.fill"
-
-        case .delay:
-            "clock.fill"
-
-        case .cancellation:
-            "xmark.circle.fill"
-
-        case .elevatorOutOfService:
-            "figure.roll"
-
-        case .escalatorOutOfService:
-            "stairs"
-
-        case .accessClosed:
-            "door.left.hand.closed"
-
-        case .disruption:
-            "exclamationmark.triangle.fill"
-
-        case .other:
-            "ellipsis.circle.fill"
-        }
-    }
 }

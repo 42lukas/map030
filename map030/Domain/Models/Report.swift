@@ -13,4 +13,5 @@ struct Report: Identifiable {
     let line: TransitLine?
     let category: ReportCategory
     let createdAt: Date
+    let expiresAt: Date
 }

@@ -118,7 +118,7 @@ struct StationSearchSection: View {
                     .font(.body.weight(.semibold))
 
                 Text(
-                    station.lines
+                    station.uniqueLines
                         .map(\.name)
                         .joined(separator: " · ")
                 )
@@ -149,12 +149,17 @@ struct StationSearchSection: View {
             Text(station.name)
                 .foregroundStyle(.primary)
 
-            if !station.lines.isEmpty {
-                Text(
-                    station.lines
-                        .map(\.name)
-                        .joined(separator: " · ")
-                )
+            if !station.uniqueLines.isEmpty {
+                ScrollView(
+                    .horizontal,
+                    showsIndicators: false
+                ) {
+                    HStack(spacing: 6) {
+                        ForEach(station.uniqueLines) { line in
+                            TransitLineBadge(line: line)
+                        }
+                    }
+                }
                 .font(.caption)
                 .foregroundStyle(.secondary)
                 .lineLimit(1)

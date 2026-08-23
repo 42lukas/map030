@@ -87,29 +87,42 @@ enum MockTransitData {
         )
     ]
 
-    static let reports: [Report] = [
-        Report(
-            id: UUID(),
-            station: stations[0],
-            line: u8,
-            category: .control,
-            createdAt: .now
-        ),
+    static let reports: [Report] = {
+        let createdAt = Date()
 
-        Report(
-            id: UUID(),
-            station: stations[1],
-            line: nil,
-            category: .elevatorOutOfService,
-            createdAt: .now
-        ),
+        return [
+            Report(
+                id: UUID(),
+                station: stations[0],
+                line: u8,
+                category: .control,
+                createdAt: createdAt,
+                expiresAt: createdAt.addingTimeInterval(
+                    ReportCategory.control.expirationInterval
+                )
+            ),
 
-        Report(
-            id: UUID(),
-            station: stations[2],
-            line: s5,
-            category: .crowding,
-            createdAt: .now
-        )
-    ]
+            Report(
+                id: UUID(),
+                station: stations[1],
+                line: nil,
+                category: .elevatorOutOfService,
+                createdAt: createdAt,
+                expiresAt: createdAt.addingTimeInterval(
+                    ReportCategory.elevatorOutOfService.expirationInterval
+                )
+            ),
+
+            Report(
+                id: UUID(),
+                station: stations[2],
+                line: s5,
+                category: .crowding,
+                createdAt: createdAt,
+                expiresAt: createdAt.addingTimeInterval(
+                    ReportCategory.crowding.expirationInterval
+                )
+            )
+        ]
+    }()
 }

@@ -29,7 +29,7 @@ final class CreateReportViewModel {
     }
 
     var availableLines: [TransitLine] {
-        selectedStation?.lines ?? []
+        selectedStation?.uniqueLines ?? []
     }
 
     var canCreateReport: Bool {
@@ -114,12 +114,17 @@ final class CreateReportViewModel {
             return nil
         }
 
+        let createdAt = Date()
+
         return Report(
             id: UUID(),
             station: selectedStation,
             line: selectedLine,
             category: selectedCategory,
-            createdAt: .now
+            createdAt: createdAt,
+            expiresAt: createdAt.addingTimeInterval(
+                selectedCategory.expirationInterval
+            )
         )
     }
     
