@@ -75,6 +75,17 @@ final class map030Tests: XCTestCase {
         XCTAssertEqual(result.count, 2)
     }
 
+    func testMarkersShrinkForWiderMapViews() {
+        XCTAssertGreaterThan(
+            MapZoomLevel.detail.markerScale,
+            MapZoomLevel.station.markerScale
+        )
+        XCTAssertGreaterThan(
+            MapZoomLevel.station.markerScale,
+            MapZoomLevel.overview.markerScale
+        )
+    }
+
     func testZoomOutIsLimitedToGermanyScale() throws {
         let viewModel = MapViewModel()
         let camera = MapCamera(
@@ -99,6 +110,27 @@ final class map030Tests: XCTestCase {
         )
         XCTAssertEqual(limitedCamera.heading, camera.heading)
         XCTAssertEqual(limitedCamera.pitch, camera.pitch)
+    }
+
+    func testReportSummaryPrioritizesControlsAndCountsReports() {
+        let viewModel = MapViewModel()
+        let station = MockTransitData.stations[0]
+
+        viewModel.addReport(
+            makeReport(station: station, category: .delay)
+        )
+        viewModel.addReport(
+            makeReport(station: station, category: .control)
+        )
+        viewModel.addReport(
+            makeReport(station: station, category: .control)
+        )
+
+        XCTAssertEqual(
+            viewModel.reportSummaries.map(\.category),
+            [.control, .delay]
+        )
+        XCTAssertEqual(viewModel.reportSummaries.first?.count, 2)
     }
 
     func testCreatedReportUsesCategoryExpiration() throws {
@@ -182,15 +214,27 @@ final class map030Tests: XCTestCase {
 
     private func makeReport(
         station: TransitStation,
-        expiresAt: Date
+        expiresAt: Date,
+        category: ReportCategory = .control
     ) -> Report {
         Report(
             id: UUID(),
             station: station,
             line: nil,
-            category: .control,
+            category: category,
             createdAt: .now,
             expiresAt: expiresAt
+        )
+    }
+
+    private func makeReport(
+        station: TransitStation,
+        category: ReportCategory
+    ) -> Report {
+        makeReport(
+            station: station,
+            expiresAt: .distantFuture,
+            category: category
         )
     }
 

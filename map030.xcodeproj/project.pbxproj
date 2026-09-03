@@ -10,6 +10,7 @@
 		FA16B3CA303320F800398CF2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FA16B3C9303320F100398CF2 /* .gitignore */; };
 		FA16B479303EAA6400398CF2 /* BerlinTransitNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = FA16B478303EAA6400398CF2 /* BerlinTransitNetwork */; };
 		FA16B47B303EAA6400398CF2 /* TransitOverlayKit in Frameworks */ = {isa = PBXBuildFile; productRef = FA16B47A303EAA6400398CF2 /* TransitOverlayKit */; };
+		FA2727F8304A2C850001A2A7 /* HamburgTransitNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = FA2727F7304A2C850001A2A7 /* HamburgTransitNetwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 			files = (
 				FA16B47B303EAA6400398CF2 /* TransitOverlayKit in Frameworks */,
 				FA16B479303EAA6400398CF2 /* BerlinTransitNetwork in Frameworks */,
+				FA2727F8304A2C850001A2A7 /* HamburgTransitNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +90,7 @@
 				FA16B39530330E1900398CF2 /* map030 */,
 				FA16B3A330330E1B00398CF2 /* map030Tests */,
 				FA16B3AD30330E1B00398CF2 /* map030UITests */,
+				FA2727F6304A2C850001A2A7 /* Frameworks */,
 				FA16B39430330E1900398CF2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +103,13 @@
 				FA16B3AA30330E1B00398CF2 /* map030UITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2727F6304A2C850001A2A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +134,7 @@
 			packageProductDependencies = (
 				FA16B478303EAA6400398CF2 /* BerlinTransitNetwork */,
 				FA16B47A303EAA6400398CF2 /* TransitOverlayKit */,
+				FA2727F7304A2C850001A2A7 /* HamburgTransitNetwork */,
 			);
 			productName = map030;
 			productReference = FA16B39330330E1900398CF2 /* map030.app */;
@@ -612,6 +623,11 @@
 		FA16B47A303EAA6400398CF2 /* TransitOverlayKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TransitOverlayKit;
+		};
+		FA2727F7304A2C850001A2A7 /* HamburgTransitNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA16B477303EAA6300398CF2 /* XCLocalSwiftPackageReference "../TransitOverlayKit" */;
+			productName = HamburgTransitNetwork;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

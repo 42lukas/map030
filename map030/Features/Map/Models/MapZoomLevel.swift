@@ -7,7 +7,7 @@
 
 import CoreLocation
 
-enum MapZoomLevel {
+enum MapZoomLevel: Equatable {
     case overview
     case station
     case detail
@@ -22,6 +22,19 @@ enum MapZoomLevel {
 
         case .detail:
             return 0
+        }
+    }
+
+    var markerScale: CGFloat {
+        switch self {
+        case .overview:
+            return 0.68
+
+        case .station:
+            return 0.84
+
+        case .detail:
+            return 1
         }
     }
 

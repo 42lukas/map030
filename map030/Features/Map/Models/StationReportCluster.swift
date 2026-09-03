@@ -53,6 +53,12 @@ struct StationReportCluster: Identifiable {
         stations.count == 1 && reports.count > 1 && reports.count <= 8
     }
 
+    var containsOnlyControls: Bool {
+        !reports.isEmpty && reports.allSatisfy {
+            $0.category == .control
+        }
+    }
+
     var id: String {
         stations
             .map(\.id)

@@ -10,6 +10,7 @@ import Foundation
 enum MapSheet: Identifiable {
     case report(Report)
     case cluster(StationReportCluster)
+    case reportSummary
     case createReport
 
     var id: String {
@@ -19,6 +20,9 @@ enum MapSheet: Identifiable {
 
         case .cluster(let cluster):
             "cluster-\(cluster.id)"
+
+        case .reportSummary:
+            "report-summary"
 
         case .createReport:
             "create-report"

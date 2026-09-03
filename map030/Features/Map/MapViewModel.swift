@@ -60,6 +60,23 @@ final class MapViewModel {
         }
     }
 
+    var reportSummaries: [ReportCategorySummary] {
+        Self.reportSummaryCategoryOrder.compactMap { category in
+            let categoryReports = reports
+                .filter { $0.category == category }
+                .sorted { $0.createdAt > $1.createdAt }
+
+            guard !categoryReports.isEmpty else {
+                return nil
+            }
+
+            return ReportCategorySummary(
+                category: category,
+                reports: categoryReports
+            )
+        }
+    }
+
     var selectedReportID: UUID? {
         guard case .report(let report) = activeSheet else {
             return nil
@@ -189,6 +206,10 @@ final class MapViewModel {
         activeSheet = .createReport
     }
 
+    func presentReportSummary() {
+        activeSheet = .reportSummary
+    }
+
     func dismissSheet() {
         activeSheet = nil
     }
@@ -196,6 +217,17 @@ final class MapViewModel {
 
     private static let expirationCheckInterval: Duration = .seconds(30)
     static let maximumCameraDistance: CLLocationDistance = 1_800_000
+    private static let reportSummaryCategoryOrder: [ReportCategory] = [
+        .control,
+        .disruption,
+        .cancellation,
+        .delay,
+        .crowding,
+        .accessClosed,
+        .elevatorOutOfService,
+        .escalatorOutOfService,
+        .other
+    ]
 
     // MARK: - berlin constant
     private static let berlinRegion = MKCoordinateRegion(

@@ -30,6 +30,14 @@ struct MapView: View {
                     coordinate: cluster.coordinate
                 ) {
                     clusterContent(cluster)
+                        .scaleEffect(
+                            viewModel.zoomLevel.markerScale,
+                            anchor: .bottom
+                        )
+                        .animation(
+                            .easeInOut(duration: 0.2),
+                            value: viewModel.zoomLevel
+                        )
                 }
             }
         }
@@ -63,6 +71,14 @@ struct MapView: View {
             }
             .padding()
         }
+        .overlay(alignment: .bottomLeading) {
+            ReportSummaryOverlay(
+                summaries: viewModel.reportSummaries,
+                onSelect: viewModel.presentReportSummary
+            )
+            .safeAreaPadding(.bottom, AppSpacing.md)
+            .padding(.leading, AppSpacing.lg)
+        }
         .task {
             locationManager.requestLocationIfNeeded()
         }
@@ -87,6 +103,14 @@ struct MapView: View {
             case .cluster(let cluster):
                 ReportClusterDetailView(
                     cluster: cluster
+                ) { report in
+                    viewModel.selectReport(report)
+                }
+                .presentationDetents([.medium, .large])
+
+            case .reportSummary:
+                ReportSummaryDetailView(
+                    summaries: viewModel.reportSummaries
                 ) { report in
                     viewModel.selectReport(report)
                 }
@@ -172,6 +196,11 @@ struct MapView: View {
                 ReportMarkerView(
                     report: report,
                     isSelected: viewModel.selectedReportID == report.id
+                )
+            } else if cluster.containsOnlyControls {
+                ControlReportMarkerView(
+                    count: cluster.count,
+                    isSelected: viewModel.selectedClusterID == cluster.id
                 )
             } else {
                 ReportClusterMarkerView(

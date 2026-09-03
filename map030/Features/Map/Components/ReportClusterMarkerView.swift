@@ -63,7 +63,11 @@ struct ReportClusterMarkerView: View {
                 id: \.offset
             ) { _, category in
                 Circle()
-                    .fill(category.tintColor)
+                    .fill(
+                        category == .control
+                            ? Color.red
+                            : category.tintColor
+                    )
                     .frame(width: 5, height: 5)
             }
         }
