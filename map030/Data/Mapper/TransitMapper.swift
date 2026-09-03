@@ -18,8 +18,7 @@ enum TransitMapper {
             name: dto.name,
             routeType: dto.type,
             colorHex: dto.color,
-            textColorHex: dto.textColor,
-            shapeIDs: dto.shapeIds
+            textColorHex: dto.textColor
         )
     }
 
@@ -39,21 +38,6 @@ enum TransitMapper {
                 longitude: dto.longitude
             ),
             lines: lines
-        )
-    }
-
-    static func mapShape(
-        id: String,
-        points: [TransitShapePointDTO]
-    ) -> TransitShape {
-        TransitShape(
-            id: id,
-            coordinates: points.map {
-                CLLocationCoordinate2D(
-                    latitude: $0.latitude,
-                    longitude: $0.longitude
-                )
-            }
         )
     }
 }

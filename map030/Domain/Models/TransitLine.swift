@@ -13,5 +13,4 @@ struct TransitLine: Identifiable, Hashable {
     let routeType: Int
     let colorHex: String?
     let textColorHex: String?
-    let shapeIDs: [String]
 }

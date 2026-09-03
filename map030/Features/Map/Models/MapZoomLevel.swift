@@ -24,4 +24,5 @@ enum MapZoomLevel {
             return 0
         }
     }
+
 }

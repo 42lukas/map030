@@ -6,6 +6,8 @@
 //
 
 import CoreLocation
+import MapKit
+import SwiftUI
 import XCTest
 @testable import map030
 
@@ -71,6 +73,32 @@ final class map030Tests: XCTestCase {
         )
 
         XCTAssertEqual(result.count, 2)
+    }
+
+    func testZoomOutIsLimitedToGermanyScale() throws {
+        let viewModel = MapViewModel()
+        let camera = MapCamera(
+            centerCoordinate: CLLocationCoordinate2D(
+                latitude: 52.5200,
+                longitude: 13.4050
+            ),
+            distance: 10_000_000,
+            heading: 20,
+            pitch: 15
+        )
+
+        viewModel.limitZoomOut(camera: camera)
+
+        let limitedCamera = try XCTUnwrap(
+            viewModel.cameraPosition.camera
+        )
+        XCTAssertEqual(
+            limitedCamera.distance,
+            MapViewModel.maximumCameraDistance,
+            accuracy: 1
+        )
+        XCTAssertEqual(limitedCamera.heading, camera.heading)
+        XCTAssertEqual(limitedCamera.pitch, camera.pitch)
     }
 
     func testCreatedReportUsesCategoryExpiration() throws {
@@ -165,4 +193,5 @@ final class map030Tests: XCTestCase {
             expiresAt: expiresAt
         )
     }
+
 }

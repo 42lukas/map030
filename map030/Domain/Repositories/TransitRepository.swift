@@ -8,5 +8,4 @@
 protocol TransitRepository {
     func fetchStations() async throws -> [TransitStation]
     func fetchLines() async throws -> [TransitLine]
-    func fetchShapes() async throws -> [TransitShape]
 }

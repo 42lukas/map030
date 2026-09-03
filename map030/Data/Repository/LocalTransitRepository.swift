@@ -10,23 +10,22 @@ import Foundation
 final class LocalTransitRepository: TransitRepository {
 
     private let decoder: JSONDecoder
+    private var cachedStations: [TransitStation]?
+    private var cachedLines: [TransitLine]?
 
     init(decoder: JSONDecoder = JSONDecoder()) {
         self.decoder = decoder
     }
 
     func fetchStations() async throws -> [TransitStation] {
-        let lineDTOs: [TransitLineDTO] = try load(
-            resource: "lines"
-        )
+        if let cachedStations {
+            return cachedStations
+        }
 
         let stationDTOs: [TransitStationDTO] = try load(
             resource: "stations"
         )
-
-        let lines = lineDTOs.map(
-            TransitMapper.mapLine
-        )
+        let lines = try await fetchLines()
 
         let linesByID = Dictionary(
             uniqueKeysWithValues: lines.map {
@@ -34,37 +33,32 @@ final class LocalTransitRepository: TransitRepository {
             }
         )
 
-        return stationDTOs.map {
+        let stations = stationDTOs.map {
             TransitMapper.mapStation(
                 $0,
                 linesByID: linesByID
             )
         }
+
+        cachedStations = stations
+        return stations
     }
 
     func fetchLines() async throws -> [TransitLine] {
+        if let cachedLines {
+            return cachedLines
+        }
+
         let lineDTOs: [TransitLineDTO] = try load(
             resource: "lines"
         )
 
-        return lineDTOs.map(
+        let lines = lineDTOs.map(
             TransitMapper.mapLine
         )
-    }
 
-    func fetchShapes() async throws -> [TransitShape] {
-        let shapeDTOs: [
-            String: [TransitShapePointDTO]
-        ] = try load(
-            resource: "shapes"
-        )
-
-        return shapeDTOs.map {
-            TransitMapper.mapShape(
-                id: $0.key,
-                points: $0.value
-            )
-        }
+        cachedLines = lines
+        return lines
     }
 
     private func load<T: Decodable>(

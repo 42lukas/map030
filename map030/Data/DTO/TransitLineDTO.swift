@@ -14,5 +14,4 @@ struct TransitLineDTO: Decodable {
     let type: Int
     let color: String?
     let textColor: String?
-    let shapeIds: [String]
 }

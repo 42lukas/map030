@@ -7,6 +7,8 @@
 
 import SwiftUI
 import MapKit
+import TransitOverlayKit
+import BerlinTransitNetwork
 
 struct MapView: View {
     @Environment(LocationManager.self) private var locationManager
@@ -16,7 +18,10 @@ struct MapView: View {
     let transitRepository: any TransitRepository
     var body: some View {
         @Bindable var viewModel = viewModel
-        Map(position: $viewModel.cameraPosition) {
+        TransitMap(
+            position: $viewModel.cameraPosition,
+            network: BerlinNetwork()
+        ) {
             UserAnnotation()
 
             ForEach(viewModel.reportClusters) { cluster in
@@ -27,11 +32,18 @@ struct MapView: View {
                     clusterContent(cluster)
                 }
             }
-        }.onMapCameraChange(frequency: .onEnd) { context in
+        }
+        .transitModes([.suburbanRail, .subway, .tram])
+        .transitStations(.automatic)
+        .onMapCameraChange(frequency: .continuous) { context in
+            viewModel.limitZoomOut(camera: context.camera)
+        }
+        .onMapCameraChange(frequency: .onEnd) { context in
             viewModel.updateZoomLevel(
                 longitudeDelta: context.region.span.longitudeDelta
             )
         }
+        .mapStyle(.standard)
         .ignoresSafeArea()
         .overlay(alignment: .bottomTrailing) {
             VStack(spacing: 12) {

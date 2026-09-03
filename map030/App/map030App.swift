@@ -19,7 +19,7 @@ struct map030App: App {
     var body: some Scene {
         WindowGroup {
             MapView(transitRepository: container.transitRepository)
-            .environment(container.locationManager)
+                .environment(container.locationManager)
         }
     }
 }

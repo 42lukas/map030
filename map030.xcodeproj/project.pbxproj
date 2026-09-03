@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FA16B3CA303320F800398CF2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FA16B3C9303320F100398CF2 /* .gitignore */; };
+		FA16B479303EAA6400398CF2 /* BerlinTransitNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = FA16B478303EAA6400398CF2 /* BerlinTransitNetwork */; };
+		FA16B47B303EAA6400398CF2 /* TransitOverlayKit in Frameworks */ = {isa = PBXBuildFile; productRef = FA16B47A303EAA6400398CF2 /* TransitOverlayKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA16B47B303EAA6400398CF2 /* TransitOverlayKit in Frameworks */,
+				FA16B479303EAA6400398CF2 /* BerlinTransitNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +122,8 @@
 			);
 			name = map030;
 			packageProductDependencies = (
+				FA16B478303EAA6400398CF2 /* BerlinTransitNetwork */,
+				FA16B47A303EAA6400398CF2 /* TransitOverlayKit */,
 			);
 			productName = map030;
 			productReference = FA16B39330330E1900398CF2 /* map030.app */;
@@ -201,6 +207,9 @@
 			);
 			mainGroup = FA16B38A30330E1900398CF2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FA16B477303EAA6300398CF2 /* XCLocalSwiftPackageReference "../TransitOverlayKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA16B39430330E1900398CF2 /* Products */;
 			projectDirPath = "";
@@ -587,6 +596,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FA16B477303EAA6300398CF2 /* XCLocalSwiftPackageReference "../TransitOverlayKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../TransitOverlayKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA16B478303EAA6400398CF2 /* BerlinTransitNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BerlinTransitNetwork;
+		};
+		FA16B47A303EAA6400398CF2 /* TransitOverlayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TransitOverlayKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA16B38B30330E1900398CF2 /* Project object */;
 }

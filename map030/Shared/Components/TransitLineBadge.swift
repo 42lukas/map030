@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-enum TransitRouteType {
-    static let sBahn = 109
-    static let uBahn = 400
-    static let tram = 900
-}
-
 struct TransitLineBadge: View {
     let line: TransitLine
 

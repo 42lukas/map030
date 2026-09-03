@@ -15,8 +15,7 @@ enum MockTransitData {
         name: "U2",
         routeType: 400,
         colorHex: "DA421E",
-        textColorHex: "FFFFFF",
-        shapeIDs: []
+        textColorHex: "FFFFFF"
     )
 
     static let u5 = TransitLine(
@@ -24,8 +23,7 @@ enum MockTransitData {
         name: "U5",
         routeType: 400,
         colorHex: "7E5330",
-        textColorHex: "FFFFFF",
-        shapeIDs: []
+        textColorHex: "FFFFFF"
     )
 
     static let u8 = TransitLine(
@@ -33,8 +31,7 @@ enum MockTransitData {
         name: "U8",
         routeType: 400,
         colorHex: "224F86",
-        textColorHex: "FFFFFF",
-        shapeIDs: []
+        textColorHex: "FFFFFF"
     )
 
     static let s3 = TransitLine(
@@ -42,8 +39,7 @@ enum MockTransitData {
         name: "S3",
         routeType: 109,
         colorHex: "0066AD",
-        textColorHex: "FFFFFF",
-        shapeIDs: []
+        textColorHex: "FFFFFF"
     )
 
     static let s5 = TransitLine(
@@ -51,8 +47,7 @@ enum MockTransitData {
         name: "S5",
         routeType: 109,
         colorHex: "EB7405",
-        textColorHex: "FFFFFF",
-        shapeIDs: []
+        textColorHex: "FFFFFF"
     )
 
     static let stations: [TransitStation] = [
@@ -90,39 +85,6 @@ enum MockTransitData {
     static let reports: [Report] = {
         let createdAt = Date()
 
-        return [
-            Report(
-                id: UUID(),
-                station: stations[0],
-                line: u8,
-                category: .control,
-                createdAt: createdAt,
-                expiresAt: createdAt.addingTimeInterval(
-                    ReportCategory.control.expirationInterval
-                )
-            ),
-
-            Report(
-                id: UUID(),
-                station: stations[1],
-                line: nil,
-                category: .elevatorOutOfService,
-                createdAt: createdAt,
-                expiresAt: createdAt.addingTimeInterval(
-                    ReportCategory.elevatorOutOfService.expirationInterval
-                )
-            ),
-
-            Report(
-                id: UUID(),
-                station: stations[2],
-                line: s5,
-                category: .crowding,
-                createdAt: createdAt,
-                expiresAt: createdAt.addingTimeInterval(
-                    ReportCategory.crowding.expirationInterval
-                )
-            )
-        ]
+        return []
     }()
 }

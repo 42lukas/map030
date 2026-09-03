@@ -83,6 +83,21 @@ final class MapViewModel {
         )
     }
 
+    func limitZoomOut(camera: MapCamera) {
+        guard camera.distance > Self.maximumCameraDistance else {
+            return
+        }
+
+        cameraPosition = .camera(
+            MapCamera(
+                centerCoordinate: camera.centerCoordinate,
+                distance: Self.maximumCameraDistance,
+                heading: camera.heading,
+                pitch: camera.pitch
+            )
+        )
+    }
+
     func updateZoomLevel(
         longitudeDelta: CLLocationDegrees
     ) {
@@ -97,7 +112,6 @@ final class MapViewModel {
             zoomLevel = .overview
         }
     }
-
 
     // MARK: - Report Section
     private(set) var selectedReport: Report?
@@ -181,6 +195,7 @@ final class MapViewModel {
 
 
     private static let expirationCheckInterval: Duration = .seconds(30)
+    static let maximumCameraDistance: CLLocationDistance = 1_800_000
 
     // MARK: - berlin constant
     private static let berlinRegion = MKCoordinateRegion(
