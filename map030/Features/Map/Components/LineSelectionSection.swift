@@ -12,15 +12,16 @@ struct LineSelectionSection: View {
     let lines: [TransitLine]
     let selectedLine: TransitLine?
     let onSelect: (TransitLine) -> Void
+    let onClear: () -> Void
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(spacing: 6) {
-                Text("Linie")
-                    .font(.headline)
+        VStack(alignment: .leading, spacing: AppSpacing.md) {
+            VStack(alignment: .leading, spacing: AppSpacing.xs) {
+                Text("Betroffene Linie")
+                    .font(AppTypography.sectionTitle)
 
-                Text("Optional")
-                    .font(.caption)
+                Text("Optional – ohne Auswahl gilt die Meldung für die ganze Station.")
+                    .font(AppTypography.caption)
                     .foregroundStyle(.secondary)
             }
 
@@ -33,7 +34,17 @@ struct LineSelectionSection: View {
                     .horizontal,
                     showsIndicators: false
                 ) {
-                    HStack(spacing: 8) {
+                    HStack(spacing: AppSpacing.sm) {
+                        Button {
+                            onClear()
+                        } label: {
+                            lineLabel(
+                                title: "Ganze Station",
+                                isSelected: selectedLine == nil
+                            )
+                        }
+                        .buttonStyle(.plain)
+
                         ForEach(lines) { line in
                             lineButton(line)
                         }
@@ -51,24 +62,35 @@ struct LineSelectionSection: View {
         return Button {
             onSelect(line)
         } label: {
-            HStack(spacing: 6) {
-                Text(line.name)
-                    .font(.subheadline.weight(.semibold))
-
-                if isSelected {
-                    Image(systemName: "checkmark")
-                        .font(.caption.weight(.bold))
-                }
-            }
-            .padding(.horizontal, 12)
-            .padding(.vertical, 8)
-            .background(
-                isSelected
-                    ? AnyShapeStyle(.primary.opacity(0.12))
-                    : AnyShapeStyle(.quaternary)
+            lineLabel(
+                title: line.name,
+                isSelected: isSelected
             )
-            .clipShape(Capsule())
         }
         .buttonStyle(.plain)
+    }
+
+    private func lineLabel(
+        title: String,
+        isSelected: Bool
+    ) -> some View {
+        HStack(spacing: AppSpacing.sm) {
+            Text(title)
+                .font(AppTypography.secondary.weight(.semibold))
+
+            if isSelected {
+                Image(systemName: "checkmark")
+                    .font(AppTypography.caption.weight(.bold))
+            }
+        }
+        .padding(.horizontal, AppSpacing.md)
+        .padding(.vertical, AppSpacing.sm)
+        .background(
+            isSelected
+                ? AnyShapeStyle(AppColors.accent.opacity(0.14))
+                : AnyShapeStyle(.quaternary)
+        )
+        .foregroundStyle(isSelected ? AppColors.accent : .primary)
+        .clipShape(Capsule())
     }
 }

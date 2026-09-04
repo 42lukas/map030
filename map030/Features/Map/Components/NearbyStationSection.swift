@@ -5,12 +5,12 @@
 //  Created by Lukas Karsten on 22.08.26.
 //
 
-import SwiftUI
 import CoreLocation
+import SwiftUI
 
 struct NearbyStationsSection: View {
 
-    let stations: [NearbyStation]
+    let station: NearbyStation
     let onSelect: (TransitStation) -> Void
 
     var body: some View {
@@ -21,55 +21,54 @@ struct NearbyStationsSection: View {
             )
             .font(.headline)
 
-            VStack(spacing: 0) {
-                ForEach(stations) { item in
-                    Button {
-                        onSelect(item.station)
-                    } label: {
-                        HStack {
-                            VStack(
-                                alignment: .leading,
-                                spacing: 4
-                            ) {
-                                Text(item.station.name)
-                                    .foregroundStyle(.primary)
+            Button {
+                onSelect(station.station)
+            } label: {
+                HStack {
+                    VStack(
+                        alignment: .leading,
+                        spacing: AppSpacing.xs
+                    ) {
+                        Text(station.station.name)
+                            .font(AppTypography.body.weight(.semibold))
+                            .foregroundStyle(.primary)
 
-                                Text(
-                                    item.station.uniqueLines
-                                        .map(\.name)
-                                        .joined(separator: " · ")
-                                )
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                            }
+                        Text(
+                            station.station.uniqueLines
+                                .map(\.name)
+                                .joined(separator: " · ")
+                        )
+                        .font(AppTypography.caption)
+                        .foregroundStyle(.secondary)
+                        .lineLimit(1)
+                    }
 
-                            Spacer()
+                    Spacer()
 
-                            Text(
-                                formattedDistance(
-                                    item.distance
-                                )
-                            )
-                            .font(.subheadline)
+                    VStack(alignment: .trailing, spacing: AppSpacing.xs) {
+                        Text(formattedDistance(station.distance))
+                            .font(AppTypography.secondary.weight(.semibold))
+
+                        Text("entfernt")
+                            .font(AppTypography.caption)
                             .foregroundStyle(.secondary)
-                        }
-                        .padding(.horizontal, 14)
-                        .padding(.vertical, 12)
                     }
-                    .buttonStyle(.plain)
 
-                    if item.id != stations.last?.id {
-                        Divider()
-                    }
+                    Image(systemName: "chevron.right")
+                        .font(AppTypography.caption.weight(.semibold))
+                        .foregroundStyle(.tertiary)
                 }
-            }
-            .background(.thinMaterial)
-            .clipShape(
-                RoundedRectangle(
-                    cornerRadius: 14,
-                    style: .continuous
+                .padding(.horizontal, AppSpacing.md)
+                .padding(.vertical, AppSpacing.md)
+                .background(.thinMaterial)
+                .clipShape(
+                    RoundedRectangle(
+                        cornerRadius: AppRadius.lg,
+                        style: .continuous
+                    )
                 )
-            )
+            }
+            .buttonStyle(.plain)
         }
     }
 

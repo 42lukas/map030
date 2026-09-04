@@ -126,13 +126,13 @@ struct MapView: View {
                 case .createReport:
                     CreateReportView(
                         transitRepository: transitRepository,
-                        city: viewModel.selectedCity,
-                        userLocation: locationManager.location
+                        city: viewModel.selectedCity
                     ) { report in
                         viewModel.addReport(report)
                         viewModel.dismissSheet()
                     }
-                    .presentationDetents([.medium, .large])
+                    .presentationDetents([.large])
+                    .presentationDragIndicator(.visible)
                 }
             }
     }

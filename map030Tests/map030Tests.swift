@@ -203,6 +203,56 @@ final class map030Tests: XCTestCase {
         )
     }
 
+    func testCreateReportFlowRequiresSelectionsBeforeAdvancing() {
+        let viewModel = CreateReportViewModel(
+            transitRepository: LocalTransitRepository(),
+            city: .berlin
+        )
+
+        viewModel.continueToNextStep()
+        XCTAssertEqual(viewModel.step, .station)
+
+        viewModel.selectStation(MockTransitData.stations[0])
+        viewModel.continueToNextStep()
+        XCTAssertEqual(viewModel.step, .category)
+
+        viewModel.continueToNextStep()
+        XCTAssertEqual(viewModel.step, .category)
+
+        viewModel.selectCategory(.control)
+        viewModel.continueToNextStep()
+        XCTAssertEqual(viewModel.step, .review)
+
+        viewModel.goBack()
+        XCTAssertEqual(viewModel.step, .category)
+    }
+
+    func testNearestStationUsesCurrentLocation() async throws {
+        let viewModel = CreateReportViewModel(
+            transitRepository: LocalTransitRepository(),
+            city: .berlin
+        )
+        let expectedStation = try XCTUnwrap(MockTransitData.stations.first)
+
+        await viewModel.loadStations()
+        viewModel.updateNearestStation(
+            userLocation: CLLocation(
+                latitude: expectedStation.coordinate.latitude,
+                longitude: expectedStation.coordinate.longitude
+            )
+        )
+
+        XCTAssertEqual(
+            viewModel.nearestStation?.station.id,
+            expectedStation.id
+        )
+        XCTAssertEqual(
+            viewModel.nearestStation?.distance ?? -1,
+            0,
+            accuracy: 0.1
+        )
+    }
+
     func testExpirationIntervalsForEveryCategory() {
         let expectedIntervals: [TimeInterval] = [
             30 * 60,

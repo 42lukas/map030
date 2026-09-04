@@ -12,12 +12,14 @@ struct CategorySelectionSection: View {
     let selectedCategory: ReportCategory?
     let onSelect: (ReportCategory) -> Void
 
+    private let columns = [
+        GridItem(.flexible(), spacing: AppSpacing.sm),
+        GridItem(.flexible(), spacing: AppSpacing.sm),
+    ]
+
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.md) {
-            Text("Kategorie")
-                .font(AppTypography.sectionTitle)
-
-            VStack(spacing: AppSpacing.xs) {
+            LazyVGrid(columns: columns, spacing: AppSpacing.sm) {
                 ForEach(
                     ReportCategory.allCases,
                     id: \.self
@@ -25,55 +27,67 @@ struct CategorySelectionSection: View {
                     Button {
                         onSelect(category)
                     } label: {
-                        HStack(spacing: AppSpacing.md) {
-                            ReportCategoryIcon(
-                                category: category
-                            )
-
-                            VStack(
-                                alignment: .leading,
-                                spacing: AppSpacing.xs
-                            ) {
-                                Text(category.displayName)
-                                    .font(AppTypography.body.weight(.medium))
-
-                                Text(category.detailDescription)
-                                    .font(AppTypography.caption)
-                                    .foregroundStyle(.secondary)
-                            }
-
-                            Spacer()
-
-                            if selectedCategory == category {
-                                Image(
-                                    systemName: "checkmark.circle.fill"
+                        VStack(
+                            alignment: .leading,
+                            spacing: AppSpacing.sm
+                        ) {
+                            HStack {
+                                ReportCategoryIcon(
+                                    category: category
                                 )
-                                .foregroundStyle(category.tintColor)
+
+                                Spacer()
+
+                                if selectedCategory == category {
+                                    Image(
+                                        systemName: "checkmark.circle.fill"
+                                    )
+                                    .foregroundStyle(category.tintColor)
+                                }
                             }
+
+                            Text(category.displayName)
+                                .font(AppTypography.body.weight(.semibold))
+
+                            Text(category.detailDescription)
+                                .font(AppTypography.caption)
+                                .foregroundStyle(.secondary)
+                                .lineLimit(2)
                         }
+                        .frame(
+                            maxWidth: .infinity,
+                            minHeight: 112,
+                            alignment: .topLeading
+                        )
                         .foregroundStyle(.primary)
                         .padding(AppSpacing.md)
-                        .background {
-                            if selectedCategory == category {
-                                RoundedRectangle(
-                                    cornerRadius: AppRadius.md,
-                                    style: .continuous
-                                )
-                                .fill(category.tintColor.opacity(0.12))
-                            }
+                        .background(
+                            selectedCategory == category
+                                ? category.tintColor.opacity(0.12)
+                                : AppColors.surface
+                        )
+                        .clipShape(
+                            RoundedRectangle(
+                                cornerRadius: AppRadius.md,
+                                style: .continuous
+                            )
+                        )
+                        .overlay {
+                            RoundedRectangle(
+                                cornerRadius: AppRadius.md,
+                                style: .continuous
+                            )
+                            .stroke(
+                                selectedCategory == category
+                                    ? category.tintColor.opacity(0.65)
+                                    : .clear,
+                                lineWidth: 1.5
+                            )
                         }
                     }
                     .buttonStyle(.plain)
                 }
             }
-            .padding(AppSpacing.xs)
-            .background(AppColors.surface)
-            .clipShape(
-                RoundedRectangle(
-                    cornerRadius: AppRadius.lg,
-                    style: .continuous
-                )
-            )
         }
     }
 

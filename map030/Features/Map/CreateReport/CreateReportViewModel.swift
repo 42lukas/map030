@@ -16,10 +16,11 @@ final class CreateReportViewModel {
     private let transitRepository: any TransitRepository
     private let city: TransitCity
 
-    private(set) var nearbyStations: [NearbyStation] = []
+    private(set) var nearestStation: NearbyStation?
     private(set) var stations: [TransitStation] = []
-    private(set) var isLoading = false
+    private(set) var isLoading = true
     private(set) var errorMessage: String?
+    private(set) var step: CreateReportStep = .station
 
     var selectedStation: TransitStation?
     var selectedLine: TransitLine?
@@ -39,6 +40,21 @@ final class CreateReportViewModel {
 
     var canCreateReport: Bool {
         selectedStation != nil && selectedCategory != nil
+    }
+
+    var canContinue: Bool {
+        switch step {
+        case .station:
+            selectedStation != nil
+        case .category:
+            selectedCategory != nil
+        case .review:
+            canCreateReport
+        }
+    }
+
+    var canGoBack: Bool {
+        step != .station
     }
 
     var searchText = ""
@@ -104,6 +120,7 @@ final class CreateReportViewModel {
     func selectStation(_ station: TransitStation) {
         selectedStation = station
         selectedLine = nil
+        searchText = ""
     }
 
     func selectLine(_ line: TransitLine) {
@@ -112,6 +129,39 @@ final class CreateReportViewModel {
         } else {
             selectedLine = line
         }
+    }
+
+    func clearSelectedLine() {
+        selectedLine = nil
+    }
+
+    func selectCategory(_ category: ReportCategory) {
+        selectedCategory = category
+    }
+
+    func continueToNextStep() {
+        guard
+            canContinue,
+            let nextStep = CreateReportStep(
+                rawValue: step.rawValue + 1
+            )
+        else {
+            return
+        }
+
+        step = nextStep
+    }
+
+    func goBack() {
+        guard
+            let previousStep = CreateReportStep(
+                rawValue: step.rawValue - 1
+            )
+        else {
+            return
+        }
+
+        step = previousStep
     }
 
     func createReport() -> Report? {
@@ -137,11 +187,8 @@ final class CreateReportViewModel {
         )
     }
 
-    func updateNearbyStations(
-        userLocation: CLLocation,
-        limit: Int = 5
-    ) {
-        nearbyStations =
+    func updateNearestStation(userLocation: CLLocation) {
+        nearestStation =
             stations
             .map { station in
                 let stationLocation = CLLocation(
@@ -156,14 +203,9 @@ final class CreateReportViewModel {
                     )
                 )
             }
-            .filter {
-                $0.distance <= Constants.nearbyRadius
+            .min { first, second in
+                first.distance < second.distance
             }
-            .sorted {
-                $0.distance < $1.distance
-            }
-            .prefix(Constants.maxNearbyStations)
-            .map { $0 }
     }
 
     private func searchPriority(
@@ -183,9 +225,4 @@ final class CreateReportViewModel {
 
         return 2
     }
-}
-
-private enum Constants {
-    static let nearbyRadius: CLLocationDistance = 500
-    static let maxNearbyStations = 5
 }
