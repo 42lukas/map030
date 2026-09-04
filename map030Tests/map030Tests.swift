@@ -9,6 +9,7 @@ import CoreLocation
 import MapKit
 import SwiftUI
 import XCTest
+
 @testable import map030
 
 @MainActor
@@ -133,15 +134,68 @@ final class map030Tests: XCTestCase {
         XCTAssertEqual(viewModel.reportSummaries.first?.count, 2)
     }
 
+    func testCitySelectionKeepsReportsIndependent() throws {
+        let viewModel = MapViewModel()
+        let station = MockTransitData.stations[0]
+
+        viewModel.addReport(
+            makeReport(
+                station: station,
+                category: .control,
+                city: .berlin
+            )
+        )
+        viewModel.addReport(
+            makeReport(
+                station: station,
+                category: .delay,
+                city: .hamburg
+            )
+        )
+
+        XCTAssertEqual(viewModel.reports.count, 1)
+        XCTAssertEqual(viewModel.reports[0].city, .berlin)
+
+        viewModel.selectCity(.hamburg)
+
+        XCTAssertEqual(viewModel.reports.count, 1)
+        XCTAssertEqual(viewModel.reports[0].city, .hamburg)
+        XCTAssertEqual(
+            try XCTUnwrap(viewModel.cameraPosition.region).center.latitude,
+            TransitCity.hamburg.mapRegion.center.latitude,
+            accuracy: 0.001
+        )
+    }
+
+    func testHamburgNetworkProvidesSearchableStations() async throws {
+        let repository = NetworkTransitRepository()
+
+        let stations = try await repository.fetchStations(for: .hamburg)
+        let lines = try await repository.fetchLines(for: .hamburg)
+
+        XCTAssertFalse(stations.isEmpty)
+        XCTAssertFalse(lines.isEmpty)
+        XCTAssertTrue(stations.contains { $0.name == "Hamburg Hbf" })
+        XCTAssertFalse(stations.contains { $0.name.contains("Alexanderplatz") })
+        XCTAssertTrue(
+            lines.allSatisfy {
+                $0.routeType == TransitRouteType.sBahn
+                    || $0.routeType == TransitRouteType.uBahn
+            }
+        )
+    }
+
     func testCreatedReportUsesCategoryExpiration() throws {
         let viewModel = CreateReportViewModel(
-            transitRepository: LocalTransitRepository()
+            transitRepository: LocalTransitRepository(),
+            city: .berlin
         )
         viewModel.selectedStation = MockTransitData.stations[0]
         viewModel.selectedCategory = .control
 
         let report = try XCTUnwrap(viewModel.createReport())
 
+        XCTAssertEqual(report.city, .berlin)
         XCTAssertEqual(
             report.expiresAt.timeIntervalSince(report.createdAt),
             ReportCategory.control.expirationInterval,
@@ -159,7 +213,7 @@ final class map030Tests: XCTestCase {
             12 * 60 * 60,
             8 * 60 * 60,
             4 * 60 * 60,
-            2 * 60 * 60
+            2 * 60 * 60,
         ]
 
         XCTAssertEqual(
@@ -215,10 +269,12 @@ final class map030Tests: XCTestCase {
     private func makeReport(
         station: TransitStation,
         expiresAt: Date,
-        category: ReportCategory = .control
+        category: ReportCategory = .control,
+        city: TransitCity = .berlin
     ) -> Report {
         Report(
             id: UUID(),
+            city: city,
             station: station,
             line: nil,
             category: category,
@@ -229,12 +285,14 @@ final class map030Tests: XCTestCase {
 
     private func makeReport(
         station: TransitStation,
-        category: ReportCategory
+        category: ReportCategory,
+        city: TransitCity = .berlin
     ) -> Report {
         makeReport(
             station: station,
             expiresAt: .distantFuture,
-            category: category
+            category: category,
+            city: city
         )
     }
 

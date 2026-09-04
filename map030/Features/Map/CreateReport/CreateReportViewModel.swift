@@ -5,15 +5,16 @@
 //  Created by Lukas Karsten on 17.08.26.
 //
 
+import CoreLocation
 import Foundation
 import Observation
-import CoreLocation
 
 @Observable
 @MainActor
 final class CreateReportViewModel {
 
     private let transitRepository: any TransitRepository
+    private let city: TransitCity
 
     private(set) var nearbyStations: [NearbyStation] = []
     private(set) var stations: [TransitStation] = []
@@ -24,8 +25,12 @@ final class CreateReportViewModel {
     var selectedLine: TransitLine?
     var selectedCategory: ReportCategory?
 
-    init(transitRepository: any TransitRepository) {
+    init(
+        transitRepository: any TransitRepository,
+        city: TransitCity
+    ) {
         self.transitRepository = transitRepository
+        self.city = city
     }
 
     var availableLines: [TransitLine] {
@@ -33,14 +38,14 @@ final class CreateReportViewModel {
     }
 
     var canCreateReport: Bool {
-        selectedStation != nil &&
-        selectedCategory != nil
+        selectedStation != nil && selectedCategory != nil
     }
-    
+
     var searchText = ""
 
     var filteredStations: [TransitStation] {
-        let query = searchText
+        let query =
+            searchText
             .trimmingCharacters(
                 in: .whitespacesAndNewlines
             )
@@ -49,7 +54,8 @@ final class CreateReportViewModel {
             return []
         }
 
-        return stations
+        return
+            stations
             .filter {
                 $0.name.localizedStandardContains(query)
             }
@@ -85,7 +91,9 @@ final class CreateReportViewModel {
         errorMessage = nil
 
         do {
-            stations = try await transitRepository.fetchStations()
+            stations = try await transitRepository.fetchStations(
+                for: city
+            )
         } catch {
             errorMessage = "Stationen konnten nicht geladen werden."
         }
@@ -97,7 +105,7 @@ final class CreateReportViewModel {
         selectedStation = station
         selectedLine = nil
     }
-    
+
     func selectLine(_ line: TransitLine) {
         if selectedLine?.id == line.id {
             selectedLine = nil
@@ -118,6 +126,7 @@ final class CreateReportViewModel {
 
         return Report(
             id: UUID(),
+            city: city,
             station: selectedStation,
             line: selectedLine,
             category: selectedCategory,
@@ -127,12 +136,13 @@ final class CreateReportViewModel {
             )
         )
     }
-    
+
     func updateNearbyStations(
         userLocation: CLLocation,
         limit: Int = 5
     ) {
-        nearbyStations = stations
+        nearbyStations =
+            stations
             .map { station in
                 let stationLocation = CLLocation(
                     latitude: station.coordinate.latitude,
@@ -155,7 +165,7 @@ final class CreateReportViewModel {
             .prefix(Constants.maxNearbyStations)
             .map { $0 }
     }
-    
+
     private func searchPriority(
         for station: TransitStation,
         query: String

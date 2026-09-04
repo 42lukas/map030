@@ -9,6 +9,7 @@ import Foundation
 
 struct Report: Identifiable {
     let id: UUID
+    let city: TransitCity
     let station: TransitStation
     let line: TransitLine?
     let category: ReportCategory

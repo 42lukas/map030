@@ -5,8 +5,8 @@
 //  Created by Lukas Karsten on 17.08.26.
 //
 
-import SwiftUI
 import CoreLocation
+import SwiftUI
 
 struct CreateReportView: View {
 
@@ -19,12 +19,14 @@ struct CreateReportView: View {
 
     init(
         transitRepository: any TransitRepository,
+        city: TransitCity,
         userLocation: CLLocation?,
         onCreate: @escaping (Report) -> Void
     ) {
         _viewModel = State(
             initialValue: CreateReportViewModel(
-                transitRepository: transitRepository
+                transitRepository: transitRepository,
+                city: city
             )
         )
 
@@ -83,7 +85,7 @@ struct CreateReportView: View {
                         onSelect: viewModel.selectStation
                     )
                 }
-                
+
                 StationSearchSection(
                     searchText: searchText,
                     selectedStation: viewModel.selectedStation,

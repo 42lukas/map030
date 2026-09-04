@@ -5,26 +5,40 @@
 //  Created by Lukas Karsten on 17.08.26.
 //
 
-import SwiftUI
 import MapKit
 import Observation
+import SwiftUI
 
 @Observable
 @MainActor
 final class MapViewModel {
     var cameraPosition: MapCameraPosition
 
-    private(set) var reports: [Report]
-    private(set) var activeSheet: MapSheet?
-    private(set) var zoomLevel: MapZoomLevel = .station
+    private var reportsByCity: [TransitCity: [Report]]
 
-    init() {
+    private(set) var activeSheet: MapSheet?
+    private(set) var transitioningToCity: TransitCity?
+    private(set) var zoomLevel: MapZoomLevel = .station
+    private(set) var selectedCity: TransitCity
+
+    init(
+        selectedCity: TransitCity = .berlin,
+        reports: [Report]? = nil
+    ) {
+        self.selectedCity = selectedCity
         cameraPosition = .userLocation(
             followsHeading: false,
-            fallback: .region(Self.berlinRegion)
+            fallback: .region(selectedCity.mapRegion)
         )
 
-        reports = MockTransitData.reports
+        reportsByCity = Dictionary(
+            grouping: reports ?? MockTransitData.reports,
+            by: \.city
+        )
+    }
+
+    var reports: [Report] {
+        reportsByCity[selectedCity] ?? []
     }
 
     var isUserFocused: Bool {
@@ -62,7 +76,8 @@ final class MapViewModel {
 
     var reportSummaries: [ReportCategorySummary] {
         Self.reportSummaryCategoryOrder.compactMap { category in
-            let categoryReports = reports
+            let categoryReports =
+                reports
                 .filter { $0.category == category }
                 .sorted { $0.createdAt > $1.createdAt }
 
@@ -96,8 +111,42 @@ final class MapViewModel {
     func recenter() {
         cameraPosition = .userLocation(
             followsHeading: false,
-            fallback: .region(Self.berlinRegion)
+            fallback: .region(selectedCity.mapRegion)
         )
+    }
+
+    func selectCity(_ city: TransitCity) {
+        guard city != selectedCity else {
+            return
+        }
+
+        selectedCity = city
+        cameraPosition = .region(city.mapRegion)
+        zoomLevel = .station
+        activeSheet = nil
+        clearSelection()
+    }
+
+    func transition(to city: TransitCity) async {
+        guard city != selectedCity, transitioningToCity == nil else {
+            return
+        }
+
+        transitioningToCity = city
+
+        defer {
+            if transitioningToCity == city {
+                transitioningToCity = nil
+            }
+        }
+
+        do {
+            try await Task.sleep(for: Self.transitionIntroDuration)
+            selectCity(city)
+            try await Task.sleep(for: Self.networkLoadDuration)
+        } catch {
+            return
+        }
     }
 
     func limitZoomOut(camera: MapCamera) {
@@ -140,7 +189,7 @@ final class MapViewModel {
     }
 
     func addReport(_ report: Report) {
-        reports.append(report)
+        reportsByCity[report.city, default: []].append(report)
     }
 
     func monitorExpiredReports() async {
@@ -161,7 +210,8 @@ final class MapViewModel {
 
     func removeExpiredReports(at date: Date = .now) {
         let expiredReportIDs = Set(
-            reports
+            reportsByCity.values
+                .flatMap { $0 }
                 .filter { $0.expiresAt <= date }
                 .map(\.id)
         )
@@ -170,8 +220,10 @@ final class MapViewModel {
             return
         }
 
-        reports.removeAll {
-            expiredReportIDs.contains($0.id)
+        for city in TransitCity.allCases {
+            reportsByCity[city]?.removeAll {
+                expiredReportIDs.contains($0.id)
+            }
         }
 
         switch activeSheet {
@@ -214,8 +266,9 @@ final class MapViewModel {
         activeSheet = nil
     }
 
-
     private static let expirationCheckInterval: Duration = .seconds(30)
+    private static let transitionIntroDuration: Duration = .milliseconds(180)
+    private static let networkLoadDuration: Duration = .milliseconds(1_250)
     static let maximumCameraDistance: CLLocationDistance = 1_800_000
     private static let reportSummaryCategoryOrder: [ReportCategory] = [
         .control,
@@ -226,18 +279,7 @@ final class MapViewModel {
         .accessClosed,
         .elevatorOutOfService,
         .escalatorOutOfService,
-        .other
+        .other,
     ]
 
-    // MARK: - berlin constant
-    private static let berlinRegion = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(
-            latitude: 52.5200,
-            longitude: 13.4050
-        ),
-        span: MKCoordinateSpan(
-            latitudeDelta: 0.15,
-            longitudeDelta: 0.15
-        )
-    )
 }

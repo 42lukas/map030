@@ -15,6 +15,6 @@ final class AppContainer {
 
     init() {
         locationManager = LocationManager()
-        transitRepository = LocalTransitRepository()
+        transitRepository = NetworkTransitRepository()
     }
 }

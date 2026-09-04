@@ -6,6 +6,11 @@
 //
 
 protocol TransitRepository {
-    func fetchStations() async throws -> [TransitStation]
-    func fetchLines() async throws -> [TransitLine]
+    func fetchStations(
+        for city: TransitCity
+    ) async throws -> [TransitStation]
+
+    func fetchLines(
+        for city: TransitCity
+    ) async throws -> [TransitLine]
 }

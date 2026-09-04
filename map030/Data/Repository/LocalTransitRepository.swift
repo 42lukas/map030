@@ -17,7 +17,13 @@ final class LocalTransitRepository: TransitRepository {
         self.decoder = decoder
     }
 
-    func fetchStations() async throws -> [TransitStation] {
+    func fetchStations(
+        for city: TransitCity
+    ) async throws -> [TransitStation] {
+        guard city == .berlin else {
+            return []
+        }
+
         if let cachedStations {
             return cachedStations
         }
@@ -25,7 +31,7 @@ final class LocalTransitRepository: TransitRepository {
         let stationDTOs: [TransitStationDTO] = try load(
             resource: "stations"
         )
-        let lines = try await fetchLines()
+        let lines = try await fetchLines(for: city)
 
         let linesByID = Dictionary(
             uniqueKeysWithValues: lines.map {
@@ -44,7 +50,13 @@ final class LocalTransitRepository: TransitRepository {
         return stations
     }
 
-    func fetchLines() async throws -> [TransitLine] {
+    func fetchLines(
+        for city: TransitCity
+    ) async throws -> [TransitLine] {
+        guard city == .berlin else {
+            return []
+        }
+
         if let cachedLines {
             return cachedLines
         }
@@ -64,10 +76,12 @@ final class LocalTransitRepository: TransitRepository {
     private func load<T: Decodable>(
         resource: String
     ) throws -> T {
-        guard let url = Bundle.main.url(
-            forResource: resource,
-            withExtension: "json"
-        ) else {
+        guard
+            let url = Bundle.main.url(
+                forResource: resource,
+                withExtension: "json"
+            )
+        else {
             throw TransitRepositoryError.resourceNotFound(
                 resource
             )
